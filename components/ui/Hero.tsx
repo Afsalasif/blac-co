@@ -50,7 +50,7 @@ const Hero = () => {
 
     return () => clearTimeout(timer);
   }, []);
-  const interval = 3000
+  const interval = 3000;
   const nextImage = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
@@ -59,7 +59,6 @@ const Hero = () => {
 
     return () => clearInterval(timer); // Clear interval on unmount
   }, [currentImageIndex, images, interval]); // Re-run effect if these change
-
 
   const sliderVariants = {
     initial: { y: "100%" },
@@ -82,152 +81,108 @@ const Hero = () => {
 
   const paragraphVariants = {
     initial: { x: -100, opacity: 0 },
-    animate: { x: 0, opacity: 1, transition: { duration: 0.7, ease: "easeOut", delay: 0.3 } }, // Slide-in from left
+    animate: {
+      x: 0,
+      opacity: 1,
+      transition: { duration: 0.7, ease: "easeOut", delay: 0.3 },
+    }, // Slide-in from left
   };
-
 
   return (
     <div className="relative">
       <div className="h-screen bg-black relative flex justify-center items-center overflow-hidden">
         {/* Image container */}
-        <AnimatePresence>
-          {isImageVisible && (
-            <motion.div
-              className="absolute inset-0"
-              initial={{ scale: 1 }}
-              animate={{ scale: 1.1 }}
-              exit={{ y: "-100%" }}
-              transition={{ duration: 2, ease: "easeOut" }}
-            >
-              <img
-                src="/img/mji.jpg"
-                alt="Hero Image"
-                className="w-full h-full object-cover"
-              />
-
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/90 to-black/90"></div>
-            </motion.div>
-          )}
-        </AnimatePresence>
 
         {/* Text content */}
-        <div className="w-full container flex h-full">
-          <div className="flex relative flex-col float-left justify-center ml-8 w-3/4">
-            <AnimatePresence>
-              {!isNextSectionVisible && (
-                <>
-                  <motion.h1
-                    className="text-white uppercase tracking-widest text-4xl font-raleway font-extralight sm:text-5xl md:text-9xl"
-                    initial={{ x: -200, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    exit={{ x: "-100vw", y: "-100vh", opacity: 0 }}
-                    transition={{ duration: 2, ease: "easeOut" }}
-                  >
-                    Welcome to
-                  </motion.h1>
-                  <motion.h1
-                    className="text-white uppercase text-metallic-bronze font-raleway tracking-widest font-extralight text-4xl sm:text-5xl md:text-6xl mt-4"
-                    initial={{ x: 200, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    exit={{ x: "100vw", y: "-100vh", opacity: 0 }}
-                    transition={{ duration: 2, ease: "easeOut" }}
-                  >
-                    Blac & Co
-                  </motion.h1>
-                </>
-              )}
-            </AnimatePresence>
-          </div>
-        </div>
 
         {/* Next section integrated within the same container */}
-        <AnimatePresence>
-          {isNextSectionVisible && (
-            <motion.div
-              className="absolute inset-0 flex items-center justify-center bg-black overflow-hidden"
-              initial={{ y: "100%" }}
-              animate={{ y: 0 }}
-              transition={{ duration: 2, ease: "easeOut" }} // Added initial delay
-            >
-               <div className="relative w-full h-screen overflow-hidden">
-      {/* Combined Slide Animation Container */}
-      <AnimatePresence mode="sync">
+
         <motion.div
-          key={currentImageIndex}
-          className="absolute inset-0 flex z-10" // Ensure this stays on top
+          className="absolute inset-0 flex items-center justify-center bg-black overflow-hidden"
           initial={{ y: "100%" }}
-          animate={{ y: "0%" }}
-          exit={{ y: "100%" }}
-          transition={{ duration: 1, ease: "easeInOut" }}
+          animate={{ y: 0 }}
+          transition={{ duration: 2, ease: "easeOut" }} // Added initial delay
         >
-          {/* Image Background */}
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.8) 30%, transparent), url(${images[currentImageIndex].src})` }}
-          />
-
-          {/* Overlay for Centered Content */}
-          <div className="absolute inset-0 flex items-center justify-start z-20"> {/* Changed items-center to items-start and justify-center to justify-start*/}
-            {/* Content Container */}
-            <div className="max-w-[40%] ml-12 mt-12">  {/* Limit width, align-left and add some margin on both sides */}
-              <h1 className="tracking-[0.2em] font-raleway font-thin text-xl uppercase text-white">
-                BLAC & CO
-              </h1>
-
-              {/* Text Overlay (Main Phrase) */}
-              <motion.h1
-                className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-raleway font-light uppercase tracking-[0.1em] text-white mt-8"
-                variants={textVariants}
-                initial="initial"
-                animate="animate"
-                exit="exit"
+          <div className="relative w-full h-screen overflow-hidden">
+            {/* Combined Slide Animation Container */}
+            <AnimatePresence mode="sync">
+              <motion.div
+                key={currentImageIndex}
+                className="absolute inset-0 flex z-10" // Ensure this stays on top
+                initial={{ y: "100%" }}
+                animate={{ y: "0%" }}
+                exit={{ y: "100%" }}
+                transition={{ duration: 1, ease: "easeInOut" }}
               >
-                {images[currentImageIndex].phrase}
-              </motion.h1>
+                {/* Image Background */}
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{
+                    backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.8) 30%, transparent), url(${images[currentImageIndex].src})`,
+                  }}
+                />
 
-              {/* Animated Paragraph */}
-              <motion.p
-                className="text-left mt-8 font-thin font-raleway text-md text-white leading-relaxed" /* changed text-center for text-left */
-                variants={paragraphVariants}
-                initial="initial"
-                animate="animate"
-              >
-                Right design and right ideas matter a lot in interior design business.
-                a style that makes a statement.
-              </motion.p>
+                {/* Overlay for Centered Content */}
+                <div className="absolute inset-0 flex items-center justify-start z-20">
+                  {" "}
+                  {/* Changed items-center to items-start and justify-center to justify-start*/}
+                  {/* Content Container */}
+                  <div className="max-w-[40%] ml-12 mt-12">
+                    {" "}
+                    {/* Limit width, align-left and add some margin on both sides */}
+                    <h1 className="tracking-[0.2em] font-raleway font-thin text-xl uppercase text-white">
+                      BLAC & CO
+                    </h1>
+                    {/* Text Overlay (Main Phrase) */}
+                    <motion.h1
+                      className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-raleway font-light uppercase tracking-[0.1em] text-white mt-8"
+                      variants={textVariants}
+                      initial="initial"
+                      animate="animate"
+                      exit="exit"
+                    >
+                      {images[currentImageIndex].phrase}
+                    </motion.h1>
+                    {/* Animated Paragraph */}
+                    <motion.p
+                      className="text-left mt-8 font-thin font-raleway text-md text-white leading-relaxed" /* changed text-center for text-left */
+                      variants={paragraphVariants}
+                      initial="initial"
+                      animate="animate"
+                    >
+                      Right design and right ideas matter a lot in interior
+                      design business. a style that makes a statement.
+                    </motion.p>
+                    {/* Animated Button */}
+                    <motion.button
+                      className="bg-transparent hover:scale-105 font-raleway text-metallic-bronze transition-all border-[#b08d57] hover:border-[#8a6e40] border px-4 py-2 rounded mt-8 uppercase font-thin text-sm"
+                      variants={buttonVariants}
+                      initial="initial"
+                      animate="animate"
+                    >
+                      Discover Work
+                    </motion.button>
+                  </div>
+                </div>
+              </motion.div>
+            </AnimatePresence>
 
-              {/* Animated Button */}
-              <motion.button
-                className="bg-transparent hover:scale-105 font-raleway text-metallic-bronze transition-all border-[#b08d57] hover:border-[#8a6e40] border px-4 py-2 rounded mt-8 uppercase font-thin text-sm"
-                variants={buttonVariants}
-                initial="initial"
-                animate="animate"
-              >
-                Discover Work
-              </motion.button>
+            {/* Bottom Right Elements */}
+            <div className="absolute bottom-16 right-8 uppercase font-thin font-raleway text-xl sm:text-2xl">
+              invest in Dubai with
+              <span className="text-metallic-bronze font-extralight font-raleway">
+                blac & co
+              </span>
             </div>
-          </div>
-        </motion.div>
-      </AnimatePresence>
 
-      {/* Bottom Right Elements */}
-      <div className="absolute bottom-16 right-8 uppercase font-thin font-raleway text-xl sm:text-2xl">
-        invest in Dubai with
-        <span className="text-metallic-bronze font-extralight font-raleway">
-          blac & co
-        </span>
-      </div>
-
-      {/* Remove duplicate button */}
-      {/*<div className="absolute bottom-4 right-8">
+            {/* Remove duplicate button */}
+            {/*<div className="absolute bottom-4 right-8">
         <button className="bg-transparent hover:scale-105 font-raleway text-metallic-bronze transition-all border-[#b08d57] hover:border-[#8a6e40] border px-4 py-2 rounded">
           Leave a Request
         </button>
       </div>*/}
-    </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
+          </div>
+        </motion.div>
       </div>
     </div>
     // </div>
