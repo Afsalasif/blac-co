@@ -9,10 +9,12 @@ import Listings from "./components/Listings";
 import Bgcomponent from "./components/Bgcomponent";
 import Hero from "@/components/ui/Hero";
 import Footer from "./components/Footer";
+import Visit from "./components/Visit";
+import ReadMore from "./components/ReadMore";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-black">
       {/* navbar */}
       <section id="navbar">
         <Navbar />
@@ -41,6 +43,12 @@ export default function Home() {
       {/* bgcomponent */}
       <section id="bgcomponent">
         <Bgcomponent />
+      </section>
+      <section>
+      <Visit />
+      </section>
+      <section>
+        <ReadMore />
       </section>
       <section id="footer">
         <Footer />

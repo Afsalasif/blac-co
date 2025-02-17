@@ -2,8 +2,20 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="flex justify-center mt-10 items-center  bg-black">
-      <div className="w-full max-w-4xl p-8 border border-[#c08c5a] bg-[#111] text-white rounded-lg">
+    <div className="flex justify-center mt-10 items-center w-full  bg-black">
+      <div
+          className="relative z-20 w-full  p-8 
+  border-l-2 border-r-2 border-[#c08c5a] 
+  bg-black/70 backdrop-blur-md text-gray-200 
+  rounded-lg shadow-lg shadow-black/70"
+          style={{
+            borderTop: "2px solid transparent",
+            borderBottom: "2px solid transparent",
+            borderImageSource:
+              "linear-gradient(to right, rgba(192, 140, 90, 1), rgba(192, 140, 90, 0) 50%, rgba(192, 140, 90, 1))",
+            borderImageSlice: 1,
+          }}
+        >
         <h2 className="text-center text-2xl font-light">PROMPT CONSULTATION</h2>
         <p className="text-center text-sm text-gray-400 mt-2">
           Fill form below and our agent will contact you shortly

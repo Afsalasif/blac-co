@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image"; // If using Next.js
 import ContactForm from "./ContactForm";
+import Visit from "./Visit";
 
 const Bgcomponent = () => {
   return (
@@ -42,6 +43,7 @@ const Bgcomponent = () => {
           />
         </div>
       </div>
+   
       <div className="flex relative w-full max-w-6xl justify-center mt-10 items-center  bg-black">
         <div
           className="relative z-20 w-full  p-8 

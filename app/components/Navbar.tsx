@@ -28,26 +28,28 @@ const Navbar = () => {
           {/* Logo */}
          {/* Logo */}
 <div className="relative flex items-center h-14">
-  <img
+  <a href="/">  <img
     src="img/logo1.png"
     alt="BLAC-CO Logo"
     className="h-24 w-auto object-contain scale-150 -mt-2"
-  />
+  /></a>
+
 </div>
 
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-8">
             <ul className="flex font-raleway font-extralight space-x-8">
-              <NavItem href="#" text="Home" />
-              <NavItem href="#about" text="About Us" />
-              <NavItem href="#services" text="Services" />
-              <NavItem href="#agents" text="Agents" />
+              <NavItem href="#" text="Buy" />
+              
+              <NavItem href="#services" text="Rent" />
+              <NavItem href="#agents" text="Sell" />
+              <NavItem href="/aboutus" text="About Us" />
               <NavItem href="#property-list" text="Property List" />
               <NavItem href="#list-property" text="Your Property" />
               <NavItem href="#off-plan" text="Off Plan Blogs" />
-              <NavItem href="#e-broker" text="E-Broker" />
-              <NavItem href="#contact" text="Contact Us" />
+              <NavItem href="/ebroker" text="E-Broker" />
+              <NavItem href="/contactus" text="Contact Us" />
             </ul>
           </div>
 
