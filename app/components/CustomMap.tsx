@@ -2,6 +2,7 @@
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import { useEffect, useState } from "react";
 
 // Custom Marker with only FaMapMarkerAlt SVG
 const bronzeIcon = L.divIcon({
@@ -16,16 +17,25 @@ const bronzeIcon = L.divIcon({
 });
 
 const CustomMap = () => {
+  const [isClient, setIsClient] = useState(false);
+
   const latitude: number = 25.276987;
   const longitude: number = 55.296249;
   const center: [number, number] = [latitude, longitude];
 
+  useEffect(() => {
+    // This will only run on the client-side
+    setIsClient(true);
+  }, []);
 
   const openGoogleMaps = () => {
-    const url = `https://www.google.com/maps?q=${latitude},${longitude}`;
-    window.open(url, "_blank");
+    if (typeof window !== 'undefined') {
+      const url = `https://www.google.com/maps?q=${latitude},${longitude}`;
+      window.open(url, "_blank");
+    }
   };
 
+  if (!isClient) return null; 
   return (
     <div className="w-full h-[450px] md:h-[550px] relative overflow-hidden flex flex-col gap-4">
       <MapContainer

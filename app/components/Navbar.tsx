@@ -93,15 +93,16 @@ const Navbar = () => {
             </button>
             {/* Menu Items */}
             <ul className="flex flex-col font-raleway font-extralight space-y-4 text-right">
-              <MobileNavItem href="#" text="Home" />
-              <MobileNavItem href="#about" text="About Us" />
-              <MobileNavItem href="#services" text="Services" />
-              <MobileNavItem href="#agents" text="Agents" />
-              <MobileNavItem href="#property-list" text="Property List" />
-              <MobileNavItem href="#list-property" text="Your Property" />
-              <MobileNavItem href="#off-plan" text="Off Plan Blogs" />
-              <MobileNavItem href="#e-broker" text="E-Broker" />
-              <MobileNavItem href="#contact" text="Contact Us" />
+            <NavItem href="#" text="Buy" />
+              
+              <NavItem href="#services" text="Rent" />
+              <NavItem href="#agents" text="Sell" />
+              <NavItem href="/aboutus" text="About Us" />
+              <NavItem href="#property-list" text="Property List" />
+              <NavItem href="#list-property" text="Your Property" />
+              <NavItem href="#off-plan" text="Off Plan Blogs" />
+              <NavItem href="/ebroker" text="E-Broker" />
+              <NavItem href="/contactus" text="Contact Us" />
             </ul>
           </div>
         </div>
