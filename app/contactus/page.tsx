@@ -3,10 +3,11 @@ import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Mail, Phone, MapPin } from "lucide-react";
-import CustomMap from "../components/CustomMap";
+import dynamic from "next/dynamic";
 import ContactForm from "../components/ContactForm";
 
 const ContactUs = () => {
+  const CustomMap = dynamic(() => import("../components/CustomMap"), { ssr: false });
   const [showPhone, setShowPhone] = useState(false);
 
   return (
