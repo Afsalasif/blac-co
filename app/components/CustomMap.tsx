@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 // Custom Marker with only FaMapMarkerAlt SVG
 const bronzeIcon = L.divIcon({
@@ -17,25 +18,13 @@ const bronzeIcon = L.divIcon({
 });
 
 const CustomMap = () => {
-  const [isClient, setIsClient] = useState(false);
+  const router = useRouter()
 
   const latitude: number = 25.276987;
   const longitude: number = 55.296249;
   const center: [number, number] = [latitude, longitude];
 
-  useEffect(() => {
-    // This will only run on the client-side
-    setIsClient(true);
-  }, []);
-
-  const openGoogleMaps = () => {
-    if (typeof window !== 'undefined') {
-      const url = `https://www.google.com/maps?q=${latitude},${longitude}`;
-      window.open(url, "_blank");
-    }
-  };
-
-  if (!isClient) return null; 
+  
   return (
     <div className="w-full h-[450px] md:h-[550px] relative overflow-hidden flex flex-col gap-4">
       <MapContainer
@@ -52,7 +41,7 @@ const CustomMap = () => {
       </MapContainer>
 
       <button
-        onClick={openGoogleMaps}
+        onClick={() => router.push('/contactus')}
         className="hover:scale-105 font-raleway text-metallic-bronze transition-all border-[#b08d57] hover:border-[#8a6e40]"
       >
         Take Me There
