@@ -2,9 +2,10 @@
 import React, { useState, useEffect } from "react";
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(true);
+  const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY >= 0);
@@ -18,7 +19,7 @@ const Navbar = () => {
     <nav
       className={`fixed w-full  top-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-black bg-opacity-40 backdrop-blur-lg shadow-lg"
+          ? "bg-black bg-opacity-60 backdrop-blur-lg shadow-lg"
           : "bg-transparent"
       }`}
     >
@@ -40,15 +41,15 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-8">
             <ul className="flex font-raleway font-extralight space-x-8">
-              <NavItem href="#" text="Buy" />
-              
-              <NavItem href="#services" text="Rent" />
-              <NavItem href="#agents" text="Sell" />
               <NavItem href="/aboutus" text="About Us" />
-              <NavItem href="#property-list" text="Property List" />
-              <NavItem href="#list-property" text="Your Property" />
-              <NavItem href="offplan" text="Off Plan Blogs" />
-              <NavItem href="/ebroker" text="E-Broker" />
+              <NavItem href="/ourservices" text="Our Services" />
+              <NavItem href="/offplan" text="Off Plan Propeties" />
+              
+              <NavItem href="/" text="Ready properties" />
+              <NavItem href="" text="Developers" />
+              <NavItem href="" text="Our Team" />
+             
+              <NavItem href="/ebroker" text="Our Membership program" />
               <NavItem href="/contactus" text="Contact Us" />
             </ul>
           </div>
@@ -93,15 +94,30 @@ const Navbar = () => {
             </button>
             {/* Menu Items */}
             <ul className="flex flex-col font-raleway font-extralight space-y-4 text-right">
-            <NavItem href="#" text="Buy" />
+            <NavItem href="/aboutus" text="About Us" />
+              <NavItem href="/ourservices" text="Our Services" />
+              <NavItem href="/offplan" text="Off Plan Propeties" />
               
-              <NavItem href="#services" text="Rent" />
-              <NavItem href="#agents" text="Sell" />
-              <NavItem href="/aboutus" text="About Us" />
-              <NavItem href="#property-list" text="Property List" />
-              <NavItem href="#list-property" text="Your Property" />
-              <NavItem href="#off-plan" text="Off Plan Blogs" />
-              <NavItem href="/ebroker" text="E-Broker" />
+                 {/* Dropdown for Ready Properties */}
+                 <li
+                className="relative"
+                onMouseEnter={() => setDropdownOpen(true)}
+                onMouseLeave={() => setDropdownOpen(false)}
+              >
+                <span className="cursor-pointer  transition duration-300">
+                  Ready Properties
+                </span>
+                {dropdownOpen && (
+                  <ul className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-lg border">
+                    <NavItem href="/ready/sale" text="Sale" />
+                    <NavItem href="/ready/rent" text="Rent" />
+                  </ul>
+                )}
+              </li>
+              <NavItem href="" text="Developers" />
+              <NavItem href="" text="Our Team" />
+             
+              <NavItem href="/ebroker" text="Our Membership program" />
               <NavItem href="/contactus" text="Contact Us" />
             </ul>
           </div>
