@@ -77,7 +77,7 @@ const page = () => {
             comprehensive support for closing deals remotely.
           </p>
           <h1 className="text-5xl font-extralight font-raleway text-white mb-10 mt-10 uppercase text-metallic-bronze   text-left">
-            key featues of e-broker
+            key features of e-broker
           </h1>
 
           <p className="text-white font-light text-lg font-raleway">

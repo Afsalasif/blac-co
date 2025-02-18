@@ -17,8 +17,7 @@ const AboutUs = () => {
               <p className="text-xl md:text-xl mb-8 font-raleway tracking-wider text-left font-extralight leading-relaxed">
                 Welcome to Blac & Co Real Estate, a premier real estate
                 consultancy firm in Dubai. Founded in 2023 by Muhammad Qasim
-                Zulfiqar, a renowned real estate developer in Pakistan and CEO
-                of ZAC Holdings PVT LTD, Blac & Co brings unparalleled
+                Zulfiqar, a renowned real estate developer in Pakistan, Blac & Co brings unparalleled
                 professionalism, expertise, and trust to the Dubai real estate
                 market
                 <br />
@@ -280,7 +279,7 @@ const AboutUs = () => {
           // filter: "grayscale(50%)",
         }}
       >
-        <div className="h-full absolute w-full bg-gradient-to-b from-black via-black/80 to-black "></div>
+        <div className="h-full absolute w-full bg-gradient-to-b from-black via-black to-black "></div>
         <div className="relative max-w-6xl p-3 mx-auto">
           <div className="absolute top-0 left-0 w-24 h-24 border-t-4 border-l-4 border-gradient"></div>
 
