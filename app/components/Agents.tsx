@@ -17,14 +17,14 @@ const carouselData = [
     image: "/img/qasim.jpeg",
   },
   {
-    name: "Beeya Malik",
-    role: "Business development manager",
-    image: "/img/beena.jpeg",
-  },
-  {
     name: "Alyaa Aziz",
     role: "Executive Assistant to CEO",
     image: "/img/alya.jpeg",
+  },
+  {
+    name: "Beeya Malik",
+    role: "Business development manager",
+    image: "/img/beena.jpeg",
   },
 ];
 
@@ -74,13 +74,24 @@ const Agents = () => {
           {/* Left Content */}
           <div className="w-full md:w-[40%] mx-auto pr-10 text-center md:text-left">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-extralight uppercase font-raleway tracking-widest text-metallic-bronze">
-              Meet Our Team
+              Meet Our Expert Team
             </h1>
 
             <p className="text-lg font-extralight font-raleway tracking-wide text-white mt-4">
-              Our team is highly experienced and knowledgeable across all
-              aspects of the real estate industry. We are ready to answer your
-              questions in over 30 languages.
+              At Blac & Co Real Estate, our team of professionals is the
+              backbone of our success. With a strong commitment to excellence
+              and a passion for real estate, each member of our team brings
+              invaluable expertise to the table. Our agents have a deep
+              understanding of the Dubai real estate market and are dedicated to
+              delivering results that exceed our clients' expectations. <br /> We pride
+              ourselves on having a diverse, highly skilled, and multilingual
+              team, with agents who specialize in different aspects of real
+              estate, from residential and commercial properties to off-plan and
+              secondary market investments. <br /> Each agent holds a minimum of 5
+              years of experience in the Dubai real estate market, ensuring that
+              you receive top-tier guidance, personalized service, and expert
+              advice every step of the way. Our team speaks 30+ languages,
+              making it easy for us to serve clients from all around the globe.
             </p>
 
             {/* Dropdowns */}
@@ -137,16 +148,16 @@ const Agents = () => {
             </div>
 
             {/* Navigation Buttons */}
-            <button
+            {/* <button
               onClick={prevSlide}
               className="absolute left-[-30px] md:left-[-50px] bg-gray-800 p-2 rounded-full text-white"
             >
               <ChevronLeft size={24} />
-            </button>
+            </button> */}
 
             <button
               onClick={nextSlide}
-              className="absolute right-[-30px] md:right-[-50px] bg-gray-800 p-2 rounded-full text-white"
+              className="absolute right-[-30px] z-20 md:right-[-50px] bg-gray-800 p-2 rounded-full text-white"
             >
               <ChevronRight size={24} />
             </button>

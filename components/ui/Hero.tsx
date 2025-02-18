@@ -145,13 +145,12 @@ const Hero = () => {
                     </motion.h1>
                     {/* Animated Paragraph */}
                     <motion.p
-                      className="text-left mt-8 font-thin font-raleway text-md text-white leading-relaxed" /* changed text-center for text-left */
+                      className="text-left mt-8 font-thin font-raleway uppercase text-md text-white leading-relaxed" /* changed text-center for text-left */
                       variants={paragraphVariants}
                       initial="initial"
                       animate="animate"
                     >
-                      Right design and right ideas matter a lot in interior
-                      design business. a style that makes a statement.
+                     InVEst in dubai realestate with blac & CO
                     </motion.p>
                     {/* Animated Button */}
                     <motion.button

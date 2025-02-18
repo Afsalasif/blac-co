@@ -11,6 +11,8 @@ import Hero from "@/components/ui/Hero";
 import Footer from "./components/Footer";
 import Visit from "./components/Visit";
 import ReadMore from "./components/ReadMore";
+import Visa from "./components/Visa";
+import Benefits from "./components/Benefits";
 
 export default function Home() {
   return (
@@ -41,15 +43,22 @@ export default function Home() {
         {/* <Listings /> */}
       </section>
       {/* bgcomponent */}
+      
+      {/* visa */}
+
+      <section>
+      <Visa />
+      </section>
+      <section>
+      {/* <Visit /> */}
+      <Benefits />
+      </section>
       <section id="bgcomponent">
         <Bgcomponent />
       </section>
-      <section>
-      <Visit />
-      </section>
-      <section>
+      {/* <section>
         <ReadMore />
-      </section>
+      </section> */}
       <section id="footer">
         <Footer />
       </section>

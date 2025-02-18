@@ -47,7 +47,7 @@ const Navbar = () => {
               <NavItem href="/aboutus" text="About Us" />
               <NavItem href="#property-list" text="Property List" />
               <NavItem href="#list-property" text="Your Property" />
-              <NavItem href="#off-plan" text="Off Plan Blogs" />
+              <NavItem href="offplan" text="Off Plan Blogs" />
               <NavItem href="/ebroker" text="E-Broker" />
               <NavItem href="/contactus" text="Contact Us" />
             </ul>

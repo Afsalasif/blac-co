@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Image from "next/image";
+import Footer from "../components/Footer";
 
 const agents = [
   "/office/o1.jpeg",
@@ -28,178 +29,84 @@ const page = () => {
   return (
     <>
       <Navbar />
-      <section className="relative">
-        <div className="w-full h-screen flex overflow-hidden relative">
-          {/* Overlay inside the Hero Section */}
-          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-black/70 to-black" />
 
-          {/* Agent Images */}
-          {currentImages.map((image, index) => (
-            <motion.div
-              key={index}
-              className="w-full h-full"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 1, delay: index * 0.2 }}
-            >
-              <img
-                src={image}
-                alt={`Agent ${index + 1}`}
-                className="object-cover w-full h-full"
-              />
-            </motion.div>
-          ))}
-        </div>
-
-        {/* Big Title at the Bottom */}
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white text-6xl font-bold z-10">
-          <h1>Your Dream Agents Await</h1>
-        </div>
-      </section>
-
-      <section className="bg-black text-white py-16">
-        <div className="max-w-6xl mx-auto text-center">
-          <h1 className="uppercase text-gray-300 text-3xl font-semibold mb-12">
-            Our Services
+      <section className="bg-black text-white min-h-screen py-16 px-6 md:px-12 lg:px-20">
+        <div className="max-w-6xl mx-auto">
+          <h1 className="text-6xl text-center mt-28  font-extralight font-raleway text-metallic-bronze uppercase mb-6">
+            About Us
           </h1>
-        </div>
+          <h2 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
+            Who We Are
+          </h2>
+          <p className="text-xl font-raleway font-extralight mb-6">
+            Blac & Co Real Estate was established in 2023 with a singular goal:
+            to become the leading real estate consultancy in Dubai by offering
+            expert advice, innovative solutions, and a client-focused approach
+            to real estate.
+          </p>
+          <p className="text-xl font-raleway font-extralight mb-6">
+            Founded by Muhammad Qasim Zulfiqar, a distinguished real estate
+            developer in Pakistan and CEO of ZAC Holdings PVT LTD, Blac & Co
+            brings over two decades of international experience to Dubai&apos;s
+            thriving real estate market.
+          </p>
 
-        <div className="max-w-6xl mx-auto space">
-          {/* Consulting */}
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2">
-              <Image
-                src="/SER/SE1.webp"
-                alt="Consulting"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-lg"
-              />
-            </div>
-            <div className="md:w-1/2 p-6">
-              <h2 className="text-6xl text-metallic-bronze font-extralight font-raleway mb-2">
-                1
-              </h2>
-              <h3 className="text-2xl uppercase  font-extralight font-raleway mb-4">
-                Consulting
-              </h3>
-              <ul className="list-disc list-inside text-gray-400">
-                <li>
-                  We will share our vast experience in Dubai's real estate
-                  market and provide information on buying, selling, and renting
-                  any type of property.
-                </li>
-                <li>
-                  Suitable for investors, businesses, and those looking for a
-                  home for themselves.
-                </li>
-              </ul>
-            </div>
-          </div>
+          <h2 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
+            Our Achievements
+          </h2>
+          <ul className="list-disc list-inside text-xl font-raleway font-extralight mb-6">
+            <li>Sold properties worth 200 million AED in our first year.</li>
+            <li>
+              Achieved 450 million AED in property sales in the second year.
+            </li>
+            <li>Targeting 1 billion AED in sales for 2025.</li>
+          </ul>
 
-          {/* Selecting and Viewing Property */}
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2 p-6">
-              <h2 className="text-6xl text-metallic-bronze font-extralight font-raleway mb-2">
-                2
-              </h2>
-              <h3 className="text-2xl uppercase font-extralight font-raleway mb-4">
-                Selecting and Viewing Property
-              </h3>
-              <ul className="list-disc list-inside text-gray-400">
-                <li>
-                  Searching and selecting properties based on specified needs.
-                </li>
-                <li>Virtual property tours via video communication.</li>
-                <li>A diverse range of properties from major developers.</li>
-              </ul>
-            </div>
-            <div className="md:w-1/2 ">
-              <Image
-                src="/SER/SE2.webp"
-                alt="Selecting and Viewing Property"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-lg"
-              />
-            </div>
-          </div>
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2">
-              <Image
-                src="/SER/SE3.webp"
-                alt="Consulting"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-lg"
-              />
-            </div>
-            <div className="md:w-1/2 p-6">
-              <h2 className="text-6xl text-metallic-bronze font-extralight font-raleway mb-2">
-                3
-              </h2>
-              <h3 className="text-2xl uppercase font-extralight font-raleway mb-4">
-                DEAL SUPPORT
-              </h3>
-              <ul className="list-disc list-inside text-gray-400">
-                <li>Preparation and notarization of all necessary documents</li>
-                <li>Negotiating deals together</li>
-                <li>Assistance with mortgage arrangements</li>
-                <li>
-                  Assistance with opening an account, fund transfers, and
-                  currency exchange
-                </li>
-              </ul>
-            </div>
-          </div>
+          <p className="text-xl font-raleway font-extralight mb-10">
+            Our team consists of 50 highly skilled real estate experts, each
+            with a minimum of 5 years of experience in Dubai&apos;s real estate
+            market. With over 100 years of combined experience, we are among the
+            most knowledgeable in the industry.
+          </p>
 
-          {/* Selecting and Viewing Property */}
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2 p-6">
-              <h2 className="text-6xl text-metallic-bronze font-extralight font-raleway mb-2">
-                4
+          <div className="flex justify-center w-full items-stretch ">
+            {/* Combined Card */}
+            <div
+              className="relative z-20 w-full  p-8 
+  border-l-2 border-r-2 border-[#c08c5a] 
+  bg-black/70 backdrop-blur-md text-gray-200 
+  rounded-lg shadow-lg shadow-black/70"
+              style={{
+                borderTop: "2px solid transparent",
+                borderBottom: "2px solid transparent",
+                borderImageSource:
+                  "linear-gradient(to right, rgba(192, 140, 90, 1), rgba(192, 140, 90, 0) 50%, rgba(192, 140, 90, 1))",
+                borderImageSlice: 1,
+              }}
+            >
+              {/* Vision Section */}
+              <h2 className="text-5xl uppercase text-metallic-bronze font-extralight font-raleway text-white mb-4 text-center">
+                Our Vision
               </h2>
-              <h3 className="text-2xl uppercase font-extralight font-raleway mb-4">
-                AFTER-SALES SERVICE
-              </h3>
-              <ul className="list-disc list-inside text-gray-400">
-                <li>Assistance with property insurance.</li>
-                <li>Assistance with activating utility services.</li>
-              </ul>
-            </div>
-            <div className="md:w-1/2 ">
-              <Image
-                src="/SER/SE4.webp"
-                alt="Selecting and Viewing Property"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-lg"
-              />
-            </div>
-          </div>
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2">
-              <Image
-                src="/SER/SE5.webp"
-                alt="Consulting"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-lg"
-              />
-            </div>
-            <div className="md:w-1/2 p-6">
-              <h2 className="text-6xl text-metallic-bronze font-extralight font-raleway mb-2">
-                5
+              <p className="text-white/90 text-xl font-extralight font-raleway text-center flex-grow">
+                At Blac & Co, our vision is to become the market leader in the
+                Dubai real estate industry within the first three years of
+                operations. We focus on building long-lasting relationships,
+                offering personalized solutions, and providing exceptional real
+                estate services that stand out in the market.
+              </p>
+
+              {/* Mission Section */}
+              <h2 className="text-5xl uppercase text-metallic-bronze  mt-10 font-extralight font-raleway text-white mb-4 text-center">
+                Our Mission
               </h2>
-              <h3 className="text-2xl uppercase font-extralight font-raleway mb-4">
-                Property and business management
-              </h3>
-              <ul className="list-disc list-inside text-gray-400">
-                <li>Property and business management</li>
-                <li>Short-Term Rent</li>
-                <li>Long-Term Rent</li>
-              </ul>
+              <p className="text-white/90 text-xl font-extralight font-raleway text-center flex-grow">
+                Provide expert real estate consultancy to guide clients through
+                their property journey. Specialize in buying, selling, leasing,
+                mortgages, and holiday homes. Build a trusted reputation as a
+                leading real estate brand in Dubai. Help clients make informed
+                decisions and secure the best property deals.
+              </p>
             </div>
           </div>
         </div>
@@ -236,6 +143,7 @@ const page = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };

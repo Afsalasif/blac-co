@@ -16,7 +16,7 @@ const ContactForm = () => {
             borderImageSlice: 1,
           }}
         >
-        <h2 className="text-center text-2xl font-light">PROMPT CONSULTATION</h2>
+        <h2 className="text-center text-2xl uppercase font-light">Connect with us</h2>
         <p className="text-center text-sm text-gray-400 mt-2">
           Fill form below and our agent will contact you shortly
         </p>
