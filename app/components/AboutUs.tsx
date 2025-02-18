@@ -70,7 +70,7 @@ const AboutUs = () => {
           </p>
           <p className="text-xl font-raleway font-extralight mb-6">
             Founded by Muhammad Qasim Zulfiqar, a distinguished real estate
-            developer in Pakistan and CEO of ZAC Holdings PVT LTD, Blac & Co
+            developer in Pakistan , Blac & Co
             brings over two decades of international experience to Dubai&apos;s
             thriving real estate market.
           </p>
