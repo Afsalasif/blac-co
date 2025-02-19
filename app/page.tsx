@@ -39,15 +39,9 @@ export default function Home() {
         <Agents />
       </section>
       {/* listing */}
-      <section id="listing">
-        {/* <Listings /> */}
-      </section>
-      {/* bgcomponent */}
-      
-      {/* visa */}
-
+     
       <section>
-      <Visa />
+      {/* <Visa /> */}
       </section>
       <section>
       {/* <Visit /> */}

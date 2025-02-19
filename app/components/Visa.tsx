@@ -2,7 +2,7 @@ import React from "react";
 
 const Visa = () => {
   return (
-    <div
+    <section
       className="relative min-h-screen  flex flex-col items-center justify-center px-4"
       style={{
         backgroundImage: "url('img/binagti.webp')",
@@ -65,7 +65,7 @@ who wish to secure their residency by investing in Dubai's real estate market.
           
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

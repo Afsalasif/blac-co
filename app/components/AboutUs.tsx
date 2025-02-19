@@ -281,14 +281,14 @@ const AboutUs = () => {
       >
         <div className="h-full absolute w-full bg-gradient-to-b from-black via-black to-black "></div>
         <div className="relative max-w-6xl p-3 mx-auto">
-          <div className="absolute top-0 left-0 w-24 h-24 border-t-4 border-l-4 border-gradient"></div>
+          <div className="absolute hidden md:block top-0 left-0 w-24 h-24 border-t-4 border-l-4 border-gradient"></div>
 
           {/* Bottom-right border */}
-          <div className="absolute bottom-0 right-0 w-24 h-24 border-b-4 border-r-4 border-gradient"></div>
-          <h1 className="text-6xl text-center  font-extralight  font-raleway text-metallic-bronze uppercase mb-6">
+          <div className="absolute hidden md:block bottom-0 right-0 w-24 h-24 border-b-4 border-r-4 border-gradient"></div>
+          <h1 className=" text-3xl md:text-6xl text-center  font-extralight  font-raleway text-metallic-bronze uppercase mb-6">
             off plan properties
           </h1>
-          <p className="text-xl font-raleway font-extralight mb-6">
+          <p className="text-lg md:text-xl font-raleway font-extralight mb-6">
             Off-plan properties are those that are sold before construction is
             completed. These properties are often sold at lower prices compared
             to completed properties, offering buyers the opportunity to benefit
@@ -296,7 +296,7 @@ const AboutUs = () => {
             investments can provide substantial returns, especially if the
             property is located in a highdemand area.
           </p>
-          <p className="text-xl font-raleway font-extralight mb-6">
+          <p className="text-lg md:text-xl font-raleway font-extralight mb-6">
             At <span className="text-metallic-bronze"> Blac & Co</span>, we
             offer exclusive access to off-plan properties from some of the most
             reputable developers in Dubai. Our expert team guides clients
@@ -304,10 +304,10 @@ const AboutUs = () => {
             potential return on investment, and helping them secure the best
             deals on new developments.
           </p>
-          <h1 className="text-6xl text-center  font-extralight mt-20 font-raleway text-metallic-bronze uppercase mb-6">
+          <h1 className="text-3xl md:text-6xl  text-center  font-extralight mt-20 font-raleway text-metallic-bronze uppercase mb-6">
             Secondary market properties
           </h1>
-          <p className="text-xl font-raleway font-extralight mb-6">
+          <p className="text-lg md:text-xl font-raleway font-extralight mb-6">
             Secondary market properties are pre-owned properties that are ready
             for immediate occupancy or rental. These properties are typically
             sold at market value, offering buyers a chance to acquire completed
@@ -315,7 +315,7 @@ const AboutUs = () => {
             investors, secondary market properties can provide more immediate
             returns and are often viewed as a more stable investment.
           </p>
-          <p className="text-xl font-raleway font-extralight mb-6">
+          <p className="text-lg md:text-xl font-raleway font-extralight mb-6">
             <span className="text-metallic-bronze"> Blac & Co</span>specializes
             in both off-plan and secondary market properties, ensuring that our
             clients have access to a wide range of options based on their needs
