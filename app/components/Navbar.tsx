@@ -23,7 +23,7 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto  px-6 py-4">
+      <div className=" mx-auto  px-6 py-4">
         <div className="flex w-full items-center justify-between">
           {/* Logo */}
           {/* Logo */}
@@ -39,7 +39,7 @@ const Navbar = () => {
 
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-2">
             <ul className="flex font-raleway font-extralight space-x-8">
               <NavItem href="/aboutus" text="About Us" />
               <NavItem href="/ourservices" text="Our Services" />
@@ -93,7 +93,7 @@ const Navbar = () => {
               &times;
             </button>
             {/* Menu Items */}
-            <ul className="flex flex-col font-raleway font-extralight space-y-4 text-right">
+            <ul className="flex flex-col font-raleway font-extralight  text-right">
             <NavItem href="/aboutus" text="About Us" />
               <NavItem href="/ourservices" text="Our Services" />
               <NavItem href="/offplan" text="Off Plan Propeties" />
