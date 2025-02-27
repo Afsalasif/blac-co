@@ -29,11 +29,8 @@ const Navbar = () => {
           {/* Logo */}
          {/* Logo */}
 <div className="relative flex items-center h-14">
-  <a href="/">  <img
-    src="img/logo1.png"
-    alt="BLAC-CO Logo"
-    className="h-24 w-auto object-contain scale-150 -mt-2"
-  /></a>
+  <a href="/">  <img src="/logo1.png" alt="BLAC-CO Logo" className="h-24 w-auto z-20 object-contain scale-150 -mt-2" />
+  </a>
 
 </div>
 
@@ -46,7 +43,7 @@ const Navbar = () => {
               <NavItem href="/offplan" text="Off Plan Propeties" />
               
               <NavItem href="/" text="Ready properties" />
-              <NavItem href="" text="Developers" />
+              <NavItem href="/developers" text="Developers" />
               <NavItem href="" text="Our Team" />
              
               <NavItem href="/ebroker" text="Our Membership program" />
