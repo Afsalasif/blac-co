@@ -15,7 +15,7 @@ const Footer = () => {
         {/* Logo Section */}
         <div className="relative flex justify-center items-center h-24 w-full mb-4">
           <img
-            src="img/logo1.png"
+            src="/logo1.png"
             alt="BLAC-CO Logo"
             className="h-40 w-auto object-contain"
           />
