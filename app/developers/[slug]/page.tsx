@@ -55,7 +55,7 @@ const DeveloperDetails = () => {
       {/* Hero Section with Background Image */}
       <div 
         className="relative h-[80vh] bg-cover bg-center  flex items-end text-white"
-        style={{ backgroundImage: `url(${selectedImage})`  }}>
+        style={{ backgroundImage: `url(${developer.cover})`  }}>
         
         {/* Overlay for Smooth Transition */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-black"></div>

@@ -8,6 +8,7 @@ const developerData = [
     img: "/dev/emaar.jpg",
     foundingYear: 1997,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/emaarcover.jpg'
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const developerData = [
     img: "/dev/damac.jpg",
     foundingYear: 2002,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/damaccover.webp'
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const developerData = [
     img: "/dev/aldar.jpg",
     foundingYear: 2005,
     mainOffice: "Abu Dhabi, UAE",
+    cover:'/dev/aldarcover.webp'
   },
   {
     id: 4,
@@ -39,6 +42,7 @@ const developerData = [
     source: "https://en.wikipedia.org/wiki/Meraas",
     foundingYear: 2007,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/meraascover.webp'
   },
   {
     id: 5,
@@ -50,6 +54,7 @@ const developerData = [
     source: "https://en.wikipedia.org/wiki/Nakheel_Properties",
     foundingYear: 2000,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/nakheelcover.jpg'
   },
   {
     id: 6,
@@ -60,6 +65,7 @@ const developerData = [
     img: "/dev/omniyaat.jpg",
     foundingYear: 2005,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/omniyaatcover.webp'
   },
   {
     id: 7,
@@ -70,6 +76,8 @@ const developerData = [
     img: "/dev/dubaiholding.jpg",
     foundingYear: 2004,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/dubaiholdingcover.jpg'
+
   },
   {
     id: 8,
@@ -80,6 +88,7 @@ const developerData = [
     img: "/dev/danube.jpeg",
     foundingYear: 2014,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/danubecover.webp'
   },
   {
     id: 9,
@@ -90,6 +99,7 @@ const developerData = [
     img: "/dev/soba.jpg",
     foundingYear: 2003,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/sobacover.jpg'
   },
   {
     id: 10,
@@ -100,6 +110,7 @@ const developerData = [
     img: "/dev/select.jpg",
     foundingYear: 2002,
     mainOffice: "Dubai, UAE",
+    cover:'/dev//selectcover.jpg'
   },
   {
     id: 11,
@@ -110,6 +121,7 @@ const developerData = [
     img: "/dev/samana.jpg",
     foundingYear: 2016,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/samanacover.jpeg'
   },
   {
     id: 12,
@@ -121,6 +133,7 @@ const developerData = [
     source: "https://en.wikipedia.org/wiki/Binghatti_Properties",
     foundingYear: 2008,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/binghaticover.jpg'
   },
   {
     id: 13,
@@ -131,6 +144,7 @@ const developerData = [
     img: "/dev/azizi.jpg",
     foundingYear: 2007,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/azizicover.webp'
   },
   {
     id: 14,
@@ -141,6 +155,7 @@ const developerData = [
     img: "/dev/citi.jpeg",
     foundingYear: 2013,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/citicover.jpeg'
   },
   {
     id: 15,
@@ -152,6 +167,7 @@ const developerData = [
     source: "https://en.wikipedia.org/wiki/Arada_(company)",
     foundingYear: 2017,
     mainOffice: "Sharjah, UAE",
+    cover:'/dev/aradacover.jpg'
   },
   {
     id: 16,
@@ -162,6 +178,7 @@ const developerData = [
     img: "/dev/alhabtoor.jpg",
     foundingYear: 1970,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/alhabtoorcover.jpg'
   },
   {
     id: 17,
@@ -172,6 +189,7 @@ const developerData = [
     img: "/dev/albarari.jpg",
     foundingYear: 2005,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/albararicover.jpg'
   },
   {
     id: 18,
@@ -182,6 +200,7 @@ const developerData = [
     img: "/dev/aqua.jpeg",
     foundingYear: 2005,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/aquacover.jpeg'
   },
   {
     id: 19,
@@ -193,6 +212,7 @@ const developerData = [
     source: "https://en.wikipedia.org/wiki/Deyaar",
     foundingYear: 2002,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/deyaarcover.jpg'
   },
   {
     id: 20,
@@ -203,6 +223,7 @@ const developerData = [
     img: "/dev/difc.jpeg",
     foundingYear: 2004,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/difccover.webp'
   },
   {
     id: 21,
@@ -213,6 +234,7 @@ const developerData = [
     img: "/dev/dubaisouth.jpeg",
     foundingYear: 2006,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/dubaisouthcover.jpg'
   },
   {
     id: 22,
@@ -223,6 +245,7 @@ const developerData = [
     img: "/dev/iman.jpeg",
     foundingYear: 2012,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/imancover.jpg'
   },
   {
     id: 23,
@@ -233,6 +256,7 @@ const developerData = [
     img: "/dev/imiaz.png",
     foundingYear: 2011,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/imiazcover.jpg'
   },
   {
     id: 24,
@@ -243,6 +267,7 @@ const developerData = [
     img: "/dev/golfestate.jpg",
     foundingYear: 2007,
     mainOffice: "Dubai, UAE",
+     cover:'/dev/golfestatecover.jpg'
   },
   {
     id: 25,
@@ -253,6 +278,7 @@ const developerData = [
     img: "/dev/majdalfutaim.jpg",
     foundingYear: 1992,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/majdalfutaimcover.jpg'
   },
   {
     id: 26,
@@ -263,6 +289,7 @@ const developerData = [
     img: "/dev/mag.jpeg",
     foundingYear: 2003,
     mainOffice: "Dubai, UAE",
+     cover:'/dev/magcover.webp'
   },
   {
     id: 27,
@@ -273,6 +300,8 @@ const developerData = [
     img: "/dev/mira.png",
     foundingYear: 2010,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/miracover.webp'
+
   },
   {
     id: 28,
@@ -283,6 +312,7 @@ const developerData = [
     img: "/dev/object1.jpeg",
     foundingYear: 2015,
     mainOffice: "Dubai, UAE",
+     cover:'/dev/object1cover.jpeg'
   },
   {
     id: 29,
@@ -293,6 +323,8 @@ const developerData = [
     img: "/dev/prestige1.png",
     foundingYear: 2014,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/prestige1cover.webp'
+
   },
   {
     id: 30,
@@ -303,6 +335,7 @@ const developerData = [
     img: "/dev/sol.jpg",
     foundingYear: 2004,
     mainOffice: "Dubai, UAE",
+     cover:'/dev/solcover.webp'
   },
   {
     id: 31,
@@ -313,6 +346,7 @@ const developerData = [
     img: "/dev/vincitore.jpeg",
     foundingYear: 2013,
     mainOffice: "Dubai, UAE",
+    cover:'/dev/vincitorecover.jpeg'
   },
 ];
 
