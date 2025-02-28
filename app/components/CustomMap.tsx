@@ -17,11 +17,11 @@ const bronzeIcon = L.divIcon({
   iconAnchor: [15, 30], // Centers the icon properly
 });
 
-const CustomMap = () => {
+const CustomMap = ({lat,lon}:any) => {
   const router = useRouter()
-
-  const latitude: number = 25.276987;
-  const longitude: number = 55.296249;
+  
+  const latitude: number = lat;
+  const longitude: number = lon;
   const center: [number, number] = [latitude, longitude];
 
   

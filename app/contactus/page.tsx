@@ -50,7 +50,7 @@ can assist you with your property needs.</p>
             </p>
           </div>
         </div>
-        <CustomMap /> 
+        <CustomMap lat={25.18643698364403} lon={55.26057739417856} /> 
         <ContactForm />
       </section>
 

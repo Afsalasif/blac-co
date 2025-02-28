@@ -6,6 +6,8 @@ const  offplanProjects =[
       "slug": "address-residences-zabeel",
       "price_range": "AED 1,800,000",
       "location": "Zabeel, Dubai",
+      "latitude":"25.225940896975104",
+      "longitude":"55.294278940758495",
       "bedrooms": "1-3",
       "bathrooms": "1-3",
       "size_range": "800 - 2,000 sq. ft.",

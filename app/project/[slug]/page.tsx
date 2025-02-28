@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { useParams } from "next/navigation";
 import offplanProjects from "@/data/offplan";
 import Link from "next/link";
+import CustomMap from "@/app/components/CustomMap";
 
 const Page = () => {
   const { slug } = useParams();
@@ -236,6 +237,15 @@ const Page = () => {
                   </h1>
                 </div>
               </div>
+            </div>
+            <div className="border-l-2 border-r-2  border-[#c08c5a]"  style={{
+                borderTop: "2px solid transparent",
+                borderBottom: "2px solid transparent",
+                borderImageSource:
+                  "linear-gradient(to right, rgba(192, 140, 90, 1), rgba(192, 140, 90, 0) 50%, rgba(192, 140, 90, 1))",
+                borderImageSlice: 1,
+              }} >
+              <CustomMap lat={project.latitude} lon={ project.longitude} />
             </div>
           </div>
           {/*  */}
