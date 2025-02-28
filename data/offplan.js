@@ -4,7 +4,7 @@ const  offplanProjects =[
       "type": "Apartments",
       "title": "Address Residences Zabeel",
       "slug": "address-residences-zabeel",
-      "price_range": "From AED 1,800,000",
+      "price_range": "AED 1,800,000",
       "location": "Zabeel, Dubai",
       "bedrooms": "1-3",
       "bathrooms": "1-3",

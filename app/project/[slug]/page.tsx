@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { useParams } from "next/navigation";
 import offplanProjects from "@/data/offplan";
+import Link from "next/link";
 
 const Page = () => {
   const { slug } = useParams();
@@ -51,8 +52,8 @@ const Page = () => {
           </nav> */}
         </div>
       </div>
-      <section className="min-h-screen flex bg-black w-full">
-        <div className="max-w-7xl w-full  mx-auto relative">
+      <section className="min-h-screen p-10 flex bg-black w-full">
+        <div className="max-w-7xl w-full flex flex-col lg:flex-row gap-x-6  mx-auto relative">
           <div className="max-w-4xl relative flex flex-col gap-y-5">
             {/* Main image display */}
             <div className="max-w-4xl relative h-[530px]">
@@ -184,38 +185,111 @@ const Page = () => {
               </ul>
               <p className="text-lg font-raleway mt-10 text-gray-400">
                 Contact our real estate specialists for more information about
-    buying a property in {project.title}. Invest in {project.title} today and indulge in a world of elegant refinement!
+                buying a property in {project.title}. Invest in {project.title}{" "}
+                today and indulge in a world of elegant refinement!
               </p>
             </div>
             {/* payement */}
-            <div className="flex flex-col gap-2 border-l-2  text-white w-full border-r-2 px-6 py-10 mb-10 border-[#c08c5a]"   style={{
+            <div
+              className="flex flex-col gap-2 border-l-2  text-white w-full border-r-2 px-6 py-10 mb-10 border-[#c08c5a]"
+              style={{
                 borderTop: "2px solid transparent",
                 borderBottom: "2px solid transparent",
                 borderImageSource:
                   "linear-gradient(to right, rgba(192, 140, 90, 1), rgba(192, 140, 90, 0) 50%, rgba(192, 140, 90, 1))",
                 borderImageSlice: 1,
-              }}>
-                <h1 className="text-4xl mx-auto text-metallic-bronze uppercase font-raleway font-extralight mb-10"> payement plan</h1>
-                <div className=" flex justify-between flex-row">
-                
+              }}
+            >
+              <h1 className="text-4xl mx-auto text-metallic-bronze uppercase font-raleway font-extralight mb-10">
+                {" "}
+                payement plan
+              </h1>
+              <div className=" flex justify-between flex-row">
                 <div className="flex flex-col justify-between items-center">
-                <h1 className="text-2xl font-raleway text-metallic-bronze uppercase"> {project.payment_plan.on_booking.description}</h1>
-                <h1 className="text-2xl text-gray-400 "> {project.payment_plan.on_booking.percentage}%</h1>
+                  <h1 className="text-2xl font-raleway text-metallic-bronze uppercase">
+                    {" "}
+                    {project.payment_plan.on_booking.description}
+                  </h1>
+                  <h1 className="text-2xl text-gray-400 ">
+                    {" "}
+                    {project.payment_plan.on_booking.percentage}%
+                  </h1>
                 </div>
                 <div className="flex flex-col justify-center items-center">
-                <h1 className="text-2xl font-raleway text-metallic-bronze uppercase"> {project.payment_plan.during_construction.description}</h1>
-                <h1 className="text-2xl text-gray-400 "> {project.payment_plan.during_construction.percentage}%</h1>
+                  <h1 className="text-2xl font-raleway text-metallic-bronze uppercase">
+                    {" "}
+                    {project.payment_plan.during_construction.description}
+                  </h1>
+                  <h1 className="text-2xl text-gray-400 ">
+                    {" "}
+                    {project.payment_plan.during_construction.percentage}%
+                  </h1>
                 </div>
                 <div className="flex flex-col justify-center items-center">
-                <h1 className="text-2xl font-raleway text-metallic-bronze uppercase"> {project.payment_plan.on_handover.description}</h1>
-                <h1 className="text-2xl text-gray-400 "> {project.payment_plan.on_handover.percentage}%</h1>
+                  <h1 className="text-2xl font-raleway text-metallic-bronze uppercase">
+                    {" "}
+                    {project.payment_plan.on_handover.description}
+                  </h1>
+                  <h1 className="text-2xl text-gray-400 ">
+                    {" "}
+                    {project.payment_plan.on_handover.percentage}%
+                  </h1>
                 </div>
-                </div>
-
+              </div>
             </div>
           </div>
           {/*  */}
           {/* leftcontent ends here */}
+          {/*  */}
+          {/* right secion */}
+          <div className="max-w-3xl  h-fit md:sticky top-20 w-full  ">
+            <div
+              className="w-full border-l-2 border-r-2  mb-10 border-[#c08c5a] p-5 "
+              style={{
+                borderTop: "2px solid transparent",
+                borderBottom: "2px solid transparent",
+                borderImageSource:
+                  "linear-gradient(to right, rgba(192, 140, 90, 1), rgba(192, 140, 90, 0) 50%, rgba(192, 140, 90, 1))",
+                borderImageSlice: 1,
+              }}
+            >
+              <h1 className="text-2xl uppercase text-gray-400">Quick info</h1>
+              <div className="w-full h-[1px] mb-5 bg-gray-500"></div>
+              <div className="flex gap-x-5  ">
+                <p className="text-lg text-gray-400 mb-5">Project: </p>
+                <p className="text-lg text-white mb-5"> {project.title}</p>
+              </div>
+              <div className="flex gap-x-5 ">
+                <p className="text-lg text-gray-400 mb-5">Developer: </p>
+                <Link
+                  href={`/developers/${project.developer_slug}`}
+                  className="text-lg text-white mb-5 cursor-pointer"
+                >
+                  {project.developer}
+                </Link>
+              </div>
+              <div className="flex gap-x-5 ">
+                <p className="text-lg text-gray-400 mb-5">Type: </p>
+                <p className="text-lg text-white mb-5"> {project.type}</p>
+              </div>
+              <div className="flex gap-x-5 ">
+                <p className="text-lg text-gray-400 mb-5">Handover date: </p>
+                <p className="text-lg text-white mb-5">
+                  {" "}
+                  {project.handover_date}
+                </p>
+              </div>
+              <div className="flex gap-x-5 ">
+                <p className="text-lg text-gray-400 mb-5">Starting Price:</p>
+                <p className="text-lg text-white mb-5">
+                  {" "}
+                  {project.price_range}
+                </p>
+              </div>
+
+              <div></div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
