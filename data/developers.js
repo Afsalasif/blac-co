@@ -741,29 +741,131 @@ const developerData = [
     ],
     cover: "/dev/citicover.jpeg",
   },
-  // {
-  //   id: 15,
-  //   name: "Arada",
-  //   slug: "arada-developments",
-  //   description:
-  //     "Arada, founded as a joint venture between KBW Investments and Basma Group, has quickly established itself as an influential developer in Sharjah and more recently in Dubai. The company is best known for its record-breaking master developments in Sharjah, including Aljada (a 24 million square foot mixed-use destination) and Nasma Residences. Led by Prince Khaled bin Alwaleed bin Talal, Arada focuses on creating comprehensive, carefully planned communities that offer excellent value while raising the bar for design and amenities in emerging markets. The developer emphasizes creating family-friendly environments with extensive green spaces, educational facilities, and retail options. Arada's expansion into Dubai signals its ambition to become a major player throughout the UAE real estate landscape.",
-  //   img: "/dev/arada.jpg",
-  //   source: "https://en.wikipedia.org/wiki/Arada_(company)",
-  //   foundingYear: 2017,
-  //   mainOffice: "Sharjah, UAE",
-  //   cover:'/dev/aradacover.jpg'
-  // },
-  // {
-  //   id: 16,
-  //   name: "Al Habtoor Group",
-  //   slug: "al-habtoor-group",
-  //   description:
-  //     "Al Habtoor Group is one of the UAE's most established conglomerates with a diverse portfolio spanning real estate, hospitality, automotive, education, and publishing sectors. Founded by Khalaf Ahmad Al Habtoor, the group's real estate division has created landmark developments including the Al Habtoor City complex along Dubai Water Canal (featuring three luxury hotels and three residential towers), Metropolitan Hotel, and Al Habtoor Polo Resort & Club. The company is known for developing integrated, large-scale projects that combine residential, hospitality, and leisure elements. With a history dating back to the 1970s, Al Habtoor Group has played a significant role in Dubai's transformation and continues to invest in iconic developments that shape the city's landscape.",
-  //   img: "/dev/alhabtoor.jpg",
-  //   foundingYear: 1970,
-  //   mainOffice: "Dubai, UAE",
-  //   cover:'/dev/alhabtoorcover.jpg'
-  // },
+  {
+    id: 15,
+    name: "Arada",
+    slug: "arada-developments",
+    description:
+      "Arada Properties is Sharjah's largest private development company. Main sectors:",
+    img: "/dev/arada.jpg",
+    source: "https://en.wikipedia.org/wiki/Arada_(company)",
+    main: [
+      {
+        title: "Founded in",
+        description: 2016,
+      },
+      {
+        title: "Head Quaters",
+        description: "Sharjah",
+      },
+      {
+        title: "Number of employees",
+        description: 400,
+      },
+      {
+        title: "Estimated cost",
+        description: "$8 million",
+      },
+    ],
+    details: [
+      {
+        type: "ul",
+        content: [
+          "Development",
+          "Hospitality",
+          "Commercial property and business parks",
+          "Education",
+          "Entertainment",
+          "Health care",
+          "Art",
+          "Sustainable energy",
+        ],
+      },
+      {
+        type: "p",
+        title:
+          "Flagship projects:",
+      },
+      {
+        type: "ul",
+        content: [
+          "Aljada is a mixed-use residential development with a business park, shops, hotels, schools and an entertainment complex designed by Zaha Hadid Architects.",
+          "Nasma Residences is a premium community with villas and townhouses.",
+          "Masaar is an elite community with 4,000 villas and townhouses surrounded by forest and greenery.",
+          
+        ],
+      },
+      
+      {
+        type: "p",
+        title: "The projects worth is $9 billion.",
+      },
+    
+    ],
+    cover:'/dev/aradacover.jpg'
+  },
+  {
+    id: 16,
+    name: "Al Habtoor Group",
+    slug: "al-habtoor-group",
+    description:
+      "Al Habtoor Group, which started as a small engineering firm, is now one of the region most respected conglomerates with interests in following sectors: ",
+    img: "/dev/alhabtoor.jpg",
+    main: [
+      {
+        title: "Founded in",
+        description: 1970,
+      },
+      {
+        title: "Head Quaters",
+        description: "Dubai",
+      },
+      {
+        title: "Number of employees",
+        description: 399,
+      },
+      {
+        title: "Estimated cost",
+        description: "$6.06 billion",
+      },
+    ],
+    details: [
+      {
+        type: "ul",
+        content: [
+          "Real estate",
+          "Hospitality",
+          "Automotive",
+          "Education",
+          "Publishing",
+        
+        ],
+      },
+      {
+        type: "p",
+        title:
+          "Its branches are in many cities around the globe including London, Vienna, Budapest, Beirut and Springfield, USA.",
+      },
+      {
+        type: "p",
+        title: "Flagship project:",
+      },
+      {
+        type: "ul",
+        content: [
+          "Residence Collection Al Habtoor City is a complex of 3 skyscrapers with premium apartments on the banks of the Dubai Canal.",
+          
+        ],
+      },
+      
+      {
+        type: "p",
+        title: " The hotel portfolio includes 14 world-class hotels: 7 in Dubai and 7 outside the UAE.",
+      },
+    
+    ],
+    cover:'/dev/alhabtoorcover.jpg'
+  },
   // {
   //   id: 17,
   //   name: "Al Barari",
