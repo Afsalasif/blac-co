@@ -2,8 +2,10 @@
 import React from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import developerData from "../../../data/developers";
 import { useEffect, useState } from "react";
+import Image from "next/image";
+import developerData from "../../../data/developers";
+import offplanProjects from "@/data/offplan";
 
 const DeveloperDetails = () => {
   const params = useParams();
@@ -49,6 +51,9 @@ const DeveloperDetails = () => {
         </div>
       ));
   };
+  const developerOffplanProjects = offplanProjects.filter(
+    (property) => property.developer_slug === developer.slug
+  );
 
   return (
     <div>
@@ -102,6 +107,41 @@ const DeveloperDetails = () => {
     {breakTextIntoSentences(developer.description)}
     </p>
   </div>
+  {developerOffplanProjects.length > 0 &&(
+  <div className="max-w-7xl flex flex-col w-full mx-auto">
+<h2 className="text-4xl font-extralight mb-10 font-raleway text-metallic-bronze ">
+      Latest Projects by {developer.name}
+    </h2>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {developerOffplanProjects.map((property) => (
+            <div key={property.id} className="bg-black rounded-lg border-l-2 border-r-2 border-[#c08c5a] overflow-hidden shadow-lg"  style={{
+              borderTop: "2px solid transparent",
+              borderBottom: "2px solid transparent",
+              borderImageSource:
+                "linear-gradient(to right, rgba(192, 140, 90, 1), rgba(192, 140, 90, 0) 50%, rgba(192, 140, 90, 1))",
+              borderImageSlice: 1,
+            }}>
+              <div className="relative w-full h-56">
+                <Image
+                  src={property.cover_image}
+                  alt={property.title}
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-t-lg"
+                />
+              </div>
+              <div className="p-4">
+                <h3 className="text-xl font-light mb-2 uppercase  ">{property.title}</h3>
+                <p className="text-sm mb-2 text-gray-400">Type: {property.type}</p>
+                <p className="text-sm text-gray-400">Developer: {property.developer}</p>
+                <Link href={`/project/${property.slug}`} className="text-metallic-bronze mt-2 inline-block">
+                  EXPLORE
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+        </div>)}
 </section>
 
     </div>
