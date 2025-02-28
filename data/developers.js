@@ -8,7 +8,8 @@ const developerData = [
     img: "/dev/emaar.jpg",
     foundingYear: 1997,
     mainOffice: "Dubai, UAE",
-    cover:'/dev/emaarcover.jpg'
+    cover:'/dev/emaarcover.jpg',
+    code:""
   },
   {
     id: 2,
