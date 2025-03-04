@@ -1,287 +1,788 @@
-const  offplanProjects =[
-    {
-      "id": 1,
-      "type": "Apartments",
-      "title": "Address Residences Zabeel",
-      "slug": "address-residences-zabeel",
-      "price_range": "AED 1,800,000",
-      "location": "Zabeel, Dubai",
-      "latitude":"25.225940896975104",
-      "longitude":"55.294278940758495",
-      "bedrooms": "1-3",
-      "bathrooms": "1-3",
-      "size_range": "800 - 2,000 sq. ft.",
-      "handover_date": "2026-12-01",
-      "developer": "Emaar Properties",
-      "developer_slug": "emaar-properties",
-      "cover_image": "/offplan/adress.webp",
-      "other_images": [
-        "https://fnst.axflare.com/original_images/WEBP/WKtFHOylOS.webp",
-        "https://fnst.axflare.com/original_images/WEBP/SeAZyLrFAL.webp",
-        "https://fnst.axflare.com/original_images/WEBP/EZmuBqvrvv.webp"
-      ],
-      "description": "Nestled in the heart of Dubai International Financial Center (DIFC), at the Za'abeel area, Address Residences Zabeel by Emaar Properties stands as a pinnacle of luxury amidst a dynamic urban landscape. This prestigious residential development is strategically located close to the city's most iconic locations such as the Burj Khalifa, the Dubai Frame, and Zabeel Park.Comprising a collection of four high-rise buildings, the complex offers 1-3-bedroom apartments and 4-bedroom penthouses.Address Residences Zabeel offers an exceptional lifestyle that provides a tranquil haven in the midst of the vibrant life of the city.",
-      "features": [
-        "Infinity Pool & Sun Deck",
-        "High-End Finishes",
-        "Fully Equipped Gym",
-       
-      ],
-      "building_highlights": [
-        "Community lawn",
-        "Zabeel, Burj, and Central Vista pools",
-        "Shaded kids pool and play area",
-        "Fully equipped gym",
-        "Event pavilion",
-        "Split-level terrace with seating areas",
-        "Yoga deck",
-        "Community BBQ areas",
-        "Multi-purpose kids pavilion",
-        "Floating deck",
-        "Pool cabanas and step-up deck",
-        "24/7 security",
-        "Parking spaces",
-        "Concierge service",
-        "Many other exquisite amenities"
-      ],
-      "payment_plan": {
-        "on_booking": { "percentage": 10, "description": "On Booking" },
-        "during_construction": { "percentage": 40, "description": "During Construction" },
-        "on_handover": { "percentage": 50, "description": "On Handover" }
+const offplanProjects = [
+  {
+    id: 1,
+    type: "Apartments",
+    title: "Address Residences Zabeel",
+    slug: "address-residences-zabeel",
+    price_range: "AED 1,800,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "2026-12-01",
+    developer: "Emaar Properties",
+    developer_slug: "emaar-properties",
+    cover_image: "/offplan/adress.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/WKtFHOylOS.webp",
+      "https://fnst.axflare.com/original_images/WEBP/SeAZyLrFAL.webp",
+      "https://fnst.axflare.com/original_images/WEBP/EZmuBqvrvv.webp",
+    ],
+    description:
+      "Nestled in the heart of Dubai International Financial Center (DIFC), at the Za'abeel area, Address Residences Zabeel by Emaar Properties stands as a pinnacle of luxury amidst a dynamic urban landscape. This prestigious residential development is strategically located close to the city's most iconic locations such as the Burj Khalifa, the Dubai Frame, and Zabeel Park.Comprising a collection of four high-rise buildings, the complex offers 1-3-bedroom apartments and 4-bedroom penthouses.Address Residences Zabeel offers an exceptional lifestyle that provides a tranquil haven in the midst of the vibrant life of the city.",
+    features: [
+      "Infinity Pool & Sun Deck",
+      "High-End Finishes",
+      "Fully Equipped Gym",
+    ],
+    building_highlights: [
+      "Community lawn",
+      "Zabeel, Burj, and Central Vista pools",
+      "Shaded kids pool and play area",
+      "Fully equipped gym",
+      "Event pavilion",
+      "Split-level terrace with seating areas",
+      "Yoga deck",
+      "Community BBQ areas",
+      "Multi-purpose kids pavilion",
+      "Floating deck",
+      "Pool cabanas and step-up deck",
+      "24/7 security",
+      "Parking spaces",
+      "Concierge service",
+      "Many other exquisite amenities",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 40,
+        description: "During Construction",
       },
-      "attractions_nearby": [
-        "Dubai Mall",
-        "Burj Khalifa",
-        "Zabeel Park",
-        "Dubai Opera"
-      ],
-      "schools_nearby": [
-        "GEMS Wellington Primary School",
-        "Jumeirah International Nursery"
-      ],
-      "unit_types": [
-        {
-          "type": "1-Bedroom Apartment",
-          "size": "800 sq. ft.",
-          "price": "AED 1,800,000"
-        },
-        {
-          "type": "2-Bedroom Apartment",
-          "size": "1,400 sq. ft.",
-          "price": "AED 3,200,000"
-        },
-        {
-          "type": "3-Bedroom Apartment",
-          "size": "2,000 sq. ft.",
-          "price": "AED 5,400,000"
-        }
-      ],
-      "floor_plans": [
-        {
-          "name": "1-Bedroom Floor Plan",
-          "image": "/floorplans/address-residences-zabeel-1br.jpg"
-        },
-        {
-          "name": "2-Bedroom Floor Plan",
-          "image": "/floorplans/address-residences-zabeel-2br.jpg"
-        },
-        {
-          "name": "3-Bedroom Floor Plan",
-          "image": "/floorplans/address-residences-zabeel-3br.jpg"
-        }
-      ],
-      "brochure_link": "/brochures/address-residences-zabeel.pdf"
+      on_handover: { percentage: 50, description: "On Handover" },
     },
-    {
-      "id": 2,
-      "type": "Residential",
-      "title": "Farm Gardens 2",
-      "slug": "farm-garden-2",
-      "price_range": "AED 1,800,000",
-      "location": "Zabeel, Dubai",
-      "latitude":"25.225940896975104",
-      "longitude":"55.294278940758495",
-      "bedrooms": "1-3",
-      "bathrooms": "1-3",
-      "size_range": "800 - 2,000 sq. ft.",
-      "handover_date": "2026-12-01",
-      "developer": "Emaar Properties",
-      "developer_slug": "emaar-properties",
-      "cover_image": "https://fnst.axflare.com/original_images/WEBP/zjELWhtdAl.webp",
-      "other_images": [
-        "https://fnst.axflare.com/original_images/WEBP/WyigHCPQQm.webp",
-        "https://fnst.axflare.com/original_images/WEBP/KarVySTLGi.webp",
-        "https://fnst.axflare.com/original_images/WEBP/jOnlTFlYNp.webp",
-        "https://fnst.axflare.com/original_images/WEBP/HyNwAeGBar.webp",
-        "https://fnst.axflare.com/original_images/WEBP/nswXbgKMjy.webp",
-      ],
-      "description": "Welcome to Farm Gardens 2 by Emaar Properties  a collection of premium three-story villas in a sustainable eco-community with agricultural plots, gardens, and greenhouses. The project is part of a larger integrated town – The Valley, a self-sufficient community with well-developed infrastructure in a scenic setting.Residents will have access to a variety of innovative agricultural practices such as hydroponic farming and community gardens. In addition, there will be lush parks, sports facilities, and community centers that promote socialization, wellness, and recreation. his holistic approach fosters a lifestyle that is not only close to nature but actively contributes to preserving it. Farm Gardens 2 also creates a lifestyle that delicately blends the charm of country living with the sophistication of modern conveniences. ",
-      "features": [
-        "Beach access",
-        "Parks",
-        "Bbq area",
-       
-      ],
-      "building_highlights": [
-        "infinity pool and wading pool",
-        "sandy beach",
-        "indoor & outdoor sports facilities",
-        "lounge areas with sunbeds",
-        "resident agricultural plots & greenhouses",
-        "communal farming areas",
-        "yoga platform and paddle tennis court",
-        "reflexology path",
-        "landscaped walkways and themed gardens",
-        "shaded picnic areas and BBQ zones",
-        "resident club",
-        "multipurpose hall",
-        "24-hour security",
-        "parking",
-        "restaurants and shops, and many other exclusive services and facilities"
-      ],
-      "payment_plan": {
-        "on_booking": { "percentage": 10, "description": "On Booking" },
-        "during_construction": { "percentage": 80, "description": "During Construction" },
-        "on_handover": { "percentage": 10, "description": "On Handover" }
+    attractions_nearby: [
+      "Dubai Mall",
+      "Burj Khalifa",
+      "Zabeel Park",
+      "Dubai Opera",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
       },
-      "attractions_nearby": [
-        "IMG Worlds of Adventure",
-        "The Sevens Stadium",
-        "Al Habtoor Polo Resort and Club ",
-        "Dubai Outlet Mall"
-      ],
-      "schools_nearby": [
-        "GEMS Wellington Primary School",
-        "Jumeirah International Nursery"
-      ],
-      "unit_types": [
-        {
-          "type": "1-Bedroom Apartment",
-          "size": "800 sq. ft.",
-          "price": "AED 1,800,000"
-        },
-        {
-          "type": "2-Bedroom Apartment",
-          "size": "1,400 sq. ft.",
-          "price": "AED 3,200,000"
-        },
-        {
-          "type": "3-Bedroom Apartment",
-          "size": "2,000 sq. ft.",
-          "price": "AED 5,400,000"
-        }
-      ],
-      "floor_plans": [
-        {
-          "name": "1-Bedroom Floor Plan",
-          "image": "/floorplans/address-residences-zabeel-1br.jpg"
-        },
-        {
-          "name": "2-Bedroom Floor Plan",
-          "image": "/floorplans/address-residences-zabeel-2br.jpg"
-        },
-        {
-          "name": "3-Bedroom Floor Plan",
-          "image": "/floorplans/address-residences-zabeel-3br.jpg"
-        }
-      ],
-      "brochure_link": "/brochures/address-residences-zabeel.pdf"
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-3br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pdf",
+  },
+  {
+    id: 2,
+    type: "Residential",
+    title: "Farm Gardens 2",
+    slug: "farm-garden-2",
+    price_range: "AED 1,800,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "2026-12-01",
+    developer: "Emaar Properties",
+    developer_slug: "emaar-properties",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/zjELWhtdAl.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/WyigHCPQQm.webp",
+      "https://fnst.axflare.com/original_images/WEBP/KarVySTLGi.webp",
+      "https://fnst.axflare.com/original_images/WEBP/jOnlTFlYNp.webp",
+      "https://fnst.axflare.com/original_images/WEBP/HyNwAeGBar.webp",
+      "https://fnst.axflare.com/original_images/WEBP/nswXbgKMjy.webp",
+    ],
+    description:
+      "Welcome to Farm Gardens 2 by Emaar Properties  a collection of premium three-story villas in a sustainable eco-community with agricultural plots, gardens, and greenhouses. The project is part of a larger integrated town – The Valley, a self-sufficient community with well-developed infrastructure in a scenic setting.Residents will have access to a variety of innovative agricultural practices such as hydroponic farming and community gardens. In addition, there will be lush parks, sports facilities, and community centers that promote socialization, wellness, and recreation. his holistic approach fosters a lifestyle that is not only close to nature but actively contributes to preserving it. Farm Gardens 2 also creates a lifestyle that delicately blends the charm of country living with the sophistication of modern conveniences. ",
+    features: ["Beach access", "Parks", "Bbq area"],
+    building_highlights: [
+      "infinity pool and wading pool",
+      "sandy beach",
+      "indoor & outdoor sports facilities",
+      "lounge areas with sunbeds",
+      "resident agricultural plots & greenhouses",
+      "communal farming areas",
+      "yoga platform and paddle tennis court",
+      "reflexology path",
+      "landscaped walkways and themed gardens",
+      "shaded picnic areas and BBQ zones",
+      "resident club",
+      "multipurpose hall",
+      "24-hour security",
+      "parking",
+      "restaurants and shops, and many other exclusive services and facilities",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 80,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 10, description: "On Handover" },
     },
-    {
-      "id": 3,
-      "type": "Residential",
-      "title": "AEON",
-      "slug": "aeon",
-      "price_range": "AED 1,800,000",
-      "location": "Zabeel, Dubai",
-      "latitude":"25.225940896975104",
-      "longitude":"55.294278940758495",
-      "bedrooms": "1-3",
-      "bathrooms": "1-3",
-      "size_range": "800 - 2,000 sq. ft.",
-      "handover_date": "2028-30-04",
-      "developer": "Emaar Properties",
-      "developer_slug": "emaar-properties",
-      "cover_image": "https://fnst.axflare.com/community/WEBP/mOFTNXJTFy.webp",
-      "other_images": [
-        "https://fnst.axflare.com/original_images/WEBP/QcfoINXJvP.webp",
-        "https://fnst.axflare.com/original_images/WEBP/sFoizNDWXf.webp",
-        "https://fnst.axflare.com/original_images/WEBP/mblabqSBqj.webp",
-        "https://fnst.axflare.com/original_images/WEBP/EGmHTahACw.webp",
-        "https://fnst.axflare.com/original_images/WEBP/iUSSJKUqLX.webp",
-      ],
-      "description": "AEON by renowned Emaar Properties comprises two elite residential towers at Dubai Creek Harbour, featuring 1-, 2-, and 3-bedroom beachfront apartments. Its privileged location on the man-made Creek Island, surrounded by more than 114 acres of parkland, on the iconic Dubai Creek, known as the city's most famous waterfront, offers dwellers an exceptional lifestyle at the intersection of tradition and modernity. ",
-      "features": [
-        "Swimming pool",
-        "Gym",
-        "Cycling tracks",
-        "Children's play area",
-       
-      ],
-      "building_highlights": [
-        "waterfront promenade",
-        "2296-foot sandy beach",
-        "kids' play areas",
-        "swimming pool ",
-        "gym",
-        "cycling track",
-        "skate park & sports courts",
-        "fitness & jogging track",
-        "yacht-club Creek Marina",
-        "licensed bars & restaurants",
-        "breathtaking sunset views",
-        "dining at the waterfront",
-        "pet-friendly community",
-        "sustainable practices: energy efficiency, waste management, water conservation, electric vehicle charging stations, and more",
-      ],
-      "payment_plan": {
-        "on_booking": { "percentage": 10, "description": "On Booking" },
-        "during_construction": { "percentage": 80, "description": "During Construction" },
-        "on_handover": { "percentage": 10, "description": "On Handover" }
+    attractions_nearby: [
+      "IMG Worlds of Adventure",
+      "The Sevens Stadium",
+      "Al Habtoor Polo Resort and Club ",
+      "Dubai Outlet Mall",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
       },
-      "attractions_nearby": [
-        "IMG Worlds of Adventure",
-        "The Sevens Stadium",
-        "Al Habtoor Polo Resort and Club ",
-        "Dubai Outlet Mall"
-      ],
-      "schools_nearby": [
-        "GEMS Wellington Primary School",
-        "Jumeirah International Nursery"
-      ],
-      "unit_types": [
-        {
-          "type": "1-Bedroom Apartment",
-          "size": "800 sq. ft.",
-          "price": "AED 1,800,000"
-        },
-        {
-          "type": "2-Bedroom Apartment",
-          "size": "1,400 sq. ft.",
-          "price": "AED 3,200,000"
-        },
-        {
-          "type": "3-Bedroom Apartment",
-          "size": "2,000 sq. ft.",
-          "price": "AED 5,400,000"
-        }
-      ],
-      "floor_plans": [
-        {
-          "name": "1-Bedroom Floor Plan",
-          "image": "/floorplans/address-residences-zabeel-1br.jpg"
-        },
-        {
-          "name": "2-Bedroom Floor Plan",
-          "image": "/floorplans/address-residences-zabeel-2br.jpg"
-        },
-        {
-          "name": "3-Bedroom Floor Plan",
-          "image": "/floorplans/address-residences-zabeel-br.jpg"
-        }
-      ],
-      "brochure_link": "/brochures/address-residences-zabeel.pd"
-    }
-  ]
-  
-  export default offplanProjects;
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-3br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pdf",
+  },
+  {
+    id: 3,
+    type: "Residential",
+    title: "AEON",
+    slug: "aeon",
+    price_range: "AED 1,800,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "2028-30-04",
+    developer: "Emaar Properties",
+    developer_slug: "emaar-properties",
+    cover_image: "https://fnst.axflare.com/community/WEBP/mOFTNXJTFy.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/QcfoINXJvP.webp",
+      "https://fnst.axflare.com/original_images/WEBP/sFoizNDWXf.webp",
+      "https://fnst.axflare.com/original_images/WEBP/mblabqSBqj.webp",
+      "https://fnst.axflare.com/original_images/WEBP/EGmHTahACw.webp",
+      "https://fnst.axflare.com/original_images/WEBP/iUSSJKUqLX.webp",
+    ],
+    description:
+      "AEON by renowned Emaar Properties comprises two elite residential towers at Dubai Creek Harbour, featuring 1-, 2-, and 3-bedroom beachfront apartments. Its privileged location on the man-made Creek Island, surrounded by more than 114 acres of parkland, on the iconic Dubai Creek, known as the city's most famous waterfront, offers dwellers an exceptional lifestyle at the intersection of tradition and modernity. ",
+    features: [
+      "Swimming pool",
+      "Gym",
+      "Cycling tracks",
+      "Children's play area",
+    ],
+    building_highlights: [
+      "waterfront promenade",
+      "2296-foot sandy beach",
+      "kids' play areas",
+      "swimming pool ",
+      "gym",
+      "cycling track",
+      "skate park & sports courts",
+      "fitness & jogging track",
+      "yacht-club Creek Marina",
+      "licensed bars & restaurants",
+      "breathtaking sunset views",
+      "dining at the waterfront",
+      "pet-friendly community",
+      "sustainable practices: energy efficiency, waste management, water conservation, electric vehicle charging stations, and more",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 80,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 10, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "IMG Worlds of Adventure",
+      "The Sevens Stadium",
+      "Al Habtoor Polo Resort and Club ",
+      "Dubai Outlet Mall",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 4,
+    type: "Residential",
+    title: "Bayz 101",
+    slug: "bayz101",
+    price_range: "AED 1,800,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "2028-30-06",
+    developer: "Danube Properties",
+    developer_slug: "danube-properties",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/vONDeiDFtb.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/vONDeiDFtb.webp",
+      "https://fnst.axflare.com/original_images/WEBP/OlFXZkRKRU.webp",
+      "https://fnst.axflare.com/original_images/WEBP/YUXXJVdCkS.webp",
+      "https://fnst.axflare.com/original_images/WEBP/YUXXJVdCkS.webp",
+    ],
+    description:
+      "Bayz 101 by Danube Properties is a high-end residential development towering over the dynamic cityscape of Dubai, located in the heart of Business Bay. As one of the tallest buildings in the city, it offers spectacular views of iconic landmarks such as Burj Khalifa, Dubai Canal, and Downtown Dubai.The 101-story tower offers an elevated standard of living with over 40 sports and recreational facilities. Promoting a vibrant communal lifestyle, Bayz 101 by Danube is designed with common spaces for group sports and activities.",
+    features: [
+      "Kids play area",
+      "Restaurants",
+      "Swimming pool",
+      "Supermarkets",
+    ],
+    building_highlights: [
+      "55th floor Olympic-sized swimming pool",
+      "athletic concourses",
+      "jogging tracks",
+      "tennis courts and badminton",
+      "paddle and squash courts",
+      "indoor basketball facilities",
+      "green surrounding",
+      "healthcare center",
+      "kids play area",
+      "outdoor cinemas",
+      "clubhouse with different social activities",
+      "restaurants",
+      "retail outlets",
+      "supermarket",
+      "parking lots",
+      "security",
+      "concierge, and many other services and facilities",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 80,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 10, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Burj Khalifa",
+      "Dubai Aquarium & Underwater Zoo",
+      "Dubai Opera",
+      "Dubai Mall",
+    ],
+    Property_highlights: [
+      "Studios",
+      "1-bedroom apartments",
+      " 2-bedroom apartments",
+      "3-bedroom apartments",
+      "4-bedroom apartments",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 5,
+    type: "Residential",
+    title: "Habtoor Grand Residences",
+    slug: "habtoor-grand-residences",
+    price_range: "AED 1,800,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Mar 31, 2027",
+    developer: "Danube Properties",
+    developer_slug: "danube-properties",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/vONDeiDFtb.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/vONDeiDFtb.webp",
+      "https://fnst.axflare.com/original_images/WEBP/OlFXZkRKRU.webp",
+      "https://fnst.axflare.com/original_images/WEBP/YUXXJVdCkS.webp",
+      "https://fnst.axflare.com/original_images/WEBP/YUXXJVdCkS.webp",
+    ],
+    description:
+      "Habtoor Grand Residences is a 50-story premium residential complex located on the waterfront in the Dubai Marina area, adjacent to the Habtoor Grand Resort Hotel. The project was designed by leading developer Al Habtoor Group.At Habtoor Grand Residences, you can experience a high-end beachfront living at its finest. The complex is brimming with recreational facilities that create a vibrant beach atmosphere. From gourmet restaurants to luxurious beach clubs and a vibrant seaside promenade – it has everything you need for a rich and fulfilling life.",
+    features: [
+      "Gym",
+      "Residents parking",
+      "Restaurants",
+      "Kids play area",
+      "24/7 security",
+    ],
+    building_highlights: [
+      "gym",
+      "rooftop swimming pool",
+      "direct access to the beach",
+      "restaurants",
+      "health center",
+      "kid's play area",
+      "24/7 security and CCTV cameras",
+      "high-speed elevators",
+      "parking area",
+      "EV charging stations",
+      "concierge service, and many other amenities and services",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 80,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 10, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "The Walk JBR ",
+      "Palm Jumeirah",
+      "Bluewaters Island",
+      "Dubai Mall",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 6,
+    type: "Apartments",
+    title: "Golf Gate 2",
+    slug: "golf-gate-2",
+    price_range: "AED 1,800,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Dec 31, 2026",
+    developer: "Damac Properties",
+    developer_slug: "damac-properties",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/BmnrwJXoHQ.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/UYvnkPMzMG.webp",
+      "https://fnst.axflare.com/original_images/WEBP/KOaqcJznVt.webp",
+      "https://fnst.axflare.com/original_images/WEBP/JDwcXLvGKS.webp",
+      "https://fnst.axflare.com/original_images/WEBP/lTHGHasbTu.webp",
+    ],
+    description:
+      "The new Golf Gate 2 residential complex provides a comfortable lifestyle in one of Dubais most prestigious golf communities, Damac Hills. The building will be located near the famous Trump Golf Club. Here you can take part in an exciting golf tournament on a professional eighteen-hole course or relax in a clubhouse with the best restaurants and cafes.The multi-story residential complex will offer numerous amenities for recreation, sports, and a pleasant pastime with family and friends. You can swim in the large outdoor pool, cool off under a giant rain shower, and sunbathe in a comfortable sun lounger by the water. In the complex and on the outdoor podium of the building, you can walk and run along paths around green spaces. A steam bath, sauna, and spa center will help you relax after an active day or workout.Living in Damac Hills, you can enjoy all the amenities of this elite community. It offers a large park with a special area for walking dogs, a skate park, sports, and playgrounds. Here you can go fishing on the lake or have a picnic on the green lawn. In the stables, you can take riding lessons. In Malibu Bay, you can surf in a special pool with a wave generator or relax on the sandy beach by the water.Golf Gate 2 has various playgrounds for young residents and guests. Children will also enjoy trips to the petting zoo and stables. Schools and kindergartens within walking distance from the complex are a big advantage for residents.There are two chain supermarkets near Golf Gate 2. Thus, the residents of the new building will have all the necessary amenities and social infrastructure in quick access.",
+    features: [
+      "Children's play area",
+      "Gym",
+      "Spa center",
+      "Barbecue area",
+      "Security",
+    ],
+    building_highlights: [
+      "All Golf Gate 2 residences will be finished with premium materials. Large panoramic windows let a lot of light in and create a warm and cozy atmosphere in the living rooms. The windows will have beautiful views of the hilly golf course and landscaped gardens. The interiors are well-thought-out by designers. Various colors, finishing materials, accent fittings, and decorative items are harmoniously combined here.",
+      "The kitchen is equipped with built-in wardrobes, which are perfectly matched to the size of the room, a worktop made of wear-resistant material, and a large sink. There is also work area illumination. The kitchen has compact ceiling lights, and the living room has hanging chandeliers in a minimalist style.",
+      "The bathrooms are tiled; there are mirrors, storage spaces, and a shower cabin with a glass partition.",
+      "The sliding balcony doors turn the living room and the balcony into one large space. The transparent partition provides an unobstructed view of the green surroundings.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 80,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 10, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "The Golf Gate 2 residential complex is located in the elite community of Damac Hills, with excellent infrastructure, green hills, and parks. A professional golf club with playing and training fields is located within walking distance of the new community. You can walk to Viva Supermarket, two bus stops, and Arabic and Asian restaurants.",
+      "The Jebel Ali School is a ten-minute drive from the complex and it offers a British curriculum. It will take the same time to get to the CreaKids Kindergarten. Within a six-minute drive from the district, there are popular chain supermarkets, such as Carrefour and Spinneys.",
+      "The multi-story complex will be located near the major highways of Sheikh Mohammed Bin Zayed and the Emirates. Thanks to this, residents will quickly get to neighboring areas. For example, Dubai Sports City with a large sports complex and a professional football stadium can be reached in nine minutes. Motor City with a racetrack and a go-kart track is twelve minutes away.",
+      "The new falcon-shaped Falconcity of Wonders district is a twenty-minute drive away. Downtown Dubai’s main cultural and business center is 26 minutes away by car.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 7,
+    type: "Apartments",
+    title: "Naya at District One",
+    slug: "naya-at-district-one",
+    price_range: "AED 1,800,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Sep 30, 2027",
+    developer: "Nakheel",
+    developer_slug: "nakheel-properties",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/ubejMAyInN.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/ehBbbtbaSj.webp",
+      "https://fnst.axflare.com/original_images/WEBP/ubejMAyInN.webp",
+      "https://fnst.axflare.com/original_images/WEBP/SqHXSdXPLP.webp",
+      "https://fnst.axflare.com/original_images/WEBP/BmBSzFRlMn.webp",
+    ],
+    description:
+      "Naya at District One is a multi-story residential complex in the prestigious Mohammed Bin Rashid Al Maktoum City area. The complex offers an ideal lifestyle for those who value comfort and taking care of their health. Modern architecture and elegant building designs create a cozy atmosphere for residents. Here you will find everything you need for a comfortable and healthy lifestyle.",
+    features: [
+      "Fitness center",
+      "Cycling tracks",
+      "Infinity pool",
+      "Children's pool",
+      "Children's play area",
+      "Basketball court",
+    ],
+    building_highlights: [
+      "The complex is built in a modern style combining elegance and functionality. Inside the complex, there are sports and green areas that allow residents to lead an active lifestyle and relax in the fresh air. ",
+      "There are also play areas that are designed to aid the development of children and create a comfortable atmosphere for the whole family. The presence of blue lagoons gives the complex a special charm and allows you to enjoy picturesque landscapes and crystal-clear water. All this makes the Naya at District One complex an ideal place to live.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 20, description: "On Booking" },
+      during_construction: {
+        percentage: 60,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 20, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Safa Park is one of the largest and most beautiful parks in Dubai. It is located in the Jumeirah area and offers many green areas for recreation, lakes, fountains, playgrounds, a stadium for football and cricket, as well as many cafes and restaurants.",
+      "Nearby is the Meydan One district, with a shopping center, hotels, and entertainment centers. Meydan Hotel is also located here  one of the luxury hotel options. It offers luxurious rooms with views of the race track, restaurants, a 24-hour fitness center, a spa, as well as indoor and outdoor pools. ",
+      "A 15-minute drive from the complex is Burj Al Arab, one of the most luxurious hotels in the world, located on an artificial island. It has spacious rooms with views of the Arabian Gulf, restaurants, bars, a spa, as well as indoor and outdoor pools. Dubai International Airport is also a 20-minute drive away.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 8,
+    type: "Apartments",
+    title: "Coral Reef Apartments",
+    slug: "coral-reef-apartments",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Mar 31, 2028",
+    developer: "Damac Properties",
+    developer_slug: "damac-properties",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/BCHxNcedIC.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/UeJGAKIXBx.webp",
+      "https://fnst.axflare.com/original_images/WEBP/BCHxNcedIC.webp",
+      "https://fnst.axflare.com/original_images/WEBP/kbKFNBMjGT.webp",
+      "https://fnst.axflare.com/original_images/WEBP/CtIRqJANwQ.webp",
+    ],
+    description:
+      "Coral Reef is set to offer an exceptional lifestyle within an expansive and comfortable setting. Situated in Dubai Maritime City, a global epicenter for maritime services and industrial endeavors, this development promises an unparalleled living experience. Pleasant walks along the Maritime City Promenade create the perfect atmosphere for relaxation. Located just 0.4 km away, Maritime City Park lets you enjoy nature and greenery in a picturesque park. Nearby, you will also find Jumeirah Beach, providing you with the opportunity to enjoy crystal-clear waters.Within the Coral Reef residential complex, an array of amenities will cater to various entertainment and relaxation pursuits. All of this together forms a distinctive lifestyle that harmoniously combines a maritime atmosphere with modern conveniences.",
+    features: [
+      "Balcony",
+      "Restaurant",
+      "Swimming pool",
+      "View of sea/water",
+      "Concierge service",
+      "Gym",
+    ],
+    building_highlights: [
+      "Coral Reef is a 48-story building, the architectural design of which will be inspired by a maritime theme. Inside the building, you'll find a true haven of entertainment and comfort.",
+      "Residents will have the opportunity to savor delicious dishes with panoramic sea views, creating unforgettable memories. There will also be a pool with picturesque wall paintings, an inflatable coral labyrinth, and interactive art installations where you can immerse yourself in an unusual atmosphere. In the beach cinema, residents can experience the magic of cinema under the open sky. The combination of these elements within the Coral Reef residential complex creates a unique ambiance, allowing residents to enjoy diverse opportunities for relaxation and entertainment.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 20, description: "On Booking" },
+      during_construction: {
+        percentage: 50,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 30, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "There are numerous attractions with diverse opportunities for cultural exploration around Coral Reef. Just steps away from the complex stands the Queen Elizabeth 2 ship, renowned as both a historical symbol and a legendary ocean liner. With a distance of nearly 1.1 kilometers to it, residents can savor the unique ambiance and historical significance of this vessel.",
+      "Another nearby landmark is the Dubai Heritage Village, located just 1.9 kilometers from the complex. Here, residents and visitors alike can fully immerse themselves in the authentic aura of ancient Dubai, delving into its rich cultural heritage and time-honored traditions.",
+      "A mere 2.7 kilometers from Coral Reef lies the Dubai Museum. This museum offers a profound glimpse into the Emirate's history and its evolution from a modest fishing village to a modern metropolis.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+];
+
+export default offplanProjects;
