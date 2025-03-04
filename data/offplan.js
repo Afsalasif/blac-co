@@ -412,12 +412,12 @@ const offplanProjects = [
     developer: "Danube Properties",
     developer_slug: "danube-properties",
     cover_image:
-      "https://fnst.axflare.com/original_images/WEBP/vONDeiDFtb.webp",
+      "https://fnst.axflare.com/original_images/WEBP/BEVbHdOZiW.webp",
     other_images: [
-      "https://fnst.axflare.com/original_images/WEBP/vONDeiDFtb.webp",
-      "https://fnst.axflare.com/original_images/WEBP/OlFXZkRKRU.webp",
-      "https://fnst.axflare.com/original_images/WEBP/YUXXJVdCkS.webp",
-      "https://fnst.axflare.com/original_images/WEBP/YUXXJVdCkS.webp",
+      "https://fnst.axflare.com/original_images/WEBP/BEVbHdOZiW.webp",
+      "https://fnst.axflare.com/original_images/WEBP/QeqmaAeKiO.webp",
+      "https://fnst.axflare.com/original_images/WEBP/brpeClaUQD.webp",
+      
     ],
     description:
       "Habtoor Grand Residences is a 50-story premium residential complex located on the waterfront in the Dubai Marina area, adjacent to the Habtoor Grand Resort Hotel. The project was designed by leading developer Al Habtoor Group.At Habtoor Grand Residences, you can experience a high-end beachfront living at its finest. The complex is brimming with recreational facilities that create a vibrant beach atmosphere. From gourmet restaurants to luxurious beach clubs and a vibrant seaside promenade – it has everything you need for a rich and fulfilling life.",
