@@ -2,6 +2,7 @@
 
 import offplanProjects from "@/data/offplan";
 import { NextApiRequest, NextApiResponse } from "next";
+import { NextRequest, NextResponse } from 'next/server';
 
 
 type OffplanProject = {
@@ -21,17 +22,19 @@ type OffplanProject = {
   cover_image: string;
 };
 
-export default function handler(req: NextApiRequest, res: NextApiResponse) {
+export async function GET(request: NextRequest) {
   // Get the page and limit from the query parameters
-  const { page = 1, limit = 10 } = req.query;
+  const { searchParams } = new URL(request.url);
+  const page = searchParams.get('page') || '1';
+  const limit = searchParams.get('limit') || '10';
 
-  // Convert to numbers (the query params are strings by default)
-  const pageNumber = parseInt(page as string, 10);
-  const limitNumber = parseInt(limit as string, 10);
+  // Convert to numbers
+  const pageNumber = parseInt(page, 10);
+  const limitNumber = parseInt(limit, 10);
 
   // Calculate the starting index of the items to fetch
   const startIndex = (pageNumber - 1) * limitNumber;
-  
+
   // Slice the data to get only the current page items
   const paginatedData = offplanProjects.slice(startIndex, startIndex + limitNumber);
 
@@ -40,7 +43,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const totalPages = Math.ceil(totalItems / limitNumber);
 
   // Return the paginated data along with the pagination info
-  res.status(200).json({
+  return NextResponse.json({
     data: paginatedData,
     pagination: {
       currentPage: pageNumber,
