@@ -16,7 +16,7 @@ const Page = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/70 to-black"></div>
 
         {/* Title */}
-        <div className="absolute bottom-20 text-metallic-bronze left-1/2 transform -translate-x-1/2 text-white text-7xl uppercase font-extralight font-raleway">
+        <div className="absolute bottom-20 text-metallic-bronze left-1/2 transform -translate-x-1/2 text-white text-4xl md:text-7xl uppercase font-extralight font-raleway">
           Developers
         </div>
       </div>
