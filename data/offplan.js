@@ -417,7 +417,6 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/BEVbHdOZiW.webp",
       "https://fnst.axflare.com/original_images/WEBP/QeqmaAeKiO.webp",
       "https://fnst.axflare.com/original_images/WEBP/brpeClaUQD.webp",
-
     ],
     description:
       "Habtoor Grand Residences is a 50-story premium residential complex located on the waterfront in the Dubai Marina area, adjacent to the Habtoor Grand Resort Hotel. The project was designed by leading developer Al Habtoor Group.At Habtoor Grand Residences, you can experience a high-end beachfront living at its finest. The complex is brimming with recreational facilities that create a vibrant beach atmosphere. From gourmet restaurants to luxurious beach clubs and a vibrant seaside promenade – it has everything you need for a rich and fulfilling life.",
@@ -813,7 +812,6 @@ const offplanProjects = [
       "Barbecue area",
       "Children's play area",
       "Concierge service",
-
     ],
     building_highlights: [
       "The tower is 220 meters high and features 43 residential floors. In total, there are 82 premium private residences for those who appreciate true luxury. There are 2 apartments on each floor. The building also has 6 levels of underground parking. Spacious apartments are located on floors 1 to 20 and a collection of 21 residences called Sky Villas are featured on levels 21 to 41. These residential properties seem to float above the ground thanks to the panoramic windows.The S Tower has hot water 365 days a year, which is provided using solar panels and liquefied gas, which is a novel solution used in residential projects in the UAE. The facade of the building has double glazing, reflective elements are installed on the roof, and a ventilation and air conditioning system is equipped inside the building.",
@@ -898,13 +896,7 @@ const offplanProjects = [
     ],
     description:
       "Peninsula Two is a magnificent skyscraper along the Dubai Water Canal. Being the epitome of luxurious waterfront living in the city's centre, the skyscraper will offer ultramodern apartments with high-class amenities and eye-catching interiors.The project will promote and foster an active lifestyle through amenities in all directions. Residents of Peninsula Two will have access to a wide range of sports facilities including a skate park, basketball and tennis courts as well as cycling and jogging tracks. One can also relax on spacious terraces and dip at outdoor swimming pools.Comfortable apartments and premium amenities of Peninsula Two will mainly attract investors, entrepreneurs and those who wish to live in a modern neighbourhood and be a part of vibrant events.",
-    features: [
-      "Gym",
-      "Private pool",
-      "Covered parking",
-      "Restaurants",
-
-    ],
+    features: ["Gym", "Private pool", "Covered parking", "Restaurants"],
     building_highlights: [
       "Peninsula Two is a 36-storey skyscraper designed by the leading architecture firms. The facade will be made up of striking glass reflecting the city's glowing lights both day and night. The building will be complemented with high-speed elevators, parking spaces and bike stands as well as EV chargers.Moreover, Peninsula Two will be connected to the Community Mall with numerous restaurants, lavish cafes and boutiques, beauty salons and pharmacies. Residents can also benefit from a waterfront promenade, the main entertainment centre of the area with an outdoor cinema, an art park, open spaces with fountains for musical shows, concerts and family gatherings.",
     ],
@@ -991,13 +983,7 @@ const offplanProjects = [
     ],
     description:
       "Tria is an elite residential building that will be the embodiment of luxury living, functional design and modern technological solutions. Located in one of the most prestigious and futuristic areas of the city, the development will allow residents to enjoy well-developed infrastructure and high-class amenities.As well as all the above, the building will be surrounded by an array of supreme dining options, shopping venues, healthcare institutions and supermarkets.Due to its prime location, comfortable apartments and modern amenities young creative individuals and working professionals will be delighted to settle in this opulent building.",
-    features: [
-      "Gym",
-      "Private pool",
-      "Covered parking",
-      "Restaurants",
-
-    ],
+    features: ["Gym", "Private pool", "Covered parking", "Restaurants"],
     building_highlights: [
       "Developed by Deyaar Developers, this stylish building is a reflection of age-old traditions and contemporary achievements. The facade of the building will be decorated with aluminium glass and sound-proof double-glazed windows. This unique architectural design provides the reduction of noise and UV protection.",
       "For comfortable living of the residents, Tria tower will feature a designated podium recreation deck with resort-like amenities. Residents can relax along swimming pools, organise parties on BBQ areas and lawns, attend wellness centres or yoga areas.",
@@ -1076,8 +1062,7 @@ const offplanProjects = [
     handover_date: "Dec 26, 2024",
     developer: "Majid Al Futtaim Properties",
     developer_slug: "majid-al-futtaim",
-    cover_image:
-      "https://fnst.axflare.com/offplan/images/WEBP/NsvyInyJzg.webp",
+    cover_image: "https://fnst.axflare.com/offplan/images/WEBP/NsvyInyJzg.webp",
     other_images: [
       "https://fnst.axflare.com/offplan/images/WEBP/NsvyInyJzg.webp",
       "https://fnst.axflare.com/offplan/images/WEBP/GnEKYPoDEu.webp",
@@ -1092,7 +1077,6 @@ const offplanProjects = [
       "Children's play area",
       "Infinity pool",
       "Public parks",
-
     ],
     building_highlights: [
       "Aura Gardens will consist of more than 150 premium villas with 4 bedrooms as well as more than 300 townhouses with 3-4 bedrooms. The villas will feature contemporary facades, stylish interiors, and innovative layouts. Some villas will come with a rooftop terrace overlooking beautiful surroundings that can be accessed by a dedicated staircase. The townhouses will have spacious bedrooms, well-lit living rooms, and open or closed kitchens. The facades and interiors will be presented in various styles allowing potential buyers to choose the one they like.",
@@ -1178,19 +1162,15 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/npLtZEgvGm.webp",
       "https://fnst.axflare.com/original_images/WEBP/EWXoqolhHs.webp",
     ],
-    description:
-      "",
+    description: "",
     features: [
       "24/7 security",
       "Gym",
       "Kids play area",
       "Parks",
       "Swimming pool",
-
     ],
-    building_highlights: [
-      "",
-    ],
+    building_highlights: [""],
     payment_plan: {
       on_booking: { percentage: 20, description: "On Booking" },
       during_construction: {
@@ -1199,9 +1179,7 @@ const offplanProjects = [
       },
       on_handover: { percentage: 27, description: "On Handover" },
     },
-    attractions_nearby: [
-      "",
-    ],
+    attractions_nearby: [""],
     Property_highlights: [
       "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
       "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
@@ -1267,7 +1245,6 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/QaVNxSziPT.webp",
       "https://fnst.axflare.com/original_images/WEBP/JjjEqsfvWM.webp",
       "https://fnst.axflare.com/original_images/WEBP/TOVlkCfwRn.webp",
-
     ],
     description:
       "Aveline is a premium 21-story residential complex developed by Citi Developers and located in the District 16 of the highest transacted area in Dubai in 2023, Jumeirah Village Circle. The community is designed to foster connections, embrace diversity, and prioritize sustainability. The promise of an exceptional living experience is evident in every detail, reflecting the developer's unwavering commitment to real estate excellence. This is a place where joy knows no bounds, in a neighborhood rich with opportunity. ",
@@ -1277,7 +1254,6 @@ const offplanProjects = [
       "Kids play area",
       "Parks",
       "Swimming pool",
-
     ],
     building_highlights: [
       "Beach pool",
@@ -1364,7 +1340,6 @@ const offplanProjects = [
     other_images: [
       "https://fnst.axflare.com/original_images/WEBP/kBlVCWuOSr.webp",
       "https://fnst.axflare.com/original_images/WEBP/ytawVtdBMX.webp",
-
     ],
     description:
       "Azizi Central is conveniently located in Al Furjan, known for its cozy atmosphere and well-developed infrastructure. This area provides ideal conditions for a family-oriented lifestyle within the bustling metropolis.Due to the proximity to the Al Furjan metro station, residents enjoy convenient access to transportation, easing their daily commutes across the city. Additionally, the complex is situated close to areas such as Media City, Internet City, and Expo City, granting Azizi Central dwellers excellent access to key business and entertainment hubs within the city.",
@@ -1375,7 +1350,6 @@ const offplanProjects = [
       "Parks",
       "Barbecue area",
       "Swimming pool",
-
     ],
     building_highlights: [
       "retail shops",
@@ -1463,7 +1437,6 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/XKxCywblxi.webp",
       "hhttps://fnst.axflare.com/original_images/WEBP/fEfFBmyBgN.webp",
       "https://fnst.axflare.com/original_images/WEBP/XKxCywblxi.webp",
-
     ],
     description:
       "Masaar is an upscale green community developed by Arada. It is situated in Sharjah, the largest emirate by area and the third-largest by population in the country. Sharjah is celebrated as the cultural hub of the UAE, recognized for its museums, lakes, and parks.Masaar consists of seven distinctive sub-communities, including Robinia, Saro, and Sequoia. These sub-communities offer residents a harmonious lifestyle, enveloped by vast green spaces and easy access to essential amenities. The project is thoughtfully designed to inspire dwellers to embrace an active and healthy lifestyle by spending more time outdoors.",
@@ -1559,7 +1532,6 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/ddiXWZAluA.webp",
       "https://fnst.axflare.com/original_images/WEBP/toMIBuzyvX.webp",
       "https://fnst.axflare.com/original_images/WEBP/wuCyaTYyOd.webp",
-
     ],
     description:
       "The multi-story residential complex, located in the prestigious Jumeirah Village Circle, has a modern design and attractive interiors and exteriors in light colors. The community perfectly combines comfort and functionality, offering residents a variety of amenities.The new project features various recreational areas where residents can enjoy beautiful views. Thanks to the smart home system, residents can control lighting, and temperature and ensure the safety of their apartments using a mobile application.In addition, the Jumeirah Village Circle offers a developed infrastructure with parks, shops, schools, and hospitals, making the community an ideal place for comfortable living. Guests can enjoy the first-class service and facilities that the modern residential complex offers.",
@@ -1656,7 +1628,6 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/aDiDxuwCeV.webp",
       "https://fnst.axflare.com/original_images/WEBP/QhBwNOzoDa.webp",
       "https://fnst.axflare.com/original_images/WEBP/TfdpRGrHrG.webp",
-
     ],
     description:
       "TChorisia by Al Barari introduces a new residential project featuring 5-bedroom semi-detached villas located in one of the most desirable neighborhoods. This development consists of 60 villas designed for a distinctive green living experience, offering residents an inspiring and elegant environment to call home.The villas showcase a blend of contemporary and classic architecture, reflecting a modern aesthetic and sensibility. Each villa is thoughtfully designed to be unique and exceptional, setting them apart from the rest. Every element of the units is carefully crafted to create a welcoming and comfortable atmosphere for residents and their guests. The interiors are spacious, meticulously designed, and boast high-quality finishes, delivering an extraordinary living experience.Chorisia at Al Barari epitomizes luxury living at its finest, providing residents with a remarkable combination of comfort, elegance, and attention to detail. With its distinctive design and attention to quality, this development offers a truly exceptional residential experience for those seeking a refined lifestyle.",
@@ -1734,7 +1705,7 @@ const offplanProjects = [
     ],
     brochure_link: "/brochures/address-residences-zabeel.pd",
   },
-  
+
   {
     id: 19,
     type: "Residential",
@@ -1756,7 +1727,6 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/JzzVWYiUfD.webp",
       "https://fnst.axflare.com/original_images/WEBP/KWrugPsHRI.webp",
       "https://fnst.axflare.com/original_images/WEBP/MmtNrOOUNM.webp",
-
     ],
     description:
       "The Ritz-Carlton Residences at Keturah Resort is the first fully wellness-certified resort in the MENA region. The development features a limited selection of luxurious waterfront mansions and exclusive apartments and penthouses. Nestled in a serene Dubai Creek area, this project of MAG Lifestyle Development is an icon of comfort, luxury, and tranquility. The key highlight of the development is its well-thought-out wellness concept. The residences and their location are designed to promote physical and emotional well-being, ensuring optimal comfort and leisure opportunities for dwellers.",
@@ -1785,7 +1755,6 @@ const offplanProjects = [
       "kid`s large outdoor park and splash pool",
       "over three Michelin-star fusion and healthy-cuisine restaurants",
       "indoor and outdoor kid`s club with multipurpose rooms and play zones",
-
     ],
     payment_plan: {
       on_booking: { percentage: 20, description: "On Booking" },
@@ -1867,7 +1836,6 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/SuMiCXLKcX.webp",
       "https://fnst.axflare.com/original_images/WEBP/HdUEDewLKg.webp",
       "https://fnst.axflare.com/original_images/WEBP/qhUFsbWyge.webp",
-
     ],
     description:
       "Como Residences in Palm Jumeirah, Dubai is a new premium development by Nakheel Properties. The 71-storey skyscraper in the shape of a graceful seashell is based on a massive podium. The project offers a collection of 76 exclusive residences with 2 to 7 bedrooms, including a luxury penthouse, simplexes, and duplex apartments. The floor area of the luxury apartments ranges from 415 m² with the price starting at AED 21 million (USD 5.7 million). Construction is scheduled to be completed in Q3 2027.",
@@ -1971,7 +1939,6 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/CQhbdCFzZj.webp",
       "https://fnst.axflare.com/original_images/WEBP/cbZpeXsBYX.webp",
       "https://fnst.axflare.com/original_images/WEBP/TXXwiFyPUf.webp",
-
     ],
     description:
       "Located in the heart of Dubai, Fashionz Residences promises a life of luxury and comfort that is hard to find anywhere else. Whether you want to relax or embrace the vibrant lifestyle of Dubai, Fashionz Residences is the perfect place to call home.One of the main highlights of this building is its world-class amenities. Residents can dive into the sparkling swimming pool and work up a sweat at the modern gym. There is also a children's play area, a beautifully landscaped garden, and a relaxing sauna to help you unwind after a long day.Nature lovers will appreciate the building's closeness to Dubai's most beautiful parks and beaches, providing the ideal backdrop for a peaceful walk or a picnic with friends and family. And when it comes to dining and entertainment, residents are spoiled for choice with many world-class restaurants, cafés, and shopping centers just a stone's throw away.",
@@ -2066,7 +2033,6 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/nkmvNRmafi.webp",
       "https://fnst.axflare.com/original_images/WEBP/zRNjvkzguA.webp",
       "https://fnst.axflare.com/original_images/WEBP/yRdbJvnxhA.webp",
-
     ],
     description:
       "Azizi Development has introduced its latest project, Grand Apartments, located in Dubai Sports City. This upscale serviced residential apartment building showcases a collection of 431 luxurious apartments. The thoughtfully designed units consist of 238 studios, 140 one-bedroom apartments, and 53 two-bedroom apartments, ensuring a diverse range of options to cater to different preferences. The focus is on providing residents with an exceptional level of convenience and a wide array of amenities, setting a new standard for upscale living.Azizi Grand Apartments offers a comprehensive range of amenities that enhance the living experience of its residents. The development prioritizes safety with 24/7 security services, ensuring a peaceful environment for all residents.For those seeking culinary delights, the dining outlets within Azizi Grand Apartments provide a variety of options to satisfy every palate. Residents can indulge in diverse cuisines without leaving the comfort of their homes.Staying fit and active is made easy with the well-equipped gym, where residents can engage in their preferred workout routines. The fitness facilities cater to exercise preferences and help residents maintain a healthy lifestyle.The development also pays special attention to the needs of families with children. A dedicated kids' play area is available, providing a safe and enjoyable space for children to play and socialize.Azizi Grand Apartments offers ample green spaces, including parks and leisure areas. Residents can take leisurely strolls, relax amidst nature, or engage in outdoor activities.Retail outlets within Azizi Grand Apartments add to the convenience and comfort of residents. From daily necessities to luxury goods, the retail outlets offer a range of products and services, ensuring that residents' needs are met without having to venture far.",
@@ -2146,104 +2112,844 @@ const offplanProjects = [
     ],
     brochure_link: "/brochures/address-residences-zabeel.pd",
   },
-  // {
-  //   id: 23,
-  //   type: "Residential",
-  //   title: "Elvira",
-  //   slug: "elvira",
-  //   price_range: "AED 2,030,000",
-  //   location: "Zabeel, Dubai",
-  //   latitude: "25.225940896975104",
-  //   longitude: "55.294278940758495",
-  //   bedrooms: "1-3",
-  //   bathrooms: "1-3",
-  //   size_range: "800 - 2,000 sq. ft.",
-  //   handover_date: "Nov 15, 2026",
-  //   developer: "Emaar Properties",
-  //   developer_slug: "emaar-properties",
-  //   cover_image:
-  //     "https://fnst.axflare.com/original_images/WEBP/AHUwEaVwQM.webp",
-  //   other_images: [
-  //     "https://fnst.axflare.com/original_images/WEBP/nNcVNwicgn.webp",
-  //     "https://fnst.axflare.com/original_images/WEBP/IwOXELhPBX.webp",
-  //     "https://fnst.axflare.com/original_images/WEBP/AHUwEaVwQM.webp",
-      
+  {
+    id: 23,
+    type: "Residential",
+    title: "Elvira",
+    slug: "elvira",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Nov 15, 2026",
+    developer: "Emaar Properties",
+    developer_slug: "emaar-properties",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/AHUwEaVwQM.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/nNcVNwicgn.webp",
+      "https://fnst.axflare.com/original_images/WEBP/IwOXELhPBX.webp",
+      "https://fnst.axflare.com/original_images/WEBP/AHUwEaVwQM.webp",
+    ],
+    description:
+      "Elvira is an exquisite residential complex nestled within the prestigious Dubai Hills Estate. With an expected completion date in 2026, Elvira promises to offer an extraordinary lifestyle to its residents.At Elvira Dubai Hills Estate, residents will bask in the glory of a truly luxurious lifestyle. The project boasts an array of premium amenities, ensuring that every aspect of daily life is elevated to new heights of comfort. From modern fitness centers to meticulously landscaped gardens, every corner of Elvira is crafted to cater to every desire.Safety and security are of utmost importance at Elvira, prioritizing the well-being of residents and their families. The complex contains 24/7 CCTV video surveillance, providing a sense of tranquility and assurance. Additionally, the community places great emphasis on regular maintenance services.",
+    features: [
+      "Barbecue area",
+      "Shared gym",
+      "Children's play area",
+      "Shared swimming pool",
+      "Children's pool",
+    ],
+    building_highlights: [
+      "Residents can immerse themselves in a state-of-the-art fitness center with cutting-edge exercise equipment, providing the perfect setting for daily workouts. Whether it is cardio, weight training, or group fitness classes, residents will find everything they need to stay in peak physical condition right at their doorstep.",
+      "For those who enjoy the art of outdoor dining and entertainment, Elvira presents a delightful barbeque area. This charming setting allows residents to enjoy unforgettable moments, indulging in delightful culinary experiences.",
+      "Children will find their haven in Elvira’s play area. Designed to spark imagination and encourage laughter, the play area offers a safe and vibrant space for children to explore, socialize, and have endless fun.",
+      "In addition to the various recreational amenities, Elvira has a multipurpose room that adapts to every need. From celebrations and workshops to meetings and social gatherings, the multipurpose room caters to a wide range of activities, fostering a sense of community.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 70,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 20, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Just moments away from Elvira lies the magnificent Dubai Hills Mall, a haven for luxury shopping and entertainment. This retail destination contains designer boutiques, high-end fashion brands, and exquisite jewelry stores. Whether you seek the latest fashion trends, gourmet dining, or simply an immersive shopping experience, Dubai Hills Mall will leave enthralled and inspired.",
+      "For avid golf enthusiasts, the Dubai Hills Golf Club beckons with its pristine fairways and breathtaking vistas. Just a short distance from Elvira, this world-class golf course offers a mesmerizing blend of natural beauty and challenging gameplay. With its modern facilities, including a clubhouse and practice areas, Dubai Hills Golf Club provides an extraordinary golfing experience that will leave you exhilarated.",
+      "Dubai Miracle Garden is a floral paradise that showcases an extraordinary display of flower arrangements, forming stunning patterns, shapes, and structures. From whimsical archways to large installations, the Dubai Miracle Garden sparks wonder and amazement in visitors of all ages.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 24,
+    type: "Apartments",
+    title: "Le Ciel Apartments",
+    slug: "le-ciel-apartments",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Feb 15, 2025",
+    developer: "Meraas",
+    developer_slug: "meraas-holding",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/BHcjAbSSbI.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/hpZELgzPZx.webp",
+      "https://fnst.axflare.com/original_images/WEBP/XWjVnOjZnf.webp",
+      "https://fnst.axflare.com/original_images/WEBP/BHcjAbSSbI.webp",
+    ],
+    description:
+      "Nestled in the prestigious Port De La Mer community, Le Ciel Apartments offers a captivating waterfront lifestyle. Residents have exclusive access to pristine beaches, allowing them to soak up the sun, take refreshing dips in crystal-clear waters, and indulge in a variety of water sports activities. The beachfront location also presents a plethora of waterfront dining options, where residents can savor delicious meals while overlooking breathtaking views.The community has beautiful walkways, granting easy access to a range of communal facilities. Residents can stroll along the promenade, observe the panoramic views, and embrace the tranquil atmosphere. Additionally, the marina offers a vibrant setting where residents can immerse themselves in the maritime lifestyle and indulge in boating and yachting activities.",
+    features: [
+      "Restaurants",
+      "Barbecue area",
+      "Children's play area",
+      "Children's pool",
+      "Shared swimming pool",
+    ],
+    building_highlights: [
+      "The building consists of three magnificent towers. This development promises a blend of luxury, convenience, and contemporary design.",
+      "Le Ciel Apartments offers state-of-the-art fitness facilities. Residents will have access to a well-equipped gym, providing ample opportunities to stay active and maintain a healthy lifestyle. Additionally, a refreshing swimming pool invites residents to take a dip and unwind in its soothing waters. The poolside deck offers a serene retreat, perfect for relaxation or socializing with neighbors and friends.",
+      "Convenience is a top priority at Le Ciel Apartments. The building features covered parking facilities, ensuring the safety and protection of your vehicles. With elevators, residents can easily navigate the towers and access their homes with ease.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 40,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 50, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Jumeirah Public Beach, known for its pristine sands and crystal-clear waters, beckons residents to indulge in the ultimate beach experience. Whether you seek sun-soaked relaxation or thrilling water activities, this popular destination offers the perfect setting to relax and enjoy the coastal beauty.",
+      "For a day of excitement and family fun, Laguna Waterpark is a must-visit attraction. Located nearby, it features a thrilling array of water slides, lazy rivers, and wave pools that promise hours of exhilaration for visitors of all ages. ",
+      "Just a short distance from Le Ciel Apartments, La Mer Central offers a unique blend of entertainment, retail therapy, and delectable dining options.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 25,
+    type: "Apartments",
+    title: "Damac Bay By Cavalli",
+    slug: "damac-bay-by-cavalli",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "May 15, 2027",
+    developer: "Damac Properties",
+    developer_slug: "damac-properties",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/FcZhDZXWdT.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/ozFPOfnlBQ.webp",
+      "https://fnst.axflare.com/original_images/WEBP/nnsBAawoqy.webp",
+      "https://fnst.axflare.com/original_images/WEBP/TThUhIjOAq.webp",
+    ],
+    description:
+      "Damac Bay By Cavalli is Damac Properties' latest seafront residential development featuring 1, 2 and 3-bedroom apartments and exclusive amenities.Damac Bay By Cavalli is located in Dubai Harbour. This area is a combination of business centres, sports facilities, entertainment areas and waterfront restaurants.It is a great place for families as all the necessary amenities are located nearby.This complex has a very convenient location in terms of the transport system. Dubai International Airport can be reached in about half an hour. In the immediate vicinity, there are a large number of well-known attractions.The public transport system in the area where the complex is located is represented by buses and trams running through its territory. However, the most convenient mode of transport will be a private car.The complex has easy access to parks and recreation areas, supermarkets, schools and restaurants.",
+    features: [
+      "Restaurants",
+      "Barbecue area",
+      "Children's play area",
+      "Children's pool",
+      "Shared swimming pool",
+    ],
+    building_highlights: [
+      "The complex provides high-quality amenities and services and has private access to the beach. It is surrounded by green spaces, so it is ideal for those who prefer to stay close to nature.",
+      "Residents have unlimited access to the swimming pool located inside the complex, and there is also covered parking, where places for residents' cars are provided.",
+      "In addition, nearby Damac Bay By Cavalli you will find amenities such as fitness centres, restaurants and cafes, a yacht club, children's playgrounds and public parking.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 40,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 50, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Near the complex there are many famous places and attractions. Just 10 minutes from the world-famous man-made island Palm Jumeirah, and 18 minutes from the large and beautiful area of Jumeirah Village Circle.",
+      "The huge and popular Dubai Mall is located quite close - in the equally famous Dubai Marina area. And the Mall of the Emirates is just 15 minutes away.",
+      "Other attractions include IMG World of Adventure, JBR Beach and Marina Beach, Dubai Marina Walk, The Walk JBR, Aquaventure Water Park and Ain Dubai. In the area you can find Logo Island and Skydive Dubai.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
 
-  //   ],
-  //   description:
-  //     "Elvira is an exquisite residential complex nestled within the prestigious Dubai Hills Estate. With an expected completion date in 2026, Elvira promises to offer an extraordinary lifestyle to its residents.At Elvira Dubai Hills Estate, residents will bask in the glory of a truly luxurious lifestyle. The project boasts an array of premium amenities, ensuring that every aspect of daily life is elevated to new heights of comfort. From modern fitness centers to meticulously landscaped gardens, every corner of Elvira is crafted to cater to every desire.Safety and security are of utmost importance at Elvira, prioritizing the well-being of residents and their families. The complex contains 24/7 CCTV video surveillance, providing a sense of tranquility and assurance. Additionally, the community places great emphasis on regular maintenance services.",
-  //   features: [
-  //     "Barbecue area",
-  //     "Shared gym",
-  //     "Children's play area",
-  //     "Shared swimming pool",
-  //     "Children's pool",
-  //   ],
-  //   building_highlights: [
-  //     "Residents can immerse themselves in a state-of-the-art fitness center with cutting-edge exercise equipment, providing the perfect setting for daily workouts. Whether it is cardio, weight training, or group fitness classes, residents will find everything they need to stay in peak physical condition right at their doorstep.",
-  //     "For those who enjoy the art of outdoor dining and entertainment, Elvira presents a delightful barbeque area. This charming setting allows residents to enjoy unforgettable moments, indulging in delightful culinary experiences.",
-  //     "Children will find their haven in Elvira’s play area. Designed to spark imagination and encourage laughter, the play area offers a safe and vibrant space for children to explore, socialize, and have endless fun.",
-  //     "In addition to the various recreational amenities, Elvira has a multipurpose room that adapts to every need. From celebrations and workshops to meetings and social gatherings, the multipurpose room caters to a wide range of activities, fostering a sense of community.",
-  //   ],
-  //   payment_plan: {
-  //     on_booking: { percentage: 10, description: "On Booking" },
-  //     during_construction: {
-  //       percentage: 70,
-  //       description: "During Construction",
-  //     },
-  //     on_handover: { percentage: 20, description: "On Handover" },
-  //   },
-  //   attractions_nearby: [
-  //     "Just moments away from Elvira lies the magnificent Dubai Hills Mall, a haven for luxury shopping and entertainment. This retail destination contains designer boutiques, high-end fashion brands, and exquisite jewelry stores. Whether you seek the latest fashion trends, gourmet dining, or simply an immersive shopping experience, Dubai Hills Mall will leave enthralled and inspired.",
-  //     "For avid golf enthusiasts, the Dubai Hills Golf Club beckons with its pristine fairways and breathtaking vistas. Just a short distance from Elvira, this world-class golf course offers a mesmerizing blend of natural beauty and challenging gameplay. With its modern facilities, including a clubhouse and practice areas, Dubai Hills Golf Club provides an extraordinary golfing experience that will leave you exhilarated.",
-  //     "Dubai Miracle Garden is a floral paradise that showcases an extraordinary display of flower arrangements, forming stunning patterns, shapes, and structures. From whimsical archways to large installations, the Dubai Miracle Garden sparks wonder and amazement in visitors of all ages.",
-      
-
-  //   ],
-  //   Property_highlights: [
-  //     "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
-  //     "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
-  //     "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
-  //     "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
-  //     "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
-  //   ],
-  //   schools_nearby: [
-  //     "GEMS Wellington Primary School",
-  //     "Jumeirah International Nursery",
-  //   ],
-  //   unit_types: [
-  //     {
-  //       type: "1-Bedroom Apartment",
-  //       size: "800 sq. ft.",
-  //       price: "AED 1,800,000",
-  //     },
-  //     {
-  //       type: "2-Bedroom Apartment",
-  //       size: "1,400 sq. ft.",
-  //       price: "AED 3,200,000",
-  //     },
-  //     {
-  //       type: "3-Bedroom Apartment",
-  //       size: "2,000 sq. ft.",
-  //       price: "AED 5,400,000",
-  //     },
-  //   ],
-  //   floor_plans: [
-  //     {
-  //       name: "1-Bedroom Floor Plan",
-  //       image: "/floorplans/address-residences-zabeel-1br.jpg",
-  //     },
-  //     {
-  //       name: "2-Bedroom Floor Plan",
-  //       image: "/floorplans/address-residences-zabeel-2br.jpg",
-  //     },
-  //     {
-  //       name: "3-Bedroom Floor Plan",
-  //       image: "/floorplans/address-residences-zabeel-br.jpg",
-  //     },
-  //   ],
-  //   brochure_link: "/brochures/address-residences-zabeel.pd",
-  // },
+  {
+    id: 26,
+    type: "Apartments",
+    title: "La Sirene 2",
+    slug: "la-sirene-2",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Nov 15, 2024",
+    developer: "Meraas",
+    developer_slug: "meraas-holding",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/cXELwZSWaT.webp",
+    other_images: [
+      "https://fnst.axflare.com/offplan/images/WEBP/FrezEhFiKT.webp",
+      "https://fnst.axflare.com/original_images/WEBP/cXELwZSWaT.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/ytEXbYqVMK.webp",
+    ],
+    description:
+      "La Sirene 2 in Dubai is an exquisite residential community with high-end amenities built around a luxury marina. The complex offers views of the Persian Gulf and the Emirates’ iconic cityscape. Apartments range from 1 to 3 bedrooms. It is close to the beaches, landscaped gardens, supermarkets, and other amenities. Apartments at the La Sirene 2 residential complex in Dubai is a delightful place to live for successful entrepreneurs and couples with children. Located on the coastal strip of the island community of Port de la Mer, residents will have quick access to a network of water transportation, including the opportunity to rent a yacht, jet ski or scooter. Apartment owners will also have access to waterfront walks, landscaped gardens, lush green parks and other recreational areas close to the complex.Swimming pools for residents of all ages, picturesque landscaping with sun loungers, a children's playground, fine restaurants and cafes are perfect for families with children or friends to spend time together. Residents of the community have access to a marina and private beach where they can take an evening stroll and admire the lights of Dubai's skyscrapers.For sports activities, La Sirene 2 residents have a fully equipped gym and jogging tracks in landscaped areas and along the Persian Gulf promenade. You can also rent a bicycle or an electric car within the complex.",
+    features: [
+      "Restaurants",
+      "Beach access",
+      "Children's play area",
+      "Children's play area",
+      "Shared swimming pool",
+    ],
+    building_highlights: [
+      "La Sirene 2 residential development in Dubai consists of 3 mid-rise buildings in a premium Mediterranean style. The buildings have bright facades and are located in the gated community of Port de la Mer. Apartments with 1 to 3 bedrooms are currently available for sale. All apartments have spacious terraces with green areas for relaxation. The residences will feature luxurious interiors with signature finishes and enchanting views of the bay.",
+      "The complex has a magnificent pool, located on a central podium; recreation areas with lounge chairs, adjacent to the pool; a gym and a restaurant.",
+      "The landscaped balconies and private terraces not only decorate the facade of La Sirene 2 buildings, but also create the perfect space for quiet family evenings outdoors.",
+      "Residents of La Sirene 2 will have access to a security system, concierge service as well as 24-hour video surveillance. There will be covered parking for homeowners and their guests.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 40,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 50, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "La Sirene 2 is located in the continental community of Port de la Mer, close to the famous La Mer beach resort, the Pearl Jumeirah man-made island and the City Walk community.",
+      "Owners of the apartments at La Sirene 2 will be living in one of the best locations in Dubai, surrounded by entertainment areas and with quick access to educational, commercial and medical facilities.",
+      "Couples with children will benefit from a wide range of schools and kindergartens. Located within a 15-minute drive of the community.",
+      "Nearby medical centers are Health Care Medical Center and Medlink Clinic. VIVA Supermarket, Tudomart Supermarket, Yalla Market and Spinneys are all within a 5-minute drive. Residents can take advantage of banking services at Commercial Bank of Dubai and Emirates NBD branches.",
+      "Other major entertainment venues and shopping malls are just a short drive away. These include Jumeirah Plaza, La Mer, The Village Mall, Jumeirah Centre, La Mer Beach, Mercato Beach, Jumeirah Public Beach, Safa Park, Zabeel, and Dubai Garden Glow.",
+      "The Dubai Mall, Burj Khalifa and Burj Al Arab are all within a 15-minute drive.",
+      "There are several sports facilities within a 5-minute drive of the complex, including Orca Diving Center, Watersports by First Yacht Rentals and Train Beach Club Gym.There are also a Roxy Cinemas movie theater, Beach Bar and Boudoir nightclubs nearby.La Sirene 2 is a high-end property in Dubai, best suited for couples with children, or successful business people who prefer a resort lifestyle combined with proximity to all the best urban amenities. Construction is scheduled to be completed by the end of 2024. In the meantime, there is an opportunity to purchase stunning residential real estate in Dubai directly from the developer at bargain prices. The developer offers convenient installment plans. ",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 27,
+    type: "Apartments",
+    title: "Jumeirah Living Business Bay",
+    slug: "jumeirah-living-business-bay",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Nov 17, 2025",
+    developer: "Select Group",
+    developer_slug: "select-group",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/VkQFuqLdvR.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/fOhevJLtpu.webp",
+      "https://fnst.axflare.com/original_images/WEBP/YDzZDEAwMj.webp",
+      "https://fnst.axflare.com/original_images/WEBP/vwgrQUIKvT.webp",
+      "https://fnst.axflare.com/original_images/WEBP/VkQFuqLdvR.webp",
+    ],
+    description:
+      "The maritime-themed luxurious residential project of the Jumeirah Living Business Bay offers an incredible lifestyle on the bank of the Dubai Canal, in the very heart of the emirate’s cultural, entertainment, and business activity. The high-rise tower will emerge in Business Bay amidst 5-star hotels and the best restaurants, bars, and cafés. As per the famous Lonely Planet travel guide, this upscale district of Dubai is one of the top 5 Coolest Destinations in the World. This community is often compared to Manhattan, a famous business neighbourhood in New York.Residents of this new building will experience luxurious living in the very heart of Dubai, near all of the emirate’s iconic landmarks. The complex will have direct access to the picturesque waterfront promenade where residents can walk or jog while admiring the waters of the Dubai Canal and the majestic skyscrapers in the city’s Downtown.Various public areas, with all the amenities for leisure, sports, and having an enjoyable time, will be available on the premises e.g., several swimming pools and jacuzzis with comfortable single and double loungers nearby for nice waterside recreation. Fans of an active lifestyle will appreciate the gym equipped with professional exercise equipment, a separate room for personal practice, and outdoor sports courts. Imagine how you relax at the exquisite spa salon or wellness centre after a stressful day at work or a hard workout. A quiet, secluded area is reserved for yoga. Special children’s areas are provided for the kids so that they can enjoy playing on the outdoor playground, playing PlayStation in the videogame room, or studying in special classes.",
+    features: [
+      "Restaurants",
+      "Supermarket",
+      "Shared gym",
+      "Children's play area",
+      "Shared swimming pool",
+    ],
+    building_highlights: [
+      "Jumeirah Living Business Bay is a 36-storey tower with two basement levels within the Peninsula project in Business Bay. The new complex will feature smooth shapes and snow-white façades. Killa Design, which gained fame by designing the Museum of the Future, is responsible for architectural solutions. The project will boast a large outdoor terrace with a swimming pool and various amenities.",
+      "Besides the upscale residences, the tower will include various public areas, including 3 conference halls, a cinema seating 10 people, a gym, a wellness club, a beauty parlour, a nail salon, and numerous others.",
+      "Three floors will be reserved for covered parking. Depending on the type of residence, each homeowner will be allocated 2 to 4 parking bays. The parking will also feature 10 charging stations for electric vehicles.",
+      "Residents of La Sirene 2 will have access to a security system, concierge service as well as 24-hour video surveillance. There will be covered parking for homeowners and their guests.",
+      "24/7 concierge services",
+      "Housekeeping services",
+      "Guest welcoming and accommodation services",
+      "The Residential Complex Manager’s services",
+      "Valet services",
+      "Security",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 40,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 50, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Jumeirah Living Business Bay boasts a prime location in one of the city’s most prestigious districts with great transport accessibility and an extensive network of motorways. There’s a metro station, several ferry stations, and a city bus service in the neighbourhood.",
+      "Several 5-star hotels, cafés, restaurants, bakeries, and a beautiful waterfront promenade are in the immediate vicinity. A 10-minute drive will take you to the huge Safa Park with cycling lanes and footpaths, equipped barbecue areas, sports courts, and children’s playgrounds.",
+      "Downtown Dubai, the emirate’s entertainment and cultural hub, is also 10 mins by car. It accommodates iconic landmarks such as the Opera Theatre; the Burj Khalifa (a skyscraper with a restaurant), a hotel, and an observation deck; the huge Dubai Mall with shopping and entertainment offerings, and many others.",
+      "The nearest free public Jumeirah Beach is approx. 15 mins away. The seaside Dubai Marina is a 20-minute drive from the new residential project. You can relax on the sandy beach, walk along the waterfront with a yacht and marina, dine at the waterfront restaurants, cafés, and bars, or take a water taxi for an exciting sea trip.",
+      "The Jumeirah Living Business Bay is a perfect place for comfortable urban living. The convenient location of this residential project ensures residents are always in the loop of the megalopolis’s latest events, while those wanting quiet and peaceful recreation can easily reach the nearby Safa Park or the sea coast.",
+      "While the new residential complex is at the construction stage, you have a great opportunity to purchase a premium property at the lowest price from the developer. Please contact our competent team for detailed information.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 28,
+    type: "Villas",
+    title: "Signature Mansions",
+    slug: "signature-mansions",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "May 15, 2025",
+    developer: "Jumeirah Golf Estates (L.L.C)",
+    developer_slug: "jumeirah-golf-estates",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/XDyWnUcMSv.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/XDyWnUcMSv.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/iEcsxrYKQL.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/lCzWsSMYkz.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/OXjKJShswc.webp",
+    ],
+    description:
+      "Signature Mansions is a premium class, closed residential complex located in Jumeirah Golf Estates, an elite community for families and individuals striving for a healthy and balanced lifestyle. Currently under construction by Signature Developers, a leading developer in the Dubai real estate market for over 15 years, the project is expected to be completed in the second quarter of 2025.The complex will provide an atmosphere of peace and tranquility, with its child-friendly and pet-friendly concepts appealing to many families with children and pets. It will feature an array of exclusive amenities, from landscaped gardens to private cinemas, allowing residents to achieve the perfect balance between work, leisure, and entertainment.",
+    features: ["Private pool", "Cinema", "Balcony", "Terrace", "Maid’s room"],
+    building_highlights: [
+      "The Signature Mansions complex is a development of luxurious villas in a minimalistic architectural style. The villas boast a restrained color palette for their facades, panoramic windows, spacious terraces with transparent railings, and clean geometric shapes. These features seamlessly integrate with the surrounding greenery and meticulously maintained lawns. The complex also features beautifully landscaped gardens, walking paths, a communal swimming pool, and ample parking.",
+      "Signature Mansions, a premium-class residential complex, comprises of 18 luxurious villas that are divided into three distinct collections.",
+      "The Magnolia Collection offers eight grand villas, each spanning 1,487 square meters and comprising of six bedrooms. These villas are an excellent choice for families who value comfort and functionality, boasting a multi-purpose room for entertainment, spacious balconies, a private cinema and a rooftop swimming pool.",
+      "The Orchid Collection comprises of five opulent villas, ranging from 1,045 to 1,191 square meters in size and featuring six bedrooms. These properties offer captivating views of the cityscape and a luxurious yacht dock. These villas also feature entertainment spaces, spacious balconies, private cinemas, and two swimming pools, one located on the terrace and one on the private property.",
+      "The Jasmine Collection features villas that are 822 square meters in size and comprise of five bedrooms. These properties are designed with a golf course and club view, catering to young families and couples. The floor plan of these villas includes several zones for relaxation, entertainment, study, work, and other day-to-day activities. The terrace pool will serve an ideal spot for spending time with family and friends.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 40,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 50, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Situated in the heart of the burgeoning city of Dubai, residents of the exclusive complex will enjoy direct access to the emirate's main highways, providing swift and convenient transportation to iconic landmarks such as the Palm Jumeirah archipelago. Furthermore, the complex is conveniently located near two international airports, a metro station, and the best shopping centers, restaurants, hotels, and entertainment venues in the UAE. Additionally, essential social amenities such as playgrounds, schools, and health centers are all within a 30-minute drive.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 29,
+    type: "Appartments",
+    title: "Mag 330",
+    slug: "mag-330",
+    price_range: "AED 850,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Jun 30, 2026",
+    developer: "MAG Property Development",
+    developer_slug: "mag-property-development",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/LokGSHCyVh.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/FrHURoaRAS.webp",
+      "https://fnst.axflare.com/original_images/WEBP/KozEWWJnMC.webp",
+      "https://fnst.axflare.com/original_images/WEBP/mxsDWFcMYi.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/USvOmQOYKU.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/jbKayBYVJR.webp",
+    ],
+    description:
+      "Mag 330 is a residential complex currently under construction in the well-developed residential area of City of Arabia, Dubailand. Developed by Mag Lifestyle Development, the project includes studio apartments and spacious one- to two-bedroom residences. Construction is scheduled to be completed by the end of 2025. The complex offers all the necessary amenities for daily living, including a gym and a swimming pool, as well as a children's playground, a sauna, a steam room, and a jacuzzi. A wellness centre with an area of 570,129 square metres will be located on a separate floor. There’s also a designated area for barbecues and a meditation or yoga area.Additionally, the building features a five-storey podium housing a car park for residents. The area is geared towards a diverse age range. Dubailand has traditionally seen a high demand for real estate, with investment returns of up to 7% per annum.",
+    features: ["Private pool", "Cinema", "Balcony", "Terrace", "Maid’s room"],
+    building_highlights: [
+      "The 23-storey building boasts sleek forms and a contemporary design. The panoramic windows give the illusion of a larger area by providing a visual connection to the outside world. The landscaped rooftop pool and green recreational area give the structure a unique character. Each residence features balconies that seamlessly blend in with the architectural style of the building. The spacious lobby is situated at the entrance to the building",
+      "Concierge services are available 24/7. A special surveillance and monitoring system ensures the safety of residents.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 40,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 50, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "A well-landscaped green zone is planned next to the complex. There are also many other landscape parks and gardens on the community's territory, allowing you to feel close to nature. There are tennis courts and bike and pedestrian paths.",
+      "The nearest major attraction to the residential complex is the Burj Al Arab hotel. Several schools, kindergartens, hospitals, and other social organisations are either on the territory or nearby.",
+      "Geographically, the complex is well situated. Construction is taking place near the highway. Any part of the metropolis is accessible via the Sheikh Zayed Road. There are two large residential communities nearby: Silicon Oasis and Arabian Ranches. It takes 20 mins to reach the central districts of Dubai and the major attractions of the United Arab Emirates.",
+      "The central districts of Dubai and the main attractions of the UAE are within a short drive of the residential complex. Around the Mag 330 is an excellent choice for those wanting to live in luxury while still feeling connected to nature and the community. Don't miss out on the opportunity to make this stunning complex your home.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 30,
+    type: "Villas",
+    title: "Jouri Hills",
+    slug: "jouri-hills",
+    price_range: "AED 850,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "May 15, 2025",
+    developer: "Arada Properties",
+    developer_slug: "arada-developments",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/unSmuKedZs.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/unSmuKedZs.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/MSYuGNdGqz.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/NdkyutikmT.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/QqfdLUJVtj.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/UuqXvezcNR.webp",
+    ],
+    description:
+      "We would like to draw your attention to a new residential complex, Four Hills, in the closed golf community Jumeirah Golf Estates, which is part of the prestigious Dubiland district. Agoura Hills has a unique collection of luxury homes surrounded by a green landscape.Combining the best of modern life with the natural beauties of nature, Jocuri Hills at Jumeirah Golf Estates provides a rare opportunity to live in a community that has been carefully planned with the needs of a modern family in mind. Inspired by the greatness of nature, with stunning architecture, incredible views, world-class amenities and an exclusive location in the fastest-growing city in the world, the community offers its residents an unsurpassed lifestyle.",
+    features: ["Private pool", "Cinema", "Balcony", "Terrace", "Maid’s room"],
+    building_highlights: [
+      "Agoura Hills is part of Jumeirah Golf Estates, a golf community with luxury homes and two golf courses. The micro-district with an area of 1119 hectares has over 1835 houses.",
+      "In total, there’ll be approx.294 houses in Jocuri Hills, ranging from townhouses with 3 and 4 bedrooms and ending with mansions with 5 and 6 bedrooms. The houses will be surrounded by trees and each residence will have convenient access to the shared gardens and a park. In the centre of the complex will be a five-star country club with swimming pools, a gym, a sauna, five restaurants, three paddle tennis courts and an ultra-modern European Tour Professional Institute (ETPI) golf academy with training grounds.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 40,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 50, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "A wide range of amenities will make living in the residential complex more intense and interesting. Residents will have access to 24/7 security, an amphitheatre, a basketball court, public gardens and parks, a football field, running and cycling paths, landscaped gardens, a fitness centre, supermarkets and much more.",
+      "There are several interesting places near the community, including the Dubai Miracle Garden and the Dubai Butterfly Garden. Global Village Park and the Palm Jumeirah and Business Bay areas can be reached in about 25-30 mins by car."
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 31,
+    type: "Villas",
+    title: "Ixora",
+    slug: "ixora",
+    price_range: "AED 850,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "May 30, 2024",
+    developer: "Al Barari Development",
+    developer_slug: "al-barari",
+    cover_image:
+      "https://fnst.axflare.com/offplan/images/WEBP/smgdZFBJMr.webp",
+    other_images: [
+      "https://fnst.axflare.com/offplan/images/WEBP/smgdZFBJMr.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/gTqgYKwBkf.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/jLjRVwFXYa.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/zqjjGXkGcW.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/ZmikroJbAe.webp",
+    ],
+    description:
+      "Ixora is a new project in Al Barari, an eco-friendly community of Dubai, which promises a luxurious lifestyle infused with premium amenities. This exceptional complex showcases contemporary villas that blend style with functionality. Ixora stands out as a peaceful enclave, offering its dwellers a haven of serenity. The community is thoughtfully designed with facilities essential for upscale living, including boutique shops, cozy cafes, ample parking, and diverse recreational activities. A top-tier spa center and a health club provide a range of wellness offerings. Residents can also enjoy refreshing swims in the pools, host gatherings at barbecue areas, and stay active in the state-of-the-art fitness centers.",
+    features: ["Private pool", "Gym", "Public parks", "Covered parking", "Children's play area"],
+    building_highlights: [
+      "Apart from mesmerizing views of nature, the neighborhood also features jogging and cycling paths, as well as yoga areas. Fitness enthusiasts can attend Body Language Health Club with tennis courts, a gym, and temperature-controlled pools. One can also head to Heart & Soul Spa and Wellness, where visitors are offered a variety of treatments. ",
+      "As for schools, children can join GEMS Winchester School Dubai and Dunecrest American School located within 5-15 minutes. The closest medical facilities, Symbiosis Medical Centre and Aster Clinic, are in a 10-15 minute drive. In addition, inhabitants can stock up on groceries at Spinneys, ZOOM, or Waitrose supermarkets, and dine at the award-winning The Farm restaurant.",
+      "The sub-community is located along Sheikh Mohammed Bin Zayed Road, which leads to the city’s major destinations. The nearest areas are Arabian Ranches III and Nad Al Sheba. Due to a well-developed transport system and road links, Downtown Dubai, Palm Jumeirah, and Dubai Marina can be reached in 20-25 minutes. Residents of Ixora can commute via buses, and private vehicles and use taxi services. ",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 5, description: "On Booking" },
+      during_construction: {
+        percentage: 35,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 60, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "It is worth noting that Ixora is close to several landmarks, where dwellers can spend quality time. ",
+      "Global Village is a multicultural park with more than 20 pavilions, displaying the history, art, and culture of different countries. Moreover, Global Village amazes visitors with exciting shows, concerts, and street performances. ",
+      "Both adults and kids also would love to visit IMG Worlds of Adventure, an amusement park with amazing rides, game zones, and restaurants based on famous cartoons. ",
+      "Residents can also head to Dubai Miracle Garden, the most extensive flower garden with impressive floral installations, walkways, and millions of rare and beautiful plants located within 15 minutes."
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  
 ];
 
 export default offplanProjects;
