@@ -1845,6 +1845,405 @@ const offplanProjects = [
     ],
     brochure_link: "/brochures/address-residences-zabeel.pd",
   },
+  {
+    id: 20,
+    type: "Residential",
+    title: "Como Residences",
+    slug: "como-residences",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Dec 31, 2026",
+    developer: "Nakheel",
+    developer_slug: "nakheel-properties",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/HdUEDewLKg.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/JOQjcSIuSn.webp",
+      "https://fnst.axflare.com/original_images/WEBP/SuMiCXLKcX.webp",
+      "https://fnst.axflare.com/original_images/WEBP/HdUEDewLKg.webp",
+      "https://fnst.axflare.com/original_images/WEBP/qhUFsbWyge.webp",
+
+    ],
+    description:
+      "Como Residences in Palm Jumeirah, Dubai is a new premium development by Nakheel Properties. The 71-storey skyscraper in the shape of a graceful seashell is based on a massive podium. The project offers a collection of 76 exclusive residences with 2 to 7 bedrooms, including a luxury penthouse, simplexes, and duplex apartments. The floor area of the luxury apartments ranges from 415 m² with the price starting at AED 21 million (USD 5.7 million). Construction is scheduled to be completed in Q3 2027.",
+    features: [
+      "Covered parking",
+      "Swimming pool",
+      "Children's pool",
+      "Gym",
+      "Smart home Gym",
+    ],
+    building_highlights: [
+      "Landscaped private beach;",
+      "Infinity pool;",
+      "Recreation area with sun loungers;",
+      "Wellness and spa centre;",
+      "Gym;",
+      "Squash and paddle tennis courts;",
+      "Observation deck;",
+      "Private lounge;",
+      "Business centre with a conference room;",
+      "Café;",
+      "Children’s playgrounds;",
+      "Landscaped recreation areas.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 20, description: "On Booking" },
+      during_construction: {
+        percentage: 60,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 20, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Como Residences is located on the man-made Palm Jumeirah archipelago, washed by the waves of the Persian Gulf. The 300-metre tower will be the tallest building on the island. The residences will offer panoramic views of the Burj Khalifa, the Burj Al Arab Hotel, and the Ain Dubai Ferris wheel. Stunning views can also be enjoyed from the observation deck on the 71st floor of the tower.",
+      "The neighbourhood is at the top of communities popular for purchasing premium homes. This makes buying apartments in Como Residences for investment reliable and profitable. Housing in the community is steadily becoming more expensive: in 2022 alone, prices here have increased by 54%. High demand is due not only to the premium properties that emphasise the status of the owner, but also to the limited development area.",
+      "As a rule, prices for housing under construction are 20–30% lower than after the completion of the project. This allows you to profitably use real estate in Como Residences for investment and subsequent resale. In addition, an apartment the development can be successfully rented out. The payback rate for apartments on Palm Jumeirah reaches 5.64% per annum, and there are no personal income taxes in the UAE. Thus, the owner will receive all the profit.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 21,
+    type: "Residential",
+    title: "Fashionz Residences",
+    slug: "fashionz-residences",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Feb 15, 2027",
+    developer: "Danube Properties",
+    developer_slug: "danube-properties",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/CQhbdCFzZj.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/torywctrad.webp",
+      "https://fnst.axflare.com/original_images/WEBP/CQhbdCFzZj.webp",
+      "https://fnst.axflare.com/original_images/WEBP/cbZpeXsBYX.webp",
+      "https://fnst.axflare.com/original_images/WEBP/TXXwiFyPUf.webp",
+
+    ],
+    description:
+      "Located in the heart of Dubai, Fashionz Residences promises a life of luxury and comfort that is hard to find anywhere else. Whether you want to relax or embrace the vibrant lifestyle of Dubai, Fashionz Residences is the perfect place to call home.One of the main highlights of this building is its world-class amenities. Residents can dive into the sparkling swimming pool and work up a sweat at the modern gym. There is also a children's play area, a beautifully landscaped garden, and a relaxing sauna to help you unwind after a long day.Nature lovers will appreciate the building's closeness to Dubai's most beautiful parks and beaches, providing the ideal backdrop for a peaceful walk or a picnic with friends and family. And when it comes to dining and entertainment, residents are spoiled for choice with many world-class restaurants, cafés, and shopping centers just a stone's throw away.",
+    features: [
+      "Children's play area",
+      "Shared gym",
+      "Shared spa",
+      "Shared swimming pool",
+      "Children's pool",
+    ],
+    building_highlights: [
+      "Fashionz Residences is a residential building, which is the epitome of elegance and comfort. This iconic skyscraper stands tall, featuring a unique architectural design that is a true marvel. It contains a contemporary style, with a façade that showcases a perfect balance of glass and metal.",
+      "The building's exterior is just the beginning of the breathtaking experience that awaits you inside. Upon entering the luxurious building, you will be welcomed by a grand lobby with high-end finishing, plush furnishings, and modern décor.",
+      "But it is not just about looks – inside, you will find a range of premium amenities designed to make your life as comfortable as possible. The communal areas provide much space for residents to relax, socialize, and stay active. Whether you want to unwind in the pool, break a sweat in the gym, or catch up with friends in the chic lounge areas, there's always something to do in Fashionz Residences.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 55,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 35, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Dubai is a city that never ceases to amaze its visitors, with its endless list of attractions. Fashionz Residences serves as an ideal launching pad to experience the various aspects of Dubai, be it thrill, serenity, or just soaking in the beauty of the surroundings.",
+      "One of the must-visit attractions near Fashionz Residences is Dubai Butterfly Garden, a stunning indoor tropical garden home to over 15,000 butterflies of 26 different species. For those seeking a more adrenaline-fueled adventure, the Dubai Autodrome is just a short drive away, offering high-speed racing experiences and exciting karting tracks.",
+      "For a more leisurely pace, residents can stroll down the picturesque Dubai Marina Walk, with a beautiful promenade, stunning views of the marina, and surrounding skyline. Along the way, visitors can visit many shops, restaurants, and cafes, making it the perfect place for a relaxing day out.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 22,
+    type: "Residential",
+    title: "Azizi Grand Apartments",
+    slug: "azizi-grand-apartments",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Nov 15, 2024",
+    developer: "Azizi Developments",
+    developer_slug: "azizi-developments",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/nkmvNRmafi.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/xwJtTWwmdJ.webp",
+      "https://fnst.axflare.com/original_images/WEBP/nkmvNRmafi.webp",
+      "https://fnst.axflare.com/original_images/WEBP/zRNjvkzguA.webp",
+      "https://fnst.axflare.com/original_images/WEBP/yRdbJvnxhA.webp",
+
+    ],
+    description:
+      "Azizi Development has introduced its latest project, Grand Apartments, located in Dubai Sports City. This upscale serviced residential apartment building showcases a collection of 431 luxurious apartments. The thoughtfully designed units consist of 238 studios, 140 one-bedroom apartments, and 53 two-bedroom apartments, ensuring a diverse range of options to cater to different preferences. The focus is on providing residents with an exceptional level of convenience and a wide array of amenities, setting a new standard for upscale living.Azizi Grand Apartments offers a comprehensive range of amenities that enhance the living experience of its residents. The development prioritizes safety with 24/7 security services, ensuring a peaceful environment for all residents.For those seeking culinary delights, the dining outlets within Azizi Grand Apartments provide a variety of options to satisfy every palate. Residents can indulge in diverse cuisines without leaving the comfort of their homes.Staying fit and active is made easy with the well-equipped gym, where residents can engage in their preferred workout routines. The fitness facilities cater to exercise preferences and help residents maintain a healthy lifestyle.The development also pays special attention to the needs of families with children. A dedicated kids' play area is available, providing a safe and enjoyable space for children to play and socialize.Azizi Grand Apartments offers ample green spaces, including parks and leisure areas. Residents can take leisurely strolls, relax amidst nature, or engage in outdoor activities.Retail outlets within Azizi Grand Apartments add to the convenience and comfort of residents. From daily necessities to luxury goods, the retail outlets offer a range of products and services, ensuring that residents' needs are met without having to venture far.",
+    features: [
+      "Balcony",
+      "Shared gym",
+      "Near golf",
+      "Shared swimming pool",
+      "Supermarket",
+    ],
+    building_highlights: [
+      "Completing the array of amenities is a swimming pool, allowing residents to cool off, swim laps, or simply relax and unwind by the water. The pool area provides a refreshing retreat and serves as a gathering place for residents to enjoy quality leisure time.",
+      "One of the notable features of Azizi Grand Apartments is its landscaped gardens on the podium level. These meticulously designed green spaces offer a refreshing oasis within the bustling cityscape. Residents can take leisurely strolls, relax on benches, or simply admire the lush vegetation and vibrant flowers that adorn the gardens. The landscaping creates a harmonious and inviting atmosphere, providing a sense of tranquility and natural beauty.",
+      "For those who enjoy outdoor gatherings and culinary delights, Azizi Grand Apartments also offers a dedicated barbecue area. This feature allows residents to host social events or enjoy a delightful evening with family and friends while grilling delicious meals. The barbecue area provides a wonderful opportunity for residents to indulge in outdoor dining experiences and create lasting memories in a comfortable and inviting setting.",
+      "Additionally, Azizi Grand Apartments caters to the residents' well-being and relaxation by providing a spa facility. The spa offers a range of rejuvenating treatments and therapies, allowing residents to unwind, recharge, and pamper themselves. Whether it's a soothing massage, a revitalizing facial, or a calming sauna session, the spa provides a sanctuary where residents can escape the stresses of daily life and indulge in self-care.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 30,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 60, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Azizi Grand Apartments is located in a prime location that offers residents access to a plethora of attractions and amenities. Situated in close proximity to various landmarks and recreational destinations, residents can enjoy a vibrant and dynamic lifestyle.",
+      "One of the major highlights of the area is its proximity to beautiful beaches. Residents can easily access popular beach destinations like Jumeirah Beach, Kite Beach, and Marina Beach, where they can relax, soak up the sun, and indulge in water sports activities.",
+      "The vicinity of Azizi Grand Apartments is home to several world-class shopping malls, including the Mall of the Emirates, Dubai Marina Mall, and Ibn Battuta Mall. These malls offer a wide range of retail outlets, luxury brands, entertainment options, and dining experiences, catering to every resident's needs.",
+      "Golf enthusiasts will appreciate the presence of renowned golf courses nearby, such as Emirates Golf Club and Montgomerie Golf Club. These lush green courses provide a perfect setting for golfers to enjoy their favorite sport and unwind in a serene environment.",
+      "For those seeking outdoor activities and green spaces, there are numerous parks and recreational areas in the vicinity. Emirates Hills Park, Al Barsha Pond Park, and Dubai Marina Walk are popular destinations where residents can enjoy jogging, picnicking, or simply taking a leisurely stroll amidst beautifully landscaped surroundings.",
+      "Within a short distance from Azizi Grand Apartments, residents can explore cultural and entertainment centers like Dubai Opera, Dubai Museum, and Dubai Parks and Resorts. These venues host a variety of shows, exhibitions, and events that showcase the rich cultural heritage and entertainment offerings of Dubai.",
+      "The area surrounding Azizi Grand Apartments boasts an extensive selection of dining options, ranging from international cuisine to local Emirati delicacies. Residents can indulge in gourmet experiences at renowned restaurants and enjoy the vibrant café culture that Dubai is known for.",
+      "Families residing at Azizi Grand Apartments will find a range of reputable educational institutions nearby. From nurseries to primary and secondary schools, there are plenty of options to ensure quality education for children.",
+      "The area is well-equipped with world-class medical centers, clinics, and hospitals, providing residents with convenient access to healthcare services.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  // {
+  //   id: 23,
+  //   type: "Residential",
+  //   title: "Elvira",
+  //   slug: "elvira",
+  //   price_range: "AED 2,030,000",
+  //   location: "Zabeel, Dubai",
+  //   latitude: "25.225940896975104",
+  //   longitude: "55.294278940758495",
+  //   bedrooms: "1-3",
+  //   bathrooms: "1-3",
+  //   size_range: "800 - 2,000 sq. ft.",
+  //   handover_date: "Nov 15, 2026",
+  //   developer: "Emaar Properties",
+  //   developer_slug: "emaar-properties",
+  //   cover_image:
+  //     "https://fnst.axflare.com/original_images/WEBP/AHUwEaVwQM.webp",
+  //   other_images: [
+  //     "https://fnst.axflare.com/original_images/WEBP/nNcVNwicgn.webp",
+  //     "https://fnst.axflare.com/original_images/WEBP/IwOXELhPBX.webp",
+  //     "https://fnst.axflare.com/original_images/WEBP/AHUwEaVwQM.webp",
+      
+
+  //   ],
+  //   description:
+  //     "Elvira is an exquisite residential complex nestled within the prestigious Dubai Hills Estate. With an expected completion date in 2026, Elvira promises to offer an extraordinary lifestyle to its residents.At Elvira Dubai Hills Estate, residents will bask in the glory of a truly luxurious lifestyle. The project boasts an array of premium amenities, ensuring that every aspect of daily life is elevated to new heights of comfort. From modern fitness centers to meticulously landscaped gardens, every corner of Elvira is crafted to cater to every desire.Safety and security are of utmost importance at Elvira, prioritizing the well-being of residents and their families. The complex contains 24/7 CCTV video surveillance, providing a sense of tranquility and assurance. Additionally, the community places great emphasis on regular maintenance services.",
+  //   features: [
+  //     "Barbecue area",
+  //     "Shared gym",
+  //     "Children's play area",
+  //     "Shared swimming pool",
+  //     "Children's pool",
+  //   ],
+  //   building_highlights: [
+  //     "Residents can immerse themselves in a state-of-the-art fitness center with cutting-edge exercise equipment, providing the perfect setting for daily workouts. Whether it is cardio, weight training, or group fitness classes, residents will find everything they need to stay in peak physical condition right at their doorstep.",
+  //     "For those who enjoy the art of outdoor dining and entertainment, Elvira presents a delightful barbeque area. This charming setting allows residents to enjoy unforgettable moments, indulging in delightful culinary experiences.",
+  //     "Children will find their haven in Elvira’s play area. Designed to spark imagination and encourage laughter, the play area offers a safe and vibrant space for children to explore, socialize, and have endless fun.",
+  //     "In addition to the various recreational amenities, Elvira has a multipurpose room that adapts to every need. From celebrations and workshops to meetings and social gatherings, the multipurpose room caters to a wide range of activities, fostering a sense of community.",
+  //   ],
+  //   payment_plan: {
+  //     on_booking: { percentage: 10, description: "On Booking" },
+  //     during_construction: {
+  //       percentage: 70,
+  //       description: "During Construction",
+  //     },
+  //     on_handover: { percentage: 20, description: "On Handover" },
+  //   },
+  //   attractions_nearby: [
+  //     "Just moments away from Elvira lies the magnificent Dubai Hills Mall, a haven for luxury shopping and entertainment. This retail destination contains designer boutiques, high-end fashion brands, and exquisite jewelry stores. Whether you seek the latest fashion trends, gourmet dining, or simply an immersive shopping experience, Dubai Hills Mall will leave enthralled and inspired.",
+  //     "For avid golf enthusiasts, the Dubai Hills Golf Club beckons with its pristine fairways and breathtaking vistas. Just a short distance from Elvira, this world-class golf course offers a mesmerizing blend of natural beauty and challenging gameplay. With its modern facilities, including a clubhouse and practice areas, Dubai Hills Golf Club provides an extraordinary golfing experience that will leave you exhilarated.",
+  //     "Dubai Miracle Garden is a floral paradise that showcases an extraordinary display of flower arrangements, forming stunning patterns, shapes, and structures. From whimsical archways to large installations, the Dubai Miracle Garden sparks wonder and amazement in visitors of all ages.",
+      
+
+  //   ],
+  //   Property_highlights: [
+  //     "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+  //     "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+  //     "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+  //     "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+  //     "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+  //   ],
+  //   schools_nearby: [
+  //     "GEMS Wellington Primary School",
+  //     "Jumeirah International Nursery",
+  //   ],
+  //   unit_types: [
+  //     {
+  //       type: "1-Bedroom Apartment",
+  //       size: "800 sq. ft.",
+  //       price: "AED 1,800,000",
+  //     },
+  //     {
+  //       type: "2-Bedroom Apartment",
+  //       size: "1,400 sq. ft.",
+  //       price: "AED 3,200,000",
+  //     },
+  //     {
+  //       type: "3-Bedroom Apartment",
+  //       size: "2,000 sq. ft.",
+  //       price: "AED 5,400,000",
+  //     },
+  //   ],
+  //   floor_plans: [
+  //     {
+  //       name: "1-Bedroom Floor Plan",
+  //       image: "/floorplans/address-residences-zabeel-1br.jpg",
+  //     },
+  //     {
+  //       name: "2-Bedroom Floor Plan",
+  //       image: "/floorplans/address-residences-zabeel-2br.jpg",
+  //     },
+  //     {
+  //       name: "3-Bedroom Floor Plan",
+  //       image: "/floorplans/address-residences-zabeel-br.jpg",
+  //     },
+  //   ],
+  //   brochure_link: "/brochures/address-residences-zabeel.pd",
+  // },
 ];
 
 export default offplanProjects;

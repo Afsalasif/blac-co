@@ -68,8 +68,8 @@ const Navbar = () => {
               {isMenuOpen ? (
                 <path d="M6 18L18 6M6 6l12 12" />
               ) : (
-                <></>
-                // <path d="M4 6h16M4 12h16M4 18h16" />
+                
+                <path d="M4 6h16M4 12h16M4 18h16" />
               )}
             </svg>
           </button>
@@ -101,7 +101,7 @@ const Navbar = () => {
                 onMouseEnter={() => setDropdownOpen(true)}
                 onMouseLeave={() => setDropdownOpen(false)}
               >
-                <span className="cursor-pointer  transition duration-300">
+                <span className="cursor-pointer text-metallic-bronze  transition duration-300">
                   Ready Properties
                 </span>
                 {dropdownOpen && (
@@ -111,7 +111,7 @@ const Navbar = () => {
                   </ul>
                 )}
               </li>
-              <NavItem href="" text="Developers" />
+              <NavItem href="/developers" text="Developers" />
               <NavItem href="" text="Our Team" />
              
               <NavItem href="/ebroker" text="Our Membership program" />
