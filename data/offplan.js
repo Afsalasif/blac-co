@@ -1267,7 +1267,7 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/QaVNxSziPT.webp",
       "https://fnst.axflare.com/original_images/WEBP/JjjEqsfvWM.webp",
       "https://fnst.axflare.com/original_images/WEBP/TOVlkCfwRn.webp",
-     
+
     ],
     description:
       "Aveline is a premium 21-story residential complex developed by Citi Developers and located in the District 16 of the highest transacted area in Dubai in 2023, Jumeirah Village Circle. The community is designed to foster connections, embrace diversity, and prioritize sustainability. The promise of an exceptional living experience is evident in every detail, reflecting the developer's unwavering commitment to real estate excellence. This is a place where joy knows no bounds, in a neighborhood rich with opportunity. ",
@@ -1364,7 +1364,7 @@ const offplanProjects = [
     other_images: [
       "https://fnst.axflare.com/original_images/WEBP/kBlVCWuOSr.webp",
       "https://fnst.axflare.com/original_images/WEBP/ytawVtdBMX.webp",
-     
+
     ],
     description:
       "Azizi Central is conveniently located in Al Furjan, known for its cozy atmosphere and well-developed infrastructure. This area provides ideal conditions for a family-oriented lifestyle within the bustling metropolis.Due to the proximity to the Al Furjan metro station, residents enjoy convenient access to transportation, easing their daily commutes across the city. Additionally, the complex is situated close to areas such as Media City, Internet City, and Expo City, granting Azizi Central dwellers excellent access to key business and entertainment hubs within the city.",
@@ -1463,7 +1463,7 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/XKxCywblxi.webp",
       "hhttps://fnst.axflare.com/original_images/WEBP/fEfFBmyBgN.webp",
       "https://fnst.axflare.com/original_images/WEBP/XKxCywblxi.webp",
-     
+
     ],
     description:
       "Masaar is an upscale green community developed by Arada. It is situated in Sharjah, the largest emirate by area and the third-largest by population in the country. Sharjah is celebrated as the cultural hub of the UAE, recognized for its museums, lakes, and parks.Masaar consists of seven distinctive sub-communities, including Robinia, Saro, and Sequoia. These sub-communities offer residents a harmonious lifestyle, enveloped by vast green spaces and easy access to essential amenities. The project is thoughtfully designed to inspire dwellers to embrace an active and healthy lifestyle by spending more time outdoors.",
@@ -1559,7 +1559,7 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/ddiXWZAluA.webp",
       "https://fnst.axflare.com/original_images/WEBP/toMIBuzyvX.webp",
       "https://fnst.axflare.com/original_images/WEBP/wuCyaTYyOd.webp",
-     
+
     ],
     description:
       "The multi-story residential complex, located in the prestigious Jumeirah Village Circle, has a modern design and attractive interiors and exteriors in light colors. The community perfectly combines comfort and functionality, offering residents a variety of amenities.The new project features various recreational areas where residents can enjoy beautiful views. Thanks to the smart home system, residents can control lighting, and temperature and ensure the safety of their apartments using a mobile application.In addition, the Jumeirah Village Circle offers a developed infrastructure with parks, shops, schools, and hospitals, making the community an ideal place for comfortable living. Guests can enjoy the first-class service and facilities that the modern residential complex offers.",
@@ -1656,7 +1656,7 @@ const offplanProjects = [
       "https://fnst.axflare.com/original_images/WEBP/aDiDxuwCeV.webp",
       "https://fnst.axflare.com/original_images/WEBP/QhBwNOzoDa.webp",
       "https://fnst.axflare.com/original_images/WEBP/TfdpRGrHrG.webp",
-     
+
     ],
     description:
       "TChorisia by Al Barari introduces a new residential project featuring 5-bedroom semi-detached villas located in one of the most desirable neighborhoods. This development consists of 60 villas designed for a distinctive green living experience, offering residents an inspiring and elegant environment to call home.The villas showcase a blend of contemporary and classic architecture, reflecting a modern aesthetic and sensibility. Each villa is thoughtfully designed to be unique and exceptional, setting them apart from the rest. Every element of the units is carefully crafted to create a welcoming and comfortable atmosphere for residents and their guests. The interiors are spacious, meticulously designed, and boast high-quality finishes, delivering an extraordinary living experience.Chorisia at Al Barari epitomizes luxury living at its finest, providing residents with a remarkable combination of comfort, elegance, and attention to detail. With its distinctive design and attention to quality, this development offers a truly exceptional residential experience for those seeking a refined lifestyle.",
@@ -1734,11 +1734,12 @@ const offplanProjects = [
     ],
     brochure_link: "/brochures/address-residences-zabeel.pd",
   },
+  
   {
     id: 19,
-    type: "Villas & Townhouses",
-    title: "Chorisia",
-    slug: "chorisia",
+    type: "Residential",
+    title: "Keturah Resort",
+    slug: "keturah-resort",
     price_range: "AED 2,030,000",
     location: "Zabeel, Dubai",
     latitude: "25.225940896975104",
@@ -1746,19 +1747,19 @@ const offplanProjects = [
     bedrooms: "1-3",
     bathrooms: "1-3",
     size_range: "800 - 2,000 sq. ft.",
-    handover_date: "Jan 1, 2023",
-    developer: "Al Barari Development",
-    developer_slug: "al-barari",
+    handover_date: "Dec 31, 2026",
+    developer: "MAG Property Development",
+    developer_slug: "mag-property-development",
     cover_image:
-      "https://fnst.axflare.com/original_images/WEBP/QhBwNOzoDa.webp",
+      "https://fnst.axflare.com/original_images/WEBP/JzzVWYiUfD.webp",
     other_images: [
-      "https://fnst.axflare.com/original_images/WEBP/aDiDxuwCeV.webp",
-      "https://fnst.axflare.com/original_images/WEBP/QhBwNOzoDa.webp",
-      "https://fnst.axflare.com/original_images/WEBP/TfdpRGrHrG.webp",
-     
+      "https://fnst.axflare.com/original_images/WEBP/JzzVWYiUfD.webp",
+      "https://fnst.axflare.com/original_images/WEBP/KWrugPsHRI.webp",
+      "https://fnst.axflare.com/original_images/WEBP/MmtNrOOUNM.webp",
+
     ],
     description:
-      "TChorisia by Al Barari introduces a new residential project featuring 5-bedroom semi-detached villas located in one of the most desirable neighborhoods. This development consists of 60 villas designed for a distinctive green living experience, offering residents an inspiring and elegant environment to call home.The villas showcase a blend of contemporary and classic architecture, reflecting a modern aesthetic and sensibility. Each villa is thoughtfully designed to be unique and exceptional, setting them apart from the rest. Every element of the units is carefully crafted to create a welcoming and comfortable atmosphere for residents and their guests. The interiors are spacious, meticulously designed, and boast high-quality finishes, delivering an extraordinary living experience.Chorisia at Al Barari epitomizes luxury living at its finest, providing residents with a remarkable combination of comfort, elegance, and attention to detail. With its distinctive design and attention to quality, this development offers a truly exceptional residential experience for those seeking a refined lifestyle.",
+      "The Ritz-Carlton Residences at Keturah Resort is the first fully wellness-certified resort in the MENA region. The development features a limited selection of luxurious waterfront mansions and exclusive apartments and penthouses. Nestled in a serene Dubai Creek area, this project of MAG Lifestyle Development is an icon of comfort, luxury, and tranquility. The key highlight of the development is its well-thought-out wellness concept. The residences and their location are designed to promote physical and emotional well-being, ensuring optimal comfort and leisure opportunities for dwellers.",
     features: [
       "Covered parking",
       "Swimming pool",
@@ -1767,23 +1768,38 @@ const offplanProjects = [
       "Smart home Gym",
     ],
     building_highlights: [
-      "Chorisia, a special project by Al Barari, features a remarkable collection of 5-bedroom villas in one of Dubai's most sought-after neighborhoods. These villas are designed to embody a new concept of refined living, allowing residents to experience a life of luxury.As part of an award-winning eco-friendly development, Chorisia redefines comfort and luxury, presenting a truly exceptional living experience. If you aspire to enjoy the finer things in life, this is the perfect destination for you.The contemporary architecture of the villas reflects the aesthetics of XXI century, making them unique. Every aspect of these units is carefully crafted to evoke a warm and positive ambiance, creating an inviting atmosphere for residents and guests. The expansive and thoroughly designed interiors, coupled with premium quality finishes, add to the allure and distinctiveness of these villas.Chorisia at Al Barari exemplifies the epitome of luxury living, offering residents a remarkable blend of comfort, elegance, and attention to detail.community center",
-      
+      "wellness center with rejuvenation and detox facilities",
+      "fitness center and multiple yoga rooms",
+      "indoor pools",
+      "private boat dock for yachts",
+      "organic-focused retail spaces, including a weekend farm market",
+      "24/7 secured private parking with valet",
+      "dog parks",
+      "business club",
+      "library lounge",
+      "meeting room",
+      "event / party hall",
+      "cinema / media / games room",
+      "members’ only resort clubhouse",
+      "free daycare",
+      "kid`s large outdoor park and splash pool",
+      "over three Michelin-star fusion and healthy-cuisine restaurants",
+      "indoor and outdoor kid`s club with multipurpose rooms and play zones",
+
     ],
     payment_plan: {
-      on_booking: { percentage: 5, description: "On Booking" },
+      on_booking: { percentage: 20, description: "On Booking" },
       during_construction: {
-        percentage: 35,
+        percentage: 40,
         description: "During Construction",
       },
-      on_handover: { percentage: 60, description: "On Handover" },
+      on_handover: { percentage: 40, description: "On Handover" },
     },
     attractions_nearby: [
-      "While Chorisia is known for its tranquil and secluded environment, there are several attractions located near the development that offer a range of experiences for residents and visitors.",
-      "Dubai Miracle Garden is a stunning floral paradise spread over 72,000 square meters. It features over 50 million flowers arranged in intricate designs, including arches, sculptures, and themed displays. It is a popular attraction for nature lovers and offers a colorful and vibrant experience.",
-      "Motorsport enthusiasts will enjoy the Dubai Autodrome, which is located in close proximity to Chorisia. It is a modern motorsport facility that hosts various racing events. Visitors can experience thrilling go-karting sessions or watch professional races from the stands.",
-      "For a day of family fun and entertainment, IMG Worlds of Adventure is an indoor theme park located nearby. It is the largest indoor theme park in the world, featuring four themed zones: Marvel, Cartoon Network, Lost Valley Dinosaur Adventure, and IMG Boulevard. The park offers a wide range of rides, attractions, and dining options.",
-      "Another unique attraction close to Chorisia is the Dubai Butterfly Garden. It is the world's largest indoor butterfly garden, home to thousands of colorful butterflies from around the world. Visitors can walk through the lush greenery and observe these beautiful creatures up close.",
+      "Ras Al Khor Wildlife Sanctuary – a beautiful nature reserve home to many birds, including beautiful pink flamingos. Great for bird watching, photography, and nature walks.",
+      "Dubai Dolphinarium – an aquatic entertainment center where visitors can enjoy dolphin and seal shows. It also offers the chance to swim with the dolphins. ",
+      "Jameel Arts Center – a modern art center featuring contemporary art exhibitions by local and international artists. ",
+      "Culture Village Park – a charming open space that encourages creativity and community interaction. You will find rich cultural displays and occasional outdoor events here.",
     ],
     Property_highlights: [
       "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
