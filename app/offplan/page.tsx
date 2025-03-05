@@ -53,7 +53,7 @@ const OffPlanPage = () => {
       {/* Properties Listing Section */}
       <section className="px-20 py-4 bg-black text-white">
         {/* Top Section: Breadcrumb + Filters */}
-        <div className="flex justify-between items-center mb-6">
+        <div className=" hidden md:flex justify-between items-center mb-6">
           <nav className="text-gray-400 text-sm" aria-label="Breadcrumb">
             <ol className="flex items-center space-x-2">
               <li><a href="#" className="hover:text-white">Home</a></li>
@@ -63,7 +63,7 @@ const OffPlanPage = () => {
           </nav>
 
           {/* Filters */}
-          <div className="flex gap-3">
+          <div className="flex  gap-3">
             {["Areas", "Projects", "Property Type", "Developer", "Real Estate Category"].map((filter) => (
               <select key={filter} className="bg-transparent border border-gray-600 text-white px-4 py-2 rounded-md w-40">
                 <option>{filter}</option>
