@@ -282,13 +282,14 @@ const Page = () => {
                 <p className="text-lg text-gray-400 mb-5">Type: </p>
                 <p className="text-lg text-white mb-5"> {project.type}</p>
               </div>
+              {project.handover_date?
               <div className="flex gap-x-5 ">
                 <p className="text-lg text-gray-400 mb-5">Handover date: </p>
                 <p className="text-lg text-white mb-5">
                   {" "}
                   {project.handover_date}
                 </p>
-              </div>
+              </div>:<></>}
               <div className="flex gap-x-5 ">
                 <p className="text-lg text-gray-400 mb-5">Starting Price:</p>
                 <p className="text-lg text-white mb-5">

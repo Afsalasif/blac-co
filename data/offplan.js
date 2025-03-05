@@ -409,15 +409,15 @@ const offplanProjects = [
     bathrooms: "1-3",
     size_range: "800 - 2,000 sq. ft.",
     handover_date: "Mar 31, 2027",
-    developer: "Danube Properties",
-    developer_slug: "danube-properties",
+    developer: "Al Habtoor Group",
+    developer_slug: "al-habtoor-group",
     cover_image:
       "https://fnst.axflare.com/original_images/WEBP/BEVbHdOZiW.webp",
     other_images: [
       "https://fnst.axflare.com/original_images/WEBP/BEVbHdOZiW.webp",
       "https://fnst.axflare.com/original_images/WEBP/QeqmaAeKiO.webp",
       "https://fnst.axflare.com/original_images/WEBP/brpeClaUQD.webp",
-      
+
     ],
     description:
       "Habtoor Grand Residences is a 50-story premium residential complex located on the waterfront in the Dubai Marina area, adjacent to the Habtoor Grand Resort Hotel. The project was designed by leading developer Al Habtoor Group.At Habtoor Grand Residences, you can experience a high-end beachfront living at its finest. The complex is brimming with recreational facilities that create a vibrant beach atmosphere. From gourmet restaurants to luxurious beach clubs and a vibrant seaside promenade – it has everything you need for a rich and fulfilling life.",
@@ -738,6 +738,1052 @@ const offplanProjects = [
       "There are numerous attractions with diverse opportunities for cultural exploration around Coral Reef. Just steps away from the complex stands the Queen Elizabeth 2 ship, renowned as both a historical symbol and a legendary ocean liner. With a distance of nearly 1.1 kilometers to it, residents can savor the unique ambiance and historical significance of this vessel.",
       "Another nearby landmark is the Dubai Heritage Village, located just 1.9 kilometers from the complex. Here, residents and visitors alike can fully immerse themselves in the authentic aura of ancient Dubai, delving into its rich cultural heritage and time-honored traditions.",
       "A mere 2.7 kilometers from Coral Reef lies the Dubai Museum. This museum offers a profound glimpse into the Emirate's history and its evolution from a modest fishing village to a modern metropolis.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 9,
+    type: "Apartments",
+    title: "The S Tower",
+    slug: "the-s-tower",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Oct 1, 2024",
+    developer: "Sobha Realty",
+    developer_slug: "sobha-realty",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/zYPXgcYSSO.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/fMlZTZJsRh.webp",
+      "https://fnst.axflare.com/original_images/WEBP/zYPXgcYSSO.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/dFrHFMRGbD.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/iccUhZzAvQ.webp",
+    ],
+    description:
+      "The S Tower is an ambitious project from the developer Sobha Realty, erected in Al Sufouh, one of the most sought-after neighborhoods. The project embodies 50 years of experience and professionalism of the founder of the company, Mr. PNC Menon. Based on advanced technologies, impeccable style and extravagance, the residential project will meet the highest quality standards.Life in The S Tower will become a model of comfort and luxury. Residents of the tower will have access to a range of exclusive amenities, making them feel on top of the world. The atmosphere of serenity and peace especially attracts buyers interested in the highest level of service and life in the heart of the metropolis.",
+    features: [
+      "Balcony",
+      "Barbecue area",
+      "Children's play area",
+      "Concierge service",
+
+    ],
+    building_highlights: [
+      "The tower is 220 meters high and features 43 residential floors. In total, there are 82 premium private residences for those who appreciate true luxury. There are 2 apartments on each floor. The building also has 6 levels of underground parking. Spacious apartments are located on floors 1 to 20 and a collection of 21 residences called Sky Villas are featured on levels 21 to 41. These residential properties seem to float above the ground thanks to the panoramic windows.The S Tower has hot water 365 days a year, which is provided using solar panels and liquefied gas, which is a novel solution used in residential projects in the UAE. The facade of the building has double glazing, reflective elements are installed on the roof, and a ventilation and air conditioning system is equipped inside the building.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 20, description: "On Booking" },
+      during_construction: {
+        percentage: 20,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 60, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "The S Tower project will be built in one of the picturesque areas of Dubai - Al Sufouh, which offers convenient access to the Sheikh Zayed Road. Thanks to good transport accessibility and convenient interchanges, residents of the projects will be able to reach the main areas of the city, such as Downtown Dubai, Dubai Marina, Business Bay and others within 10-15 minutes. The international airport can be reached in 25 minutes. The nearest large shopping mall is Dubai Marina Mall. It can be reached in 10-12 minutes.Within walking distance from the residential project there are shops, cafes, restaurants and various recreation areas. Within a 20-minute walk, Dubai Knowledge Park, home to international educational institutions, is within walking distance. Next to the project is also a hub for IT companies Dubai Internet City.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 10,
+    type: "Residential",
+    title: "Peninsula Two",
+    slug: "peninsula-two",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Dec 26, 2024",
+    developer: "Select Group",
+    developer_slug: "select-group",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/biKuHcgwkO.webp",
+    other_images: [
+      "https://fnst.axflare.com/offplan/images/WEBP/FmlEDPDZVv.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/OTferrRRmI.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/hzFHXIGGUf.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/OWuIneYNPy.webp",
+    ],
+    description:
+      "Peninsula Two is a magnificent skyscraper along the Dubai Water Canal. Being the epitome of luxurious waterfront living in the city's centre, the skyscraper will offer ultramodern apartments with high-class amenities and eye-catching interiors.The project will promote and foster an active lifestyle through amenities in all directions. Residents of Peninsula Two will have access to a wide range of sports facilities including a skate park, basketball and tennis courts as well as cycling and jogging tracks. One can also relax on spacious terraces and dip at outdoor swimming pools.Comfortable apartments and premium amenities of Peninsula Two will mainly attract investors, entrepreneurs and those who wish to live in a modern neighbourhood and be a part of vibrant events.",
+    features: [
+      "Gym",
+      "Private pool",
+      "Covered parking",
+      "Restaurants",
+
+    ],
+    building_highlights: [
+      "Peninsula Two is a 36-storey skyscraper designed by the leading architecture firms. The facade will be made up of striking glass reflecting the city's glowing lights both day and night. The building will be complemented with high-speed elevators, parking spaces and bike stands as well as EV chargers.Moreover, Peninsula Two will be connected to the Community Mall with numerous restaurants, lavish cafes and boutiques, beauty salons and pharmacies. Residents can also benefit from a waterfront promenade, the main entertainment centre of the area with an outdoor cinema, an art park, open spaces with fountains for musical shows, concerts and family gatherings.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 20, description: "On Booking" },
+      during_construction: {
+        percentage: 20,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 60, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "An array of landmarks and places of interest surrounding Peninsula Two allow homeowners to spend quality time with friends and loved ones. Residents can visit Burj Khalifa, Dubai Mall and Dubai Opera.",
+      "Burj Khalifa, the world's tallest skyscraper, attracts the attention of millions with its highest observation decks, international restaurants and dazzling light shows holding every evening.",
+      "You can also head to Dubai Mall, the largest shopping and entertainment venue of the UAE that is home to shops, restaurants, cafes, cinema, an Olympic sized ice rink and an aquarium.",
+      "Exciting concerts, musicals and live performances by talented artists from around the world – Dubai Opera is a truly unique place, where you can enjoy an inspiring atmosphere.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 11,
+    type: "Residential",
+    title: "Tria",
+    slug: "tria",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    // handover_date: "Dec 26, 2024",
+    developer: "Deyaar Developer",
+    developer_slug: "deyaar-development",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/xWsHSEMBQp.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/xWsHSEMBQp.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/rLWIyrDEXd.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/KWpfuRlXqd.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/JtZZwadZDB.webp",
+    ],
+    description:
+      "Tria is an elite residential building that will be the embodiment of luxury living, functional design and modern technological solutions. Located in one of the most prestigious and futuristic areas of the city, the development will allow residents to enjoy well-developed infrastructure and high-class amenities.As well as all the above, the building will be surrounded by an array of supreme dining options, shopping venues, healthcare institutions and supermarkets.Due to its prime location, comfortable apartments and modern amenities young creative individuals and working professionals will be delighted to settle in this opulent building.",
+    features: [
+      "Gym",
+      "Private pool",
+      "Covered parking",
+      "Restaurants",
+
+    ],
+    building_highlights: [
+      "Developed by Deyaar Developers, this stylish building is a reflection of age-old traditions and contemporary achievements. The facade of the building will be decorated with aluminium glass and sound-proof double-glazed windows. This unique architectural design provides the reduction of noise and UV protection.",
+      "For comfortable living of the residents, Tria tower will feature a designated podium recreation deck with resort-like amenities. Residents can relax along swimming pools, organise parties on BBQ areas and lawns, attend wellness centres or yoga areas.",
+      "Landscaped gardens, tennis and squash courts, rooftop lounge zone with infinity swimming pool allow residents to enjoy a relaxed atmosphere away from the city's stress.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 12, description: "On Booking" },
+      during_construction: {
+        percentage: 48,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 40, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Tria will be located in one of the most popular areas, where aside from appealing amenities residents can also enjoy a wide range of attractions.",
+      "Adults and kids alike can head to IMG Worlds of Adventure, the largest amusement park with multiple game zones and rides based on cartoon and comics characters.",
+      "Nature lovers will be happy to visit Ras Al Khor Wildlife Sanctuary, an urban reserve famous for its pink flamingos and migratory birds.",
+      "As for golf enthusiasts, Dubai Hills Golf Club is the best option to spend quality time with friends and improve golfing skills.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 12,
+    type: "Residential",
+    title: "Aura Gardens",
+    slug: "aura-gardens",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Dec 26, 2024",
+    developer: "Majid Al Futtaim Properties",
+    developer_slug: "majid-al-futtaim",
+    cover_image:
+      "https://fnst.axflare.com/offplan/images/WEBP/NsvyInyJzg.webp",
+    other_images: [
+      "https://fnst.axflare.com/offplan/images/WEBP/NsvyInyJzg.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/GnEKYPoDEu.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/bsCKiEIdQY.webp",
+      "https://fnst.axflare.com/offplan/images/WEBP/MlcEjEVwXC.webp",
+    ],
+    description:
+      "The main advantage of the neighborhood is its location and a wide range of amenities including international schools, daycare and healthcare centers, and restaurants. These aspects and features make the project popular among large families and young couples. Multiple open green spaces for outdoor activities will also attract nature and sports enthusiasts. Creative people will highly appreciate the functional design of homes and the inspiring atmosphere of the community.Daily life at Aura Gardens-Aura Gardens will provide its residents with an unforgettable experience and unparalleled amenities. Residents of this wonderful project can enjoy an active lifestyle. Mornings can kick off with leisurely strolls along walking and cycling paths, followed by workouts at well-equipped gyms, rounds of tennis and basketball, and engaging in water sports activities by the pristine lagoon. Evenings can be enjoyed with family at the BBQ areas, and, for a unique experience, an open-air cinema awaits for movie nights.In terms of education, children have access to esteemed institutions such as Royal Grammar School Guildford, Victory Heights Primary School, and Jebel Ali School, all conveniently located within a 4-10 minute radius. Residents have peace of mind with Emirates Hospital Day Surgery & Medical Center, the nearest medical facility known for providing high-quality healthcare services.For shopping and entertainment, City Center Me'aisem is a mere 15-minute journey away, offering an array of dining and children's entertainment options. Fulfilling daily needs and bakery items is a breeze with supermarkets like Blue Mart, Greens, and Geant Express Supermarket nearby.Transport accessibility - Aura Gardens is situated within Tilal Al Ghaf, an area renowned for its opulence, and is a prime investment opportunity in Dubai. Additionally, it boasts proximity to key urban arteries like Sheikh Mohammed Bin Zayed Road and Sheikh Zayed Bin Hamdan Al Nahyan Street. For residents of Aura Gardens, accessing Dubai's central hubs, including Business Bay, Downtown Dubai, and Dubai Marina, takes less than 35 minutes.As for public transportation, multiple bus stops are conveniently located just a few minutes away. Residents have the option to travel using private vehicles, buses, or taxi services, ensuring flexible and accessible commuting.",
+    features: [
+      "Beach access",
+      "Gym",
+      "Children's play area",
+      "Infinity pool",
+      "Public parks",
+
+    ],
+    building_highlights: [
+      "Aura Gardens will consist of more than 150 premium villas with 4 bedrooms as well as more than 300 townhouses with 3-4 bedrooms. The villas will feature contemporary facades, stylish interiors, and innovative layouts. Some villas will come with a rooftop terrace overlooking beautiful surroundings that can be accessed by a dedicated staircase. The townhouses will have spacious bedrooms, well-lit living rooms, and open or closed kitchens. The facades and interiors will be presented in various styles allowing potential buyers to choose the one they like.",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 50,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 40, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Nearby, the district is surrounded by popular tourist destinations and numerous entertainment establishments, offering residents enjoyable leisure options.",
+      "Dubai Miracle Garden is an incredibly captivating floral paradise. Its floral installations transform every corner into a unique masterpiece. During the summer and autumn seasons, the garden bursts into even more vibrant hues. The gazebos and pathways in the garden create an ideal setting for tranquil gatherings and relaxation after a fulfilling day.",
+      "The Els Golf Club is a haven for golf enthusiasts. This prestigious golf club, designed by the legendary golfer Ernie Els, provides optimal playing conditions. The club boasts spacious courses designed to the latest standards, along with state-of-the-art training areas. Here, golf turns into an authentic pleasure amidst picturesque landscapes.",
+      "Dubai International Cricket Stadium embodies the city's sporting spirit. Each day, thousands of visitors converge at this stadium to immerse themselves in the ambiance of cricket matches and other sporting events. The stadium serves as a focal point for sports enthusiasts and hosts a variety of entertaining events that bring joy and excitement to all attendees.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 13,
+    type: "Aparments",
+    title: "Ivy Gardens 2",
+    slug: "ivy-gardens-2",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "May 31, 2026",
+    developer: "Samana Developers",
+    developer_slug: "samana-developers",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/iKxilNoOLG.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/iKxilNoOLG.webp",
+      "https://fnst.axflare.com/original_images/WEBP/NeYeJmRAKM.webp",
+      "https://fnst.axflare.com/original_images/WEBP/npLtZEgvGm.webp",
+      "https://fnst.axflare.com/original_images/WEBP/EWXoqolhHs.webp",
+    ],
+    description:
+      "",
+    features: [
+      "24/7 security",
+      "Gym",
+      "Kids play area",
+      "Parks",
+      "Swimming pool",
+
+    ],
+    building_highlights: [
+      "",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 20, description: "On Booking" },
+      during_construction: {
+        percentage: 53,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 27, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 14,
+    type: "Apartments",
+    title: "Aveline Residences",
+    slug: "aveline-residences",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Jun 30, 2026",
+    developer: "Citi Developers",
+    developer_slug: "citi-developers",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/TOVlkCfwRn.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/QaVNxSziPT.webp",
+      "https://fnst.axflare.com/original_images/WEBP/JjjEqsfvWM.webp",
+      "https://fnst.axflare.com/original_images/WEBP/TOVlkCfwRn.webp",
+     
+    ],
+    description:
+      "Aveline is a premium 21-story residential complex developed by Citi Developers and located in the District 16 of the highest transacted area in Dubai in 2023, Jumeirah Village Circle. The community is designed to foster connections, embrace diversity, and prioritize sustainability. The promise of an exceptional living experience is evident in every detail, reflecting the developer's unwavering commitment to real estate excellence. This is a place where joy knows no bounds, in a neighborhood rich with opportunity. ",
+    features: [
+      "24/7 security",
+      "Gym",
+      "Kids play area",
+      "Parks",
+      "Swimming pool",
+
+    ],
+    building_highlights: [
+      "Beach pool",
+      "Spa & sauna",
+      "Beach pool",
+      "Beach pool",
+      "Beach pool",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 40,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 50, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Dubai Miracle Garden – a dazzling oasis of over 150 million flowers, creating a vibrant and enchanting landscape, ideal for family outings.",
+      "The Storm Coaster – an exciting, high-speed ride, filled with twists and turns, offering adrenaline-pumping fun for adventure lovers.",
+      "Ski Dubai – an indoor winter park, offering skiing, snowboarding, and playful penguin activities. A cool retreat for all, regardless of skill level.",
+      "Circle Mall – a nearby one-stop destination for shopping, dining, and entertainment, providing everything you need within a short distance from Aveline Residences.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 15,
+    type: "Apartments",
+    title: "Azizi Central",
+    slug: "azizi-central",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Dec 31, 2024",
+    developer: "Azizi Developments",
+    developer_slug: "azizi-developments",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/kBlVCWuOSr.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/kBlVCWuOSr.webp",
+      "https://fnst.axflare.com/original_images/WEBP/ytawVtdBMX.webp",
+     
+    ],
+    description:
+      "Azizi Central is conveniently located in Al Furjan, known for its cozy atmosphere and well-developed infrastructure. This area provides ideal conditions for a family-oriented lifestyle within the bustling metropolis.Due to the proximity to the Al Furjan metro station, residents enjoy convenient access to transportation, easing their daily commutes across the city. Additionally, the complex is situated close to areas such as Media City, Internet City, and Expo City, granting Azizi Central dwellers excellent access to key business and entertainment hubs within the city.",
+    features: [
+      "24/7 security",
+      "Gym",
+      "Kids play area",
+      "Parks",
+      "Barbecue area",
+      "Swimming pool",
+
+    ],
+    building_highlights: [
+      "retail shops",
+      "cafes and restaurants",
+      "well-maintained landscaped areas for leisurely strolls",
+      "state-of-the-art gym facilities",
+      "outdoor seating areas for relaxation",
+      "separate pools for adults and children",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 30,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 60, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Ibn Battuta Mall, just a 7-minute drive away, is a shopping hub with an array of shops and entertainment venues.",
+      "Within a mere 10-minute drive, dwellers can access Dubai Marina and Jumeirah Beach Residence (JBR). These areas offer leisurely beach strolls and the chance to unwind in upscale restaurants and cafes overlooking the gulf.",
+      "Expo City, a global event venue, is situated only 12 minutes away from the complex, providing access to exhibition centers and international-scale events.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 16,
+    type: "Villas & Townhouses",
+    title: "Masaar",
+    slug: "masaar",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Jun 30, 2026",
+    developer: "Arada Properties",
+    developer_slug: "arada-developments",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/XKxCywblxi.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/XKxCywblxi.webp",
+      "hhttps://fnst.axflare.com/original_images/WEBP/fEfFBmyBgN.webp",
+      "https://fnst.axflare.com/original_images/WEBP/XKxCywblxi.webp",
+     
+    ],
+    description:
+      "Masaar is an upscale green community developed by Arada. It is situated in Sharjah, the largest emirate by area and the third-largest by population in the country. Sharjah is celebrated as the cultural hub of the UAE, recognized for its museums, lakes, and parks.Masaar consists of seven distinctive sub-communities, including Robinia, Saro, and Sequoia. These sub-communities offer residents a harmonious lifestyle, enveloped by vast green spaces and easy access to essential amenities. The project is thoughtfully designed to inspire dwellers to embrace an active and healthy lifestyle by spending more time outdoors.",
+    features: [
+      "Supermarket",
+      "Residents parking",
+      "Restaurant",
+      "Fitness center",
+    ],
+    building_highlights: [
+      "community center",
+      "13 kilometers of cycling and jogging trails",
+      "tranquil relaxation zones",
+      "unique installations",
+      "sports facilities for football, tennis, basketball, and padel tennis",
+      "kids` play areas and parks with a variety of entertainment options",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 5, description: "On Booking" },
+      during_construction: {
+        percentage: 35,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 60, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Sharjah National Park, located just 15 minutes away via Emirates Rd/E611 and Al Dhaid Rd/E88/S128, offers numerous opportunities for outdoor recreation.",
+      "The shopping destination, 06 Mall, is also a 15-minute drive away, featuring a variety of shops, restaurants, and entertainment options. For residents seeking shopping and leisure, Matajer Al Juraina is also conveniently accessible.",
+      "Within a 25-minute drive is the Aljada event venue by Arada, hosting various events and activities to add diversity to the cultural and entertainment life of Masaar's dwellers.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 17,
+    type: "Villas & Townhouses",
+    title: "1Wood Residence",
+    slug: "1wood-residence",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Sep 30, 2025",
+    developer: "Object One Real Estate Development",
+    developer_slug: "object-one",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/wuCyaTYyOd.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/ddiXWZAluA.webp",
+      "https://fnst.axflare.com/original_images/WEBP/toMIBuzyvX.webp",
+      "https://fnst.axflare.com/original_images/WEBP/wuCyaTYyOd.webp",
+     
+    ],
+    description:
+      "The multi-story residential complex, located in the prestigious Jumeirah Village Circle, has a modern design and attractive interiors and exteriors in light colors. The community perfectly combines comfort and functionality, offering residents a variety of amenities.The new project features various recreational areas where residents can enjoy beautiful views. Thanks to the smart home system, residents can control lighting, and temperature and ensure the safety of their apartments using a mobile application.In addition, the Jumeirah Village Circle offers a developed infrastructure with parks, shops, schools, and hospitals, making the community an ideal place for comfortable living. Guests can enjoy the first-class service and facilities that the modern residential complex offers.",
+    features: [
+      "Covered parking",
+      "Swimming pool",
+      "Children's pool",
+      "Gym",
+      "Smart home Gym",
+    ],
+    building_highlights: [
+      "community center",
+      "13 kilometers of cycling and jogging trails",
+      "tranquil relaxation zones",
+      "unique installations",
+      "sports facilities for football, tennis, basketball, and padel tennis",
+      "kids` play areas and parks with a variety of entertainment options",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 5, description: "On Booking" },
+      during_construction: {
+        percentage: 35,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 60, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Palm Jumeirah is one of the “calling cards” of Dubai. This palm-shaped artificial island is located on the coast of the Persian Gulf. It was created based on an ambitious project and has become one of the symbols of luxury and wealth in the city. Palm Jumeirah has many luxury hotels, villas, restaurants, and shops that attract tourists from all over the world. The main attraction of Palm Jumeirah is the Atlantis The Palm Hotel. Not only does it offer luxurious accommodations and restaurants, but it also offers a water park, an aquarium, and the opportunity to swim with dolphins.",
+      "The island also has beautiful beaches where guests can relax and enjoy the sun and sea. There is also the opportunity to ride jet skis, relax on a yacht, or even go parachute jumping.",
+      "Dubai Marina is one of the most popular areas of Dubai. This is a modern area located along the coast of the Persian Gulf. It is famous for its high-rise skyscrapers, luxury residential complexes, restaurants, and shops. The marina is home to many yachts and is also an ideal place to stroll along the waterfront. Here you can rent a luxury boat and admire the beauty of the bay or visit one of the many restaurants overlooking the sea.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 18,
+    type: "Villas & Townhouses",
+    title: "Chorisia",
+    slug: "chorisia",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Jan 1, 2023",
+    developer: "Al Barari Development",
+    developer_slug: "al-barari",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/QhBwNOzoDa.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/aDiDxuwCeV.webp",
+      "https://fnst.axflare.com/original_images/WEBP/QhBwNOzoDa.webp",
+      "https://fnst.axflare.com/original_images/WEBP/TfdpRGrHrG.webp",
+     
+    ],
+    description:
+      "TChorisia by Al Barari introduces a new residential project featuring 5-bedroom semi-detached villas located in one of the most desirable neighborhoods. This development consists of 60 villas designed for a distinctive green living experience, offering residents an inspiring and elegant environment to call home.The villas showcase a blend of contemporary and classic architecture, reflecting a modern aesthetic and sensibility. Each villa is thoughtfully designed to be unique and exceptional, setting them apart from the rest. Every element of the units is carefully crafted to create a welcoming and comfortable atmosphere for residents and their guests. The interiors are spacious, meticulously designed, and boast high-quality finishes, delivering an extraordinary living experience.Chorisia at Al Barari epitomizes luxury living at its finest, providing residents with a remarkable combination of comfort, elegance, and attention to detail. With its distinctive design and attention to quality, this development offers a truly exceptional residential experience for those seeking a refined lifestyle.",
+    features: [
+      "Covered parking",
+      "Swimming pool",
+      "Children's pool",
+      "Gym",
+      "Smart home Gym",
+    ],
+    building_highlights: [
+      "Chorisia, a special project by Al Barari, features a remarkable collection of 5-bedroom villas in one of Dubai's most sought-after neighborhoods. These villas are designed to embody a new concept of refined living, allowing residents to experience a life of luxury.As part of an award-winning eco-friendly development, Chorisia redefines comfort and luxury, presenting a truly exceptional living experience. If you aspire to enjoy the finer things in life, this is the perfect destination for you.The contemporary architecture of the villas reflects the aesthetics of XXI century, making them unique. Every aspect of these units is carefully crafted to evoke a warm and positive ambiance, creating an inviting atmosphere for residents and guests. The expansive and thoroughly designed interiors, coupled with premium quality finishes, add to the allure and distinctiveness of these villas.Chorisia at Al Barari exemplifies the epitome of luxury living, offering residents a remarkable blend of comfort, elegance, and attention to detail.community center",
+      "13 kilometers of cycling and jogging trails",
+      "tranquil relaxation zones",
+      "unique installations",
+      "sports facilities for football, tennis, basketball, and padel tennis",
+      "kids` play areas and parks with a variety of entertainment options",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 5, description: "On Booking" },
+      during_construction: {
+        percentage: 35,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 60, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "While Chorisia is known for its tranquil and secluded environment, there are several attractions located near the development that offer a range of experiences for residents and visitors.",
+      "Dubai Miracle Garden is a stunning floral paradise spread over 72,000 square meters. It features over 50 million flowers arranged in intricate designs, including arches, sculptures, and themed displays. It is a popular attraction for nature lovers and offers a colorful and vibrant experience.",
+      "Motorsport enthusiasts will enjoy the Dubai Autodrome, which is located in close proximity to Chorisia. It is a modern motorsport facility that hosts various racing events. Visitors can experience thrilling go-karting sessions or watch professional races from the stands.",
+      "For a day of family fun and entertainment, IMG Worlds of Adventure is an indoor theme park located nearby. It is the largest indoor theme park in the world, featuring four themed zones: Marvel, Cartoon Network, Lost Valley Dinosaur Adventure, and IMG Boulevard. The park offers a wide range of rides, attractions, and dining options.",
+      "Another unique attraction close to Chorisia is the Dubai Butterfly Garden. It is the world's largest indoor butterfly garden, home to thousands of colorful butterflies from around the world. Visitors can walk through the lush greenery and observe these beautiful creatures up close.",
+    ],
+    Property_highlights: [
+      "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
+      "3-bedroom apartments with areas from 2,701 to 3,155 sq. ft",
+      "4-bedroom apartments with areas from 3,893 to 4,291 sq. ft",
+      "3-bedroom duplexes with areas from 2,863 to 2,946 sq. ft;",
+      "4-bedroom duplexes with areas from 3,796 to 6,034 sq. ft.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pd",
+  },
+  {
+    id: 19,
+    type: "Villas & Townhouses",
+    title: "Chorisia",
+    slug: "chorisia",
+    price_range: "AED 2,030,000",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Jan 1, 2023",
+    developer: "Al Barari Development",
+    developer_slug: "al-barari",
+    cover_image:
+      "https://fnst.axflare.com/original_images/WEBP/QhBwNOzoDa.webp",
+    other_images: [
+      "https://fnst.axflare.com/original_images/WEBP/aDiDxuwCeV.webp",
+      "https://fnst.axflare.com/original_images/WEBP/QhBwNOzoDa.webp",
+      "https://fnst.axflare.com/original_images/WEBP/TfdpRGrHrG.webp",
+     
+    ],
+    description:
+      "TChorisia by Al Barari introduces a new residential project featuring 5-bedroom semi-detached villas located in one of the most desirable neighborhoods. This development consists of 60 villas designed for a distinctive green living experience, offering residents an inspiring and elegant environment to call home.The villas showcase a blend of contemporary and classic architecture, reflecting a modern aesthetic and sensibility. Each villa is thoughtfully designed to be unique and exceptional, setting them apart from the rest. Every element of the units is carefully crafted to create a welcoming and comfortable atmosphere for residents and their guests. The interiors are spacious, meticulously designed, and boast high-quality finishes, delivering an extraordinary living experience.Chorisia at Al Barari epitomizes luxury living at its finest, providing residents with a remarkable combination of comfort, elegance, and attention to detail. With its distinctive design and attention to quality, this development offers a truly exceptional residential experience for those seeking a refined lifestyle.",
+    features: [
+      "Covered parking",
+      "Swimming pool",
+      "Children's pool",
+      "Gym",
+      "Smart home Gym",
+    ],
+    building_highlights: [
+      "Chorisia, a special project by Al Barari, features a remarkable collection of 5-bedroom villas in one of Dubai's most sought-after neighborhoods. These villas are designed to embody a new concept of refined living, allowing residents to experience a life of luxury.As part of an award-winning eco-friendly development, Chorisia redefines comfort and luxury, presenting a truly exceptional living experience. If you aspire to enjoy the finer things in life, this is the perfect destination for you.The contemporary architecture of the villas reflects the aesthetics of XXI century, making them unique. Every aspect of these units is carefully crafted to evoke a warm and positive ambiance, creating an inviting atmosphere for residents and guests. The expansive and thoroughly designed interiors, coupled with premium quality finishes, add to the allure and distinctiveness of these villas.Chorisia at Al Barari exemplifies the epitome of luxury living, offering residents a remarkable blend of comfort, elegance, and attention to detail.community center",
+      
+    ],
+    payment_plan: {
+      on_booking: { percentage: 5, description: "On Booking" },
+      during_construction: {
+        percentage: 35,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 60, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "While Chorisia is known for its tranquil and secluded environment, there are several attractions located near the development that offer a range of experiences for residents and visitors.",
+      "Dubai Miracle Garden is a stunning floral paradise spread over 72,000 square meters. It features over 50 million flowers arranged in intricate designs, including arches, sculptures, and themed displays. It is a popular attraction for nature lovers and offers a colorful and vibrant experience.",
+      "Motorsport enthusiasts will enjoy the Dubai Autodrome, which is located in close proximity to Chorisia. It is a modern motorsport facility that hosts various racing events. Visitors can experience thrilling go-karting sessions or watch professional races from the stands.",
+      "For a day of family fun and entertainment, IMG Worlds of Adventure is an indoor theme park located nearby. It is the largest indoor theme park in the world, featuring four themed zones: Marvel, Cartoon Network, Lost Valley Dinosaur Adventure, and IMG Boulevard. The park offers a wide range of rides, attractions, and dining options.",
+      "Another unique attraction close to Chorisia is the Dubai Butterfly Garden. It is the world's largest indoor butterfly garden, home to thousands of colorful butterflies from around the world. Visitors can walk through the lush greenery and observe these beautiful creatures up close.",
     ],
     Property_highlights: [
       "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
