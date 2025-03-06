@@ -192,53 +192,41 @@ const Page = () => {
             </div>
             {/* payement */}
             <div
-              className="flex flex-col gap-2 border-l-2  text-white w-full border-r-2 px-6 py-10 mb-10 border-[#c08c5a]"
-              style={{
-                borderTop: "2px solid transparent",
-                borderBottom: "2px solid transparent",
-                borderImageSource:
-                  "linear-gradient(to right, rgba(192, 140, 90, 1), rgba(192, 140, 90, 0) 50%, rgba(192, 140, 90, 1))",
-                borderImageSlice: 1,
-              }}
-            >
-              <h1 className="text-4xl mx-auto text-metallic-bronze uppercase font-raleway font-extralight mb-10">
-                {" "}
-                payement plan
-              </h1>
-              <div className=" flex justify-between flex-row">
-                <div className="flex flex-col justify-between items-center">
-                  <h1 className="text-2xl font-raleway text-metallic-bronze uppercase">
-                    {" "}
-                    {project.payment_plan.on_booking.description}
-                  </h1>
-                  <h1 className="text-2xl text-gray-400 ">
-                    {" "}
-                    {project.payment_plan.on_booking.percentage}%
-                  </h1>
-                </div>
-                <div className="flex flex-col justify-center items-center">
-                  <h1 className="text-2xl font-raleway text-metallic-bronze uppercase">
-                    {" "}
-                    {project.payment_plan.during_construction.description}
-                  </h1>
-                  <h1 className="text-2xl text-gray-400 ">
-                    {" "}
-                    {project.payment_plan.during_construction.percentage}%
-                  </h1>
-                </div>
-                <div className="flex flex-col justify-center items-center">
-                  <h1 className="text-2xl font-raleway text-metallic-bronze uppercase">
-                    {" "}
-                    {project.payment_plan.on_handover.description}
-                  </h1>
-                  <h1 className="text-2xl text-gray-400 ">
-                    {" "}
-                    {project.payment_plan.on_handover.percentage}%
-                  </h1>
-                </div>
-              </div>
-            </div>
-            <div className="border-l-2 border-r-2  border-[#c08c5a]"  style={{
+  className="flex flex-col gap-2 border-l-2 text-white w-full border-r-2 px-6 py-10 mb-10 border-[#c08c5a]"
+  style={{
+    borderTop: "2px solid transparent",
+    borderBottom: "2px solid transparent",
+    borderImageSource:
+      "linear-gradient(to right, rgba(192, 140, 90, 1), rgba(192, 140, 90, 0) 50%, rgba(192, 140, 90, 1))",
+    borderImageSlice: 1,
+  }}
+>
+  <h1 className="text-4xl mx-auto text-metallic-bronze uppercase font-raleway font-extralight mb-10 text-center">
+    Payment Plan
+  </h1>
+  <div className="flex flex-wrap justify-center sm:justify-between gap-6 sm:gap-0">
+    <div className="flex flex-col justify-between items-center w-full sm:w-auto text-center">
+      <h1 className="text-2xl font-raleway text-metallic-bronze uppercase">
+        {project.payment_plan.on_booking.description}
+      </h1>
+      <h1 className="text-2xl text-gray-400">{project.payment_plan.on_booking.percentage}%</h1>
+    </div>
+    <div className="flex flex-col justify-center items-center w-full sm:w-auto text-center">
+      <h1 className="text-2xl font-raleway text-metallic-bronze uppercase">
+        {project.payment_plan.during_construction.description}
+      </h1>
+      <h1 className="text-2xl text-gray-400">{project.payment_plan.during_construction.percentage}%</h1>
+    </div>
+    <div className="flex flex-col justify-center items-center w-full sm:w-auto text-center">
+      <h1 className="text-2xl font-raleway text-metallic-bronze uppercase">
+        {project.payment_plan.on_handover.description}
+      </h1>
+      <h1 className="text-2xl text-gray-400">{project.payment_plan.on_handover.percentage}%</h1>
+    </div>
+  </div>
+</div>
+
+            <div className="border-l-2 mb-10 border-r-2  border-[#c08c5a]"  style={{
                 borderTop: "2px solid transparent",
                 borderBottom: "2px solid transparent",
                 borderImageSource:
@@ -252,7 +240,7 @@ const Page = () => {
           {/* leftcontent ends here */}
           {/*  */}
           {/* right secion */}
-          <div className="max-w-3xl  h-fit md:sticky top-20 w-full  ">
+          <div className="  h-fit md:sticky top-20 w-full  ">
             <div
               className="w-full border-l-2 border-r-2  mb-10 border-[#c08c5a] p-5 "
               style={{
