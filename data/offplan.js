@@ -1,5 +1,317 @@
 const offplanProjects = [
   {
+    id: 100001,
+    type: "Apartments",
+    title: "Timez ",
+    slug: "timez",
+    price_range: "785,000 AED",
+    location: "Zabeel, Dubai",
+    latitude: "25.225940896975104",
+    longitude: "55.294278940758495",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "Quarter 2 - 2028",
+    developer: "Danube Properties",
+    developer_slug: "danube-properties",
+    cover_image: "https://i.imgur.com/zKeaVjz.jpeg",
+    other_images: [
+      "https://i.imgur.com/zKeaVjz.jpeg",
+      "https://i.imgur.com/yXDP9NG.png",
+      "https://i.imgur.com/Ce5IBXU.png",
+      "https://i.imgur.com/pYPbds8.png",
+    ],
+    description:
+      "Timez by Danube is an upcoming residential development located in Dubai Silicon Oasis (DSO), a dynamic technology and innovation hub in Dubai. Developed by Danube Properties, the project offers a range of studio, 1-bedroom, 2-bedroom, and 3-bedroom apartments, including unique convertible layouts that allow studios to transform into 1-bedroom units and 1-bedroom units into 2-bedroom homes, providing flexibility to accommodate evolving lifestyle needs.The development boasts over 40 world-class amenities, such as an infinity swimming pool, state-of-the-art gymnasium, kids' play areas, landscaped gardens, retail outlets, fine dining options, and 24/7 security and concierge services. Strategically situated, Timez by Danube ensures residents enjoy seamless access to major highways, business districts, and entertainment hubs. Proximity to landmarks like Downtown Dubai, Business Bay, Dubai International Airport, and Academic City enhances its appeal. Units start at AED 800,000, with a flexible 1% per month payment plan making homeownership more accessible. The project is slated for completion in Q2 2028.DSO offers 100% foreign ownership and tax-free benefits, making it an attractive location for entrepreneurs, professionals, and investors. The area is also well-equipped with parks, retail centers, cafes, and schools, promoting an eco-friendly, family-oriented lifestyle. ",
+    features: [
+      "Infinity Anticurrent Pool",
+      "Aquatic Gym",
+      "Rain Shower",
+      "Karate/Zumba Area",
+      "Snooker",
+    ],
+    building_highlights: [
+      "Community lawn",
+      "Shaded kids pool and play area",
+      "Fully equipped gym",
+      "Event pavilion",
+      "Split-level terrace with seating areas",
+      "Yoga deck",
+      "Community BBQ areas",
+      "Multi-purpose kids pavilion",
+      "Floating deck",
+      "Pool cabanas and step-up deck",
+      "24/7 security",
+      "Parking spaces",
+      "Concierge service",
+      "Many other exquisite amenities",
+    ],
+
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 60,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 30, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Central Park",
+      "Silicon Central Mall",
+      "Global Village",
+      "Burj Khalifa",
+      "Dubai Mall",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/address-residences-zabeel-3br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/address-residences-zabeel.pdf",
+  },
+  {
+    id: 100002,
+    type: "Apartments",
+    title: "DIAMONDZ",
+    slug: "diamondz",
+    price_range: "1,100,000 AED",
+    location: "Jumeirah Lake Towers (JLT), Dubai",
+    latitude: "25.078553",
+    longitude: "55.150149",
+    bedrooms: "1-4",
+    bathrooms: "1-4",
+    size_range: "800 - 2,500 sq. ft.",
+    handover_date: "Quarter 4 - 2027",
+    developer: "Danube Properties",
+    developer_slug: "danube-properties",
+    cover_image: "https://i.imgur.com/MnN2nBU.png",
+    other_images: [
+      "https://i.imgur.com/Vexgj6w.jpeg",
+      "https://i.imgur.com/5xjKnqR.png",
+      "https://i.imgur.com/vugUJUk.png",
+      "https://i.imgur.com/VCfGeXK.jpeg",
+    ],
+    description:
+      "Diamondz by Danube is a luxurious 65-story residential tower in Jumeirah Lake Towers (JLT), Dubai, inspired by the brilliance of diamonds. Offering fully furnished studios and 1 to 4-bedroom apartments, the development boasts over 40 world-class amenities, including an infinity pool, jacuzzi, aquatic gym, rooftop hammock garden, and a sky observation deck. Strategically positioned near key Dubai landmarks, it provides easy access to the metro, shopping malls, and airports. With a flexible 1% monthly installment payment plan and a projected completion date of November 2027, Diamondz by Danube redefines luxury living with modern interiors, high-end facilities, and an unparalleled lifestyle experience.",
+    features: [
+      "Infinity Anticurrent Pool",
+      "Aquatic Gym",
+      "Rain Shower",
+      "Karate/Zumba Area",
+      "Snooker",
+      "Sky Lounge",
+      "Jacuzzi and Steam Room",
+      "Hammock Garden",
+    ],
+    building_highlights: [
+      "Community lawn",
+      "Shaded kids pool and play area",
+      "Fully equipped gym",
+      "Event pavilion",
+      "Split-level terrace with seating areas",
+      "Yoga deck",
+      "Community BBQ areas",
+      "Multi-purpose kids pavilion",
+      "Floating deck",
+      "Pool cabanas and step-up deck",
+      "24/7 security",
+      "Concierge service",
+      "Exclusive wellness spa",
+      "Rooftop cinema",
+      "Gaming and entertainment zone",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 60,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 30, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "DMCC Metro Station",
+      "Dubai Marina",
+      "Palm Jumeirah",
+      "Burj Khalifa",
+      "Dubai Mall",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+      "Dubai British School Jumeirah Park",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,100,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 2,500,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 4,000,000",
+      },
+      {
+        type: "4-Bedroom Apartment",
+        size: "2,500 sq. ft.",
+        price: "AED 5,500,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/diamondz-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/diamondz-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/diamondz-3br.jpg",
+      },
+      {
+        name: "4-Bedroom Floor Plan",
+        image: "/floorplans/diamondz-4br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/diamondz-by-danube.pdf",
+  },
+  {
+    id: 100003,
+    type: "Apartments",
+    title: "Bayz 102",
+    slug: "bayz-102",
+    price_range: "2 Million AED",
+    location: "Business Bay, Dubai",
+    latitude: "25.1842",
+    longitude: "55.2708",
+    bedrooms: "1-3",
+    bathrooms: "1-3",
+    size_range: "800 - 2,000 sq. ft.",
+    handover_date: "quarter 4, 2027",
+    developer: "Danube Properties",
+    developer_slug: "danube-properties",
+    cover_image: "https://i.imgur.com/cNNxI6R.jpeg",
+    other_images: [
+      "https://i.imgur.com/JtTw7hM.jpeg",
+      "https://i.imgur.com/XIoaqhL.jpeg",
+      "https://i.imgur.com/3pcSzJH.jpeg",
+      "https://i.imgur.com/2H1RB1Q.jpeg",
+    ],
+    description:
+      "Bayz 102 by Danube is an upscale residential project in Business Bay, Dubai, designed for those who seek modern elegance and convenience. This high-rise development features premium 1, 2, and 3-bedroom apartments, each offering spacious layouts, floor-to-ceiling windows, and high-end finishes. Residents will enjoy a host of world-class amenities, including an infinity pool, fully equipped gym, landscaped gardens, kids' play areas, and dedicated leisure zones. Positioned in one of Dubai’s most sought-after locations, Bayz 102 ensures seamless connectivity to Downtown Dubai, Dubai Mall, and major business hubs. With a flexible 1% monthly installment plan and a projected handover in Q2 2028, Bayz 102 is the perfect blend of luxury, comfort, and smart investment.",
+    features: [
+      "Infinity Anticurrent Pool",
+      "Aquatic Gym",
+      "Rain Shower",
+      "Karate/Zumba Area",
+      "Snooker",
+    ],
+    building_highlights: [
+      "Community lawn",
+      "Shaded kids pool and play area",
+      "Fully equipped gym",
+      "Event pavilion",
+      "Split-level terrace with seating areas",
+      "Yoga deck",
+      "Community BBQ areas",
+      "Multi-purpose kids pavilion",
+      "Floating deck",
+      "Pool cabanas and step-up deck",
+      "24/7 security",
+      "Parking spaces",
+      "Concierge service",
+      "Many other exquisite amenities",
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 60,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 30, description: "On Handover" },
+    },
+    attractions_nearby: [
+      "Burj Khalifa",
+      "Dubai Mall",
+      "Dubai Water Canal",
+      "Business Bay Metro Station",
+      "Downtown Dubai",
+    ],
+    schools_nearby: [
+      "Dubai International School",
+      "GEMS Our Own Indian School",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "800 sq. ft.",
+        price: "AED 1,800,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,400 sq. ft.",
+        price: "AED 3,200,000",
+      },
+      {
+        type: "3-Bedroom Apartment",
+        size: "2,000 sq. ft.",
+        price: "AED 5,400,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/bayz-102-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/bayz-102-2br.jpg",
+      },
+      {
+        name: "3-Bedroom Floor Plan",
+        image: "/floorplans/bayz-102-3br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/bayz-102.pdf",
+  },
+  {
     id: 1,
     type: "Apartments",
     title: "Address Residences Zabeel",
@@ -2813,7 +3125,7 @@ const offplanProjects = [
     },
     attractions_nearby: [
       "A wide range of amenities will make living in the residential complex more intense and interesting. Residents will have access to 24/7 security, an amphitheatre, a basketball court, public gardens and parks, a football field, running and cycling paths, landscaped gardens, a fitness centre, supermarkets and much more.",
-      "There are several interesting places near the community, including the Dubai Miracle Garden and the Dubai Butterfly Garden. Global Village Park and the Palm Jumeirah and Business Bay areas can be reached in about 25-30 mins by car."
+      "There are several interesting places near the community, including the Dubai Miracle Garden and the Dubai Butterfly Garden. Global Village Park and the Palm Jumeirah and Business Bay areas can be reached in about 25-30 mins by car.",
     ],
     Property_highlights: [
       "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
@@ -2874,8 +3186,7 @@ const offplanProjects = [
     handover_date: "May 30, 2024",
     developer: "Al Barari Development",
     developer_slug: "al-barari",
-    cover_image:
-      "https://fnst.axflare.com/offplan/images/WEBP/smgdZFBJMr.webp",
+    cover_image: "https://fnst.axflare.com/offplan/images/WEBP/smgdZFBJMr.webp",
     other_images: [
       "https://fnst.axflare.com/offplan/images/WEBP/smgdZFBJMr.webp",
       "https://fnst.axflare.com/offplan/images/WEBP/gTqgYKwBkf.webp",
@@ -2885,7 +3196,13 @@ const offplanProjects = [
     ],
     description:
       "Ixora is a new project in Al Barari, an eco-friendly community of Dubai, which promises a luxurious lifestyle infused with premium amenities. This exceptional complex showcases contemporary villas that blend style with functionality. Ixora stands out as a peaceful enclave, offering its dwellers a haven of serenity. The community is thoughtfully designed with facilities essential for upscale living, including boutique shops, cozy cafes, ample parking, and diverse recreational activities. A top-tier spa center and a health club provide a range of wellness offerings. Residents can also enjoy refreshing swims in the pools, host gatherings at barbecue areas, and stay active in the state-of-the-art fitness centers.",
-    features: ["Private pool", "Gym", "Public parks", "Covered parking", "Children's play area"],
+    features: [
+      "Private pool",
+      "Gym",
+      "Public parks",
+      "Covered parking",
+      "Children's play area",
+    ],
     building_highlights: [
       "Apart from mesmerizing views of nature, the neighborhood also features jogging and cycling paths, as well as yoga areas. Fitness enthusiasts can attend Body Language Health Club with tennis courts, a gym, and temperature-controlled pools. One can also head to Heart & Soul Spa and Wellness, where visitors are offered a variety of treatments. ",
       "As for schools, children can join GEMS Winchester School Dubai and Dunecrest American School located within 5-15 minutes. The closest medical facilities, Symbiosis Medical Centre and Aster Clinic, are in a 10-15 minute drive. In addition, inhabitants can stock up on groceries at Spinneys, ZOOM, or Waitrose supermarkets, and dine at the award-winning The Farm restaurant.",
@@ -2903,7 +3220,7 @@ const offplanProjects = [
       "It is worth noting that Ixora is close to several landmarks, where dwellers can spend quality time. ",
       "Global Village is a multicultural park with more than 20 pavilions, displaying the history, art, and culture of different countries. Moreover, Global Village amazes visitors with exciting shows, concerts, and street performances. ",
       "Both adults and kids also would love to visit IMG Worlds of Adventure, an amusement park with amazing rides, game zones, and restaurants based on famous cartoons. ",
-      "Residents can also head to Dubai Miracle Garden, the most extensive flower garden with impressive floral installations, walkways, and millions of rare and beautiful plants located within 15 minutes."
+      "Residents can also head to Dubai Miracle Garden, the most extensive flower garden with impressive floral installations, walkways, and millions of rare and beautiful plants located within 15 minutes.",
     ],
     Property_highlights: [
       "2-bedroom apartments with areas from 2,023 to 2,167 sq. ft;",
@@ -2949,7 +3266,6 @@ const offplanProjects = [
     ],
     brochure_link: "/brochures/address-residences-zabeel.pd",
   },
-  
 ];
 
 export default offplanProjects;
