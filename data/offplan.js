@@ -237,11 +237,16 @@ const offplanProjects = [
     description:
       "Bayz 102 by Danube is an upscale residential project in Business Bay, Dubai, designed for those who seek modern elegance and convenience. This high-rise development features premium 1, 2, and 3-bedroom apartments, each offering spacious layouts, floor-to-ceiling windows, and high-end finishes. Residents will enjoy a host of world-class amenities, including an infinity pool, fully equipped gym, landscaped gardens, kids' play areas, and dedicated leisure zones. Positioned in one of Dubai’s most sought-after locations, Bayz 102 ensures seamless connectivity to Downtown Dubai, Dubai Mall, and major business hubs. With a flexible 1% monthly installment plan and a projected handover in Q2 2028, Bayz 102 is the perfect blend of luxury, comfort, and smart investment.",
     features: [
-      "Infinity Anticurrent Pool",
+      "Flying cap station ",
       "Aquatic Gym",
-      "Rain Shower",
-      "Karate/Zumba Area",
-      "Snooker",
+      "Bowling center ",
+      "Doctor on Call",
+      "Nanny services",
+      "Party halls ",
+      "Business Centre ",
+      "Saloon",
+      "Cinema",
+      "Cigar lounge",
     ],
     building_highlights: [
       "Community lawn",
@@ -528,7 +533,6 @@ const offplanProjects = [
       "https://i.imgur.com/bwm9xKj.png",
       "https://i.imgur.com/wOUgdqB.png",
       "https://i.imgur.com/8ZDVRGM.png",
-      
     ],
     description:
       "Sobha Elements is a luxurious residential development located in the heart of Sobha Hartland, Mohammed Bin Rashid City, Dubai. Developed by Sobha Realty, Sobha Elements offers elegantly designed apartments with contemporary architecture and high-end finishes. Featuring 1, 2, and 3-bedroom apartments, Sobha Elements offers spacious layouts, large windows, and premium fittings to provide an exceptional living experience. Set amidst beautifully landscaped surroundings, the development features expansive green spaces and tranquil environments. Residents can enjoy world-class amenities such as a state-of-the-art gym, infinity swimming pool, children’s play areas, and recreational zones for family fun. Located just minutes from Downtown Dubai, Dubai Mall, and Burj Khalifa, Sobha Elements offers unparalleled convenience, luxury, and sustainability, making it an ideal destination for families, professionals, and investors.",
