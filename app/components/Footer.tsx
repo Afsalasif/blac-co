@@ -41,14 +41,17 @@ const Footer = () => {
 
           {/* Middle Section - Other Links */}
           <div className="flex flex-col gap-2">
-            <a href="#" className="hover:text-[#c08c5a]">
+            <a href="/offplan" className="hover:text-[#c08c5a]">
               Off-Plan
             </a>
             <a href="#" className="hover:text-[#c08c5a]">
               Catalogs
             </a>
-            <a href="#" className="hover:text-[#c08c5a]">
+            <a href="/developers" className="hover:text-[#c08c5a]">
               Developers
+            </a>
+            <a href="/careers" className="hover:text-[#c08c5a]">
+              careers
             </a>
             <a href="#" className="hover:text-[#c08c5a]">
               BLAC & CO
