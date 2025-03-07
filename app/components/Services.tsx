@@ -43,14 +43,16 @@ const Services = () => {
           <div
             className="flex items-center gap-x-4 md:gap-x-8 cursor-pointer"
             onMouseEnter={() => setActive("buy")}
+            
           >
-            <h1
+            <a
+            href="/offplan"
               className={`text-4xl md:text-6xl font-raleway font-extralight tracking-widest transition-all duration-300 ${
                 active === "buy" ? "text-white" : "text-gray-600"
               }`}
             >
               BUY
-            </h1>
+            </a>
             <div
               className={`${svgWrapperStyle} ${
                 isMobile ? "w-[40px]" : "w-[70px]"
@@ -75,7 +77,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div
+          {/* <div
             className="flex items-center gap-x-4 md:gap-x-8 cursor-pointer mt-4"
             onMouseEnter={() => setActive("rent")}
           >
@@ -108,7 +110,7 @@ const Services = () => {
                 />
               </svg>
             </div>
-          </div>
+          </div> */}
 
           <p className="text-sm font-extralight font-raleway md:text-lg text-gray-400 mt-4 md:mt-6">
             With a comprehensive portfolio of properties and countless offers,

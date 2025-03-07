@@ -515,8 +515,8 @@ const offplanProjects = [
   {
     id: 100006,
     type: "Apartments",
-    title: "Sobha Elements",
-    slug: "sobha-elements",
+    title: "The Element",
+    slug: "the-element",
     price_range: "1.8 Million AED",
     location: "Sobha Hartland, Mohammed Bin Rashid City, Dubai",
     latitude: "25.1842",

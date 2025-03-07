@@ -157,7 +157,7 @@ const Agents = () => {
 
             <button
               onClick={nextSlide}
-              className="absolute right-[-30px] z-20 md:right-[-50px] bg-gray-800 p-2 rounded-full text-white"
+              className="absolute right-[-30px]  md:right-[-50px] bg-white p-2 rounded-full text-black"
             >
               <ChevronRight size={24} />
             </button>
@@ -177,7 +177,7 @@ const Agents = () => {
         className="w-full bg-gradient-to-b flex pt-5 justify-center items-center from-black via-black/90 to-black   border-t-[1px] border-b-[1px] "
         style={{
           borderImage:
-            "linear-gradient(to right, transparent 5%, #4B5563 30%, #b08d57 50%, #4B5563 70%, transparent 95%) 1",
+            "linear-gradient(to right, transparent 5%, #4B5563 30%, #b08d57 50%, #4B5563 70%, transparent 100%) 1",
         }}
       >
         <div className="md:max-w-6xl flex flex-col gap-y-6  mx-auto">

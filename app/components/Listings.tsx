@@ -2,134 +2,17 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
+import featuredProjects from "../../data/featured"
+import { useRouter } from 'next/navigation';
 
 const LuxuryPropertySlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedCategory, setSelectedCategory] = useState("Penthouses");
   const [isMobile, setIsMobile] = useState(false);
+  
 
   // Property data
-  const properties: Record<string, { id: number; title: string; location: string; type: string; beds: number; baths: number; size: string; price: string; image: string; }[]> = {
-   
-    Penthouses: [
-      {
-        id: 1,
-        title: "The Residence Burj Khalifa",
-        location: "Burj Khalifa",
-        type: "Penthouse",
-        beds: 4,
-        baths: 6,
-        size: "8230 sq.ft",
-        price: "AED 37,000,000",
-        image: "https://i.imgur.com/MnN2nBU.png",
-      },
-      {
-        id: 2,
-        title: "The Fairmont Palm Residence",
-        location: "Fairmont",
-        type: "Penthouse",
-        beds: 4,
-        baths: 6,
-        size: "4859 sq.ft",
-        price: "AED 12,800,000",
-        image: "https://source.unsplash.com/800x600/?luxury-penthouse-2",
-      },
-      {
-        id: 3,
-        title: "Al Bateen Residence",
-        location: "The Walk",
-        type: "Penthouse",
-        beds: 5,
-        baths: 6,
-        size: "6100 sq.ft",
-        price: "AED 23,500,000",
-        image: "https://source.unsplash.com/800x600/?penthouse-view",
-      },
-    ],
-    Apartments: [
-      {
-        id: 1,
-        title: "The Burj Vista",
-        location: "Downtown Dubai",
-        type: "Apartment",
-        beds: 3,
-        baths: 4,
-        size: "4200 sq.ft",
-        price: "AED 15,000,000",
-        image: "https://source.unsplash.com/800x600/?luxury-downtown",
-      },
-      {
-        id: 2,
-        title: "Oceanfront Luxury Apartment",
-        location: "Palm Jumeirah",
-        type: "Apartment",
-        beds: 6,
-        baths: 7,
-        size: "10,000 sq.ft",
-        price: "AED 60,000,000",
-        image: "https://source.unsplash.com/800x600/?luxury-apartment",
-      },
-      {
-        id: 3,
-        title: "Ocean Heights",
-        location: "Dubai Marina",
-        type: "Apartment",
-        beds: 4,
-        baths: 5,
-        size: "5000 sq.ft",
-        price: "AED 22,000,000",
-        image: "https://source.unsplash.com/800x600/?luxury-condo",
-      },
-    ],
-    Townhouses: [
-      {
-        id: 1,
-        title: "Palm Jumeirah Townhouse",
-        location: "Palm Jumeirah",
-        type: "Townhouse",
-        beds: 3,
-        baths: 4,
-        size: "4500 sq.ft",
-        price: "AED 25,000,000",
-        image: "https://source.unsplash.com/800x600/?luxury-townhouse",
-      },
-      {
-        id: 2,
-        title: "The Meadows Townhouse",
-        location: "Emirates Hills",
-        type: "Townhouse",
-        beds: 5,
-        baths: 6,
-        size: "5500 sq.ft",
-        price: "AED 32,000,000",
-        image: "https://source.unsplash.com/800x600/?luxury-townhouse-2",
-      },
-    ],
-    Villas: [
-      {
-        id: 1,
-        title: "Oceanfront Luxury Villa",
-        location: "Palm Jumeirah",
-        type: "Villa",
-        beds: 6,
-        baths: 7,
-        size: "10,000 sq.ft",
-        price: "AED 60,000,000",
-        image: "https://source.unsplash.com/800x600/?luxury-villa",
-      },
-      {
-        id: 2,
-        title: "Desert Luxury Villa",
-        location: "Dubai Desert",
-        type: "Villa",
-        beds: 5,
-        baths: 6,
-        size: "8000 sq.ft",
-        price: "AED 45,000,000",
-        image: "https://source.unsplash.com/800x600/?luxury-villa-2",
-      },
-    ],
-  };
+  
 
   useEffect(() => {
     const handleResize = () => {
@@ -141,7 +24,7 @@ const LuxuryPropertySlider = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  const currentProperties = properties[selectedCategory];
+  const currentProperties = featuredProjects;
   const currentProperty = currentProperties[currentIndex];
 
 
@@ -156,18 +39,21 @@ const LuxuryPropertySlider = () => {
       prevIndex === 0 ? currentProperties.length - 1 : prevIndex - 1
     );
   };
-
+   const router =useRouter()
+   const handleClick =()=>{
+    router.push(`project/${currentProperty.slug}`)
+   }
   return (
     <div className="bg-black text-white px-4 md:px-8 py-16">
       <div className="container mx-auto">
         <div className="flex justify-center items-center mb-12">
-          <h1 className="text-3xl md:text-5xl font-extralight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-300 to-white">
-            Luxury Properties
+          <h1 className="text-3xl md:text-5xl font-extralight font-raleway text-metallic-bronze mb-4 uppercase text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-300 to-white">
+            featured properties
           </h1>
         </div>
 
         {/* Category Tabs */}
-        <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-12">
+        {/* <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-12">
           {Object.keys(properties).map((category) => (
             <button
               key={category}
@@ -187,15 +73,16 @@ const LuxuryPropertySlider = () => {
               )}
             </button>
           ))}
-        </div>
+        </div> */}
 
         {/* Property Slider */}
-        <div className="relative max-w-5xl mx-auto">
-          <div className="relative h-64 sm:h-80 md:h-96 lg:h-screen lg:max-h-[700px] w-full overflow-hidden rounded-lg">
+        <div className="relative max-w-6xl mx-auto">
+          <div  className="relative h-64  sm:h-80 md:h-96 lg:h-screen lg:max-h-[800px] w-full overflow-hidden rounded-lg">
             {/* Property Image */}
             <div
+            
               className="absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-500"
-              style={{ backgroundImage: `url(${currentProperty.image})` }}
+              style={{ backgroundImage: `url(${currentProperty.cover_image})` }}
             />
             
             {/* Gradient Overlay */}
@@ -203,30 +90,30 @@ const LuxuryPropertySlider = () => {
             
             {/* Property Details Overlay */}
             <div className="absolute bottom-0 left-0 right-0 p-4 md:p-8 text-white z-10">
-              <h2 className="text-xl md:text-3xl font-bold mb-1">{currentProperty.title}</h2>
+              <h2 onClick={handleClick} className="text-xl cursor-pointer md:text-3xl uppercase font-bold mb-1">{currentProperty.title}</h2>
               <div className="flex flex-wrap items-center gap-2 md:gap-4 text-sm md:text-base mb-2">
                 <span className="font-light">{currentProperty.location}</span>
                 <span className="w-1 h-1 bg-amber-400 rounded-full"></span>
                 <span className="font-light">{currentProperty.type}</span>
               </div>
               
-              <div className="grid grid-cols-3 gap-2 mb-3">
+              {/* <div className="grid grid-cols-3 gap-2 mb-3">
                 <div>
                   <p className="text-gray-400 text-xs">BEDS</p>
-                  <p className="font-medium">{currentProperty.beds}</p>
+                  <p className="font-medium">{currentProperty.title}</p>
                 </div>
                 <div>
                   <p className="text-gray-400 text-xs">BATHS</p>
-                  <p className="font-medium">{currentProperty.baths}</p>
+                  <p className="font-medium">{currentProperty.title}</p>
                 </div>
                 <div>
                   <p className="text-gray-400 text-xs">AREA</p>
-                  <p className="font-medium">{currentProperty.size}</p>
+                  <p className="font-medium">{currentProperty.title}</p>
                 </div>
-              </div>
+              </div> */}
               
               <p className="text-lg md:text-2xl font-light">
-                <span className="font-bold">{currentProperty.price}</span>
+                <span className="font-bold">{currentProperty.developer}</span>
               </p>
             </div>
             
@@ -270,9 +157,9 @@ const LuxuryPropertySlider = () => {
         
         {/* View All Button */}
         <div className="text-center mt-8">
-          <button className="px-8 py-3 border border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black transition-colors duration-300 rounded-sm font-light">
+          <a href='/offplan' className="px-8 py-3 border border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black transition-colors duration-300 rounded-sm font-light">
             VIEW ALL PROPERTIES
-          </button>
+          </a>
         </div>
       </div>
     </div>

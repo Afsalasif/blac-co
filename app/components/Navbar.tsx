@@ -42,7 +42,7 @@ const Navbar = () => {
               <NavItem href="/ourservices" text="Our Services" />
               <NavItem href="/offplan" text="Off Plan Propeties" />
               
-              <NavItem href="/" text="Ready properties" />
+              {/* <NavItem href="/" text="Ready properties" /> */}
               <NavItem href="/developers" text="Developers" />
               <NavItem href="" text="Our Team" />
              
@@ -97,7 +97,7 @@ const Navbar = () => {
               <NavItem href="/offplan" text="Off Plan Propeties" />
               
                  {/* Dropdown for Ready Properties */}
-                 <li
+                 {/* <li
                 className="relative"
                 onMouseEnter={() => setDropdownOpen(true)}
                 onMouseLeave={() => setDropdownOpen(false)}
@@ -111,7 +111,7 @@ const Navbar = () => {
                     <NavItem href="/ready/rent" text="Rent" />
                   </ul>
                 )}
-              </li>
+              </li> */}
               <NavItem href="/developers" text="Developers" />
               <NavItem href="" text="Our Team" />
              
