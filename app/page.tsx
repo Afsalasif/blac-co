@@ -26,6 +26,7 @@ export default function Home() {
         {/* <Landing /> */}
         <Hero />
       </section>
+      {/* <Listings /> */}
       {/* about us */}
       <section id="aboutus">
         <AboutUs />

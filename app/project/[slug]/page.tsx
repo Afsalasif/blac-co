@@ -27,6 +27,27 @@ const Page = () => {
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
+  const renderContent = (detail:any) => {
+    switch (detail.type) {
+      case "p":
+        return <p className="text-xl font-raleway text-white leading-7 font-extralight mb-10"> {detail.title}</p>;
+      case "ul":
+        return (
+          <>
+            <h3>{detail.title}</h3>
+            <ul className="list-disc pl-5" >
+              {detail.content.map((item:any, index:any) => (
+                <li className="text-lg text-gray-400 font-raleway" key={index}>{item}</li>
+              ))}
+            </ul>
+          </>
+        );
+      case "image":
+        return <img src={detail.src} alt={detail.alt} className="w-full h-auto" />;
+      default:
+        return null;
+    }
+  };
 
   const goToSlide = (slideIndex: any) => {
     setCurrentIndex(slideIndex);
@@ -174,6 +195,14 @@ const Page = () => {
                   </li>
                 ))}
               </ul>
+              {project.special_details&&(<div className="mt-5">
+        {project.special_details.map((detail, index) => (
+          <div key={index} className="my-5">
+            {renderContent(detail)}
+          </div>
+        ))}
+      </div>)}
+              
               <h1 className="text-2xl mt-20 mb-10 text-white uppercase font-raleway font-extralight">
                 Attractions around
               </h1>

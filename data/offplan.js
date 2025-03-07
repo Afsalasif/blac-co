@@ -610,6 +610,203 @@ const offplanProjects = [
     brochure_link: "/brochures/sobha-hartland-2.pdf",
   },
   {
+    id: 100007,
+    type: "Villas",
+    title: "The Wilds",
+    slug: "the-wilds",
+    price_range: "5.1M AED",
+    location: "Dubai Holding, Dubai",
+    latitude: "25.0751",
+    longitude: "55.1888",
+    bedrooms: "3-5",
+    bathrooms: "3-6",
+    size_range: "2,500 - 6,000 sq. ft.",
+    handover_date: "Quarter 4, 2028",
+    developer: "Aldar Properties",
+    developer_slug: "aldar-properties",
+    cover_image: "https://i.imgur.com/PSLvDVy.png",
+    other_images: [
+      "https://i.imgur.com/RXhUhWX.png",
+      "https://i.imgur.com/TalcS0v.png",
+      "https://i.imgur.com/PSLvDVy.png",
+      "https://i.imgur.com/ZcugGXh.png",
+    ],
+    description:
+      "The Wilds is Dubai’s newest premium villa community, seamlessly integrated into nature. Designed to celebrate the UAE’s native wildlife, this sanctuary offers a peaceful escape while fostering a deep connection with the environment. With lush greenery, scenic trails, and immersive wildlife experiences, The Wilds provides families with a space where they can thrive, explore, and live in harmony with nature.",
+    features: [
+      "Infinity Swimming Pool",
+      "Lush Green Parks & Open Spaces",
+      "Private Community Clubhouse",
+      "State-of-the-Art Gymnasium",
+      "Kids Play Areas",
+      "Cycling & Jogging Tracks",
+      "Outdoor Yoga & Meditation Spaces",
+      "Smart Home Features",
+      "BBQ & Picnic Areas",
+      "Botanical Gardens & Eco-Friendly Landscaping",
+      "Lagoon-Inspired Water Features",
+      "Wildlife Observation Zones",
+      "Community Event Spaces",
+      "Outdoor Cinema",
+      "Sports Courts (Tennis, Basketball)",
+      "Wellness & Spa Center",
+      "Walking Trails & Nature Paths",
+      "Gated Community with 24/7 Security",
+      "Dedicated Concierge Services",
+      "Private Parking Spaces",
+      "Contemporary Villa Designs with Panoramic Views",
+      "Spacious Layouts with Private Gardens & Terraces",
+      "High-End Finishes with Sustainable Architecture",
+      "Energy-Efficient Homes with Smart Technology",
+    ],
+    building_highlights: [
+      "Luxury villas designed with contemporary architecture and sustainability in mind.",
+      "Spacious layouts offering panoramic views of the surrounding greenery.",
+      "Exclusive private gardens and outdoor terraces.",
+      "Community clubhouse with wellness and recreation facilities.",
+      "BBQ and outdoor dining areas for social gatherings.",
+      "Gated community with 24/7 security and concierge services.",
+      "Energy-efficient and eco-friendly design elements.",
+      "Private lagoons and water features enhancing the tranquil environment.",
+    ],
+    special_details:[
+      {
+        type: "p",
+        title:
+          "Discover The Wilds, where premium villas blend seamlessly with nature. Dubai's latest community designed around UAE's native wildlife, where outdoor adventures nurture young minds and families flourish in harmony with nature.",
+      },
+      {
+        type: "p",
+        title:
+          "Availability & Pricing – The Wilds Total No. of Units: 903 Residential Villas",
+      },
+      {
+        type: "p",
+        title:
+          "Unit Models, Details & Starting Prices:",
+      },
+      {
+        type: "ul",
+        content: [
+          "Cassia Villa - 3 BHK",
+          "Total Units: 328",
+          "Avg GSA: 276 sqm (2,972 sqft)",
+          "Avg Plot Area: 345 sqm (3,711 sqft)",
+          "Starting Price: 5.1M AED",
+         
+        ],
+      },
+      {
+        type: "ul",
+        content: [
+          "Cassia Villa - 4 BHK",
+          "Total Units: 299",
+          "Avg GSA: 313 sqm (3,373 sqft)",
+          "Avg Plot Area: 397 sqm (4,278 sqft)",
+          "Starting Price: 6.0M AED",
+         
+        ],
+      },
+      {
+        type: "ul",
+        content: [
+          "Cassia Villa - 5 BHK",
+          "Total Units: 214",
+          "Avg GSA: 413 sqm (4,448 sqft)",
+          "Avg Plot Area: 477 sqm (5,138 sqft)",
+          "Starting Price: 7.1M AED",
+         
+        ],
+      },
+      {
+        type: "ul",
+        content: [
+          "Ravenna Residences - 4 BHK",
+          "Total Units: 33",
+          "Avg GSA: 505 sqm (5,434 sqft)",
+          "Avg Plot Area: 819 sqm (8,819 sqft)",
+          "Starting Price: 9.5M AED",
+         
+        ],
+      },
+      {
+        type: "ul",
+        content: [
+          "Ravenna Residences - 5 BHK",
+          "Total Units: 29",
+          "Avg GSA: 620 sqm (6,678 sqft)",
+          "Avg Plot Area: 912 sqm (9,818 sqft)",
+          "Starting Price: 11.4M AED",
+         
+        ],
+      },
+     
+    ],
+    payment_plan: {
+      on_booking: { percentage: 10, description: "On Booking" },
+      during_construction: {
+        percentage: 50,
+        description: "During Construction",
+      },
+      on_handover: { percentage: 40, description: "On Handover" },
+    },
+    location_details: {
+      address: "Dubai Holding, Dubai",
+      main_road: "Sheikh Mohammed bin Zayed Road",
+      nearby_landmarks: [
+        "Global Village - 10 mins",
+        "Dubai Outlet Mall - 15 mins",
+        "Dubai Safari Park - 20 mins",
+        "Dubai Downtown & Burj Khalifa - 25 mins",
+        "Dubai International Airport (DXB) - 30 mins",
+      ],
+    },
+    attractions_nearby: [
+      "Dubai Safari Park - A wildlife sanctuary featuring diverse animal species.",
+      "Al Marmoom Desert Conservation Reserve - Perfect for desert adventures and eco-tourism.",
+      "Global Village - A vibrant cultural and entertainment hub.",
+      "Dubai Outlet Mall - Premium shopping destination with discounted luxury brands.",
+      "Meydan Racecourse - Home to the prestigious Dubai World Cup.",
+    ],
+    schools_nearby: [
+      "GEMS Winchester School Dubai - British curriculum education.",
+      "Kent College Dubai - High-quality academic program.",
+      "Repton School Dubai - One of the top-rated international schools in Dubai.",
+    ],
+    unit_types: [
+      {
+        type: "3-Bedroom Villa",
+        size: "2,500 sq. ft.",
+        price: "AED 4,500,000",
+      },
+      {
+        type: "4-Bedroom Villa",
+        size: "3,800 sq. ft.",
+        price: "AED 7,200,000",
+      },
+      {
+        type: "5-Bedroom Villa",
+        size: "6,000 sq. ft.",
+        price: "AED 12,500,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "3-Bedroom Villa Floor Plan",
+        image: "/floorplans/the-wilds-3br.jpg",
+      },
+      {
+        name: "4-Bedroom Villa Floor Plan",
+        image: "/floorplans/the-wilds-4br.jpg",
+      },
+      {
+        name: "5-Bedroom Villa Floor Plan",
+        image: "/floorplans/the-wilds-5br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/the-wilds.pdf",
+  },
+  {
     id: 1,
     type: "Apartments",
     title: "Address Residences Zabeel",
