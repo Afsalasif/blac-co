@@ -1,4 +1,106 @@
 const offplanProjects = [
+  // {
+  //   id: 1000011,
+  //   type: "Apartments",
+  //   title: "Safa Gate",
+  //   slug: "timez",
+  //   price_range: "785,000 AED",
+  //   location: "Zabeel, Dubai",
+  //   latitude: "25.225940896975104",
+  //   longitude: "55.294278940758495",
+  //   bedrooms: "1-3",
+  //   bathrooms: "1-3",
+  //   size_range: "800 - 2,000 sq. ft.",
+  //   handover_date: "Quarter 2 - 2028",
+  //   developer: "Danube Properties",
+  //   developer_slug: "danube-properties",
+  //   cover_image: "https://i.imgur.com/9h4WffW.png",
+  //   other_images: [
+  //     "https://i.imgur.com/rWAB4Ml.jpeg",
+  //     "https://i.imgur.com/yzCeT8B.png",
+  //     "https://i.imgur.com/8gnjm8T.png",
+  //     "https://i.imgur.com/d3WoLRH.png",
+  //     "https://i.imgur.com/0ymATw6.jpeg",
+  //     "https://i.imgur.com/9h4WffW.png",
+  //   ],
+  //   description:
+  //     "Timez by Danube is an upcoming residential development located in Dubai Silicon Oasis (DSO), a dynamic technology and innovation hub in Dubai. Developed by Danube Properties, the project offers a range of studio, 1-bedroom, 2-bedroom, and 3-bedroom apartments, including unique convertible layouts that allow studios to transform into 1-bedroom units and 1-bedroom units into 2-bedroom homes, providing flexibility to accommodate evolving lifestyle needs.The development boasts over 40 world-class amenities, such as an infinity swimming pool, state-of-the-art gymnasium, kids' play areas, landscaped gardens, retail outlets, fine dining options, and 24/7 security and concierge services. Strategically situated, Timez by Danube ensures residents enjoy seamless access to major highways, business districts, and entertainment hubs. Proximity to landmarks like Downtown Dubai, Business Bay, Dubai International Airport, and Academic City enhances its appeal. Units start at AED 800,000, with a flexible 1% per month payment plan making homeownership more accessible. The project is slated for completion in Q2 2028.DSO offers 100% foreign ownership and tax-free benefits, making it an attractive location for entrepreneurs, professionals, and investors. The area is also well-equipped with parks, retail centers, cafes, and schools, promoting an eco-friendly, family-oriented lifestyle. ",
+  //   features: [
+  //     "Infinity Anticurrent Pool",
+  //     "Aquatic Gym",
+  //     "Rain Shower",
+  //     "Karate/Zumba Area",
+  //     "Snooker",
+  //   ],
+  //   building_highlights: [
+  //     "Community lawn",
+  //     "Shaded kids pool and play area",
+  //     "Fully equipped gym",
+  //     "Event pavilion",
+  //     "Split-level terrace with seating areas",
+  //     "Yoga deck",
+  //     "Community BBQ areas",
+  //     "Multi-purpose kids pavilion",
+  //     "Floating deck",
+  //     "Pool cabanas and step-up deck",
+  //     "24/7 security",
+  //     "Parking spaces",
+  //     "Concierge service",
+  //     "Many other exquisite amenities",
+  //   ],
+
+  //   payment_plan: {
+  //     on_booking: { percentage: 10, description: "On Booking" },
+  //     during_construction: {
+  //       percentage: 60,
+  //       description: "During Construction",
+  //     },
+  //     on_handover: { percentage: 30, description: "On Handover" },
+  //   },
+  //   attractions_nearby: [
+  //     "Central Park",
+  //     "Silicon Central Mall",
+  //     "Global Village",
+  //     "Burj Khalifa",
+  //     "Dubai Mall",
+  //   ],
+  //   schools_nearby: [
+  //     "GEMS Wellington Primary School",
+  //     "Jumeirah International Nursery",
+  //   ],
+  //   unit_types: [
+  //     {
+  //       type: "1-Bedroom Apartment",
+  //       size: "800 sq. ft.",
+  //       price: "AED 1,800,000",
+  //     },
+  //     {
+  //       type: "2-Bedroom Apartment",
+  //       size: "1,400 sq. ft.",
+  //       price: "AED 3,200,000",
+  //     },
+  //     {
+  //       type: "3-Bedroom Apartment",
+  //       size: "2,000 sq. ft.",
+  //       price: "AED 5,400,000",
+  //     },
+  //   ],
+  //   floor_plans: [
+  //     {
+  //       name: "1-Bedroom Floor Plan",
+  //       image: "/floorplans/address-residences-zabeel-1br.jpg",
+  //     },
+  //     {
+  //       name: "2-Bedroom Floor Plan",
+  //       image: "/floorplans/address-residences-zabeel-2br.jpg",
+  //     },
+  //     {
+  //       name: "3-Bedroom Floor Plan",
+  //       image: "/floorplans/address-residences-zabeel-3br.jpg",
+  //     },
+  //   ],
+  //   brochure_link: "/brochures/address-residences-zabeel.pdf",
+  // },
   {
     id: 100001,
     type: "Apartments",

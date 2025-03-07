@@ -1,4 +1,3 @@
-
 "use client"
 import React, { useState, useEffect } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
@@ -9,10 +8,14 @@ const LuxuryPropertySlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedCategory, setSelectedCategory] = useState("Penthouses");
   const [isMobile, setIsMobile] = useState(false);
+  const [autoplay, setAutoplay] = useState(true);
+  const autoplayInterval = 5000; // 5 seconds between slides
   
+  const router = useRouter();
 
   // Property data
-  
+  const currentProperties = featuredProjects;
+  const currentProperty = currentProperties[currentIndex];
 
   useEffect(() => {
     const handleResize = () => {
@@ -24,9 +27,32 @@ const LuxuryPropertySlider = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  const currentProperties = featuredProjects;
-  const currentProperty = currentProperties[currentIndex];
+  // Autoplay functionality
+  useEffect(() => {
+    let interval:any;
+    
+    if (autoplay) {
+      interval = setInterval(() => {
+        nextSlide();
+      }, autoplayInterval);
+    }
+    
+    // Clear interval on component unmount or when autoplay is disabled
+    return () => {
+      if (interval) clearInterval(interval);
+    };
+  }, [autoplay, currentIndex]);
 
+  // Pause autoplay when user interacts with slider
+  const handleManualNavigation = (callback:any) => {
+    setAutoplay(false); // Pause autoplay
+    callback(); // Execute the navigation function
+    
+    // Resume autoplay after 10 seconds of inactivity
+    setTimeout(() => {
+      setAutoplay(true);
+    }, 10000);
+  };
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => 
@@ -39,10 +65,11 @@ const LuxuryPropertySlider = () => {
       prevIndex === 0 ? currentProperties.length - 1 : prevIndex - 1
     );
   };
-   const router =useRouter()
-   const handleClick =()=>{
+  
+  const handleClick = () => {
     router.push(`project/${currentProperty.slug}`)
-   }
+  };
+
   return (
     <div className="bg-black text-white px-4 md:px-8 py-16">
       <div className="container mx-auto">
@@ -52,35 +79,14 @@ const LuxuryPropertySlider = () => {
           </h1>
         </div>
 
-        {/* Category Tabs */}
-        {/* <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-12">
-          {Object.keys(properties).map((category) => (
-            <button
-              key={category}
-              onClick={() => {
-                setSelectedCategory(category);
-                setCurrentIndex(0);
-              }}
-              className={`px-4 py-2 md:px-6 md:py-3 font-light transition-all duration-300 ease-in-out relative focus:outline-none ${
-                selectedCategory === category
-                  ? "text-white"
-                  : "text-gray-400"
-              }`}
-            >
-              <span>{category}</span>
-              {selectedCategory === category && (
-                <span className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-amber-400 to-transparent"></span>
-              )}
-            </button>
-          ))}
-        </div> */}
-
         {/* Property Slider */}
         <div className="relative max-w-6xl mx-auto">
-          <div  className="relative h-64  sm:h-80 md:h-96 lg:h-screen lg:max-h-[800px] w-full overflow-hidden rounded-lg">
+          <div 
+            className="relative h-64 sm:h-80 md:h-96 lg:h-screen lg:max-h-[800px] w-full overflow-hidden rounded-lg cursor-pointer"
+            onClick={handleClick}
+          >
             {/* Property Image */}
             <div
-            
               className="absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-500"
               style={{ backgroundImage: `url(${currentProperty.cover_image})` }}
             />
@@ -90,27 +96,12 @@ const LuxuryPropertySlider = () => {
             
             {/* Property Details Overlay */}
             <div className="absolute bottom-0 left-0 right-0 p-4 md:p-8 text-white z-10">
-              <h2 onClick={handleClick} className="text-xl cursor-pointer md:text-3xl uppercase font-bold mb-1">{currentProperty.title}</h2>
+              <h2 className="text-xl md:text-3xl uppercase font-bold mb-1">{currentProperty.title}</h2>
               <div className="flex flex-wrap items-center gap-2 md:gap-4 text-sm md:text-base mb-2">
                 <span className="font-light">{currentProperty.location}</span>
                 <span className="w-1 h-1 bg-amber-400 rounded-full"></span>
                 <span className="font-light">{currentProperty.type}</span>
               </div>
-              
-              {/* <div className="grid grid-cols-3 gap-2 mb-3">
-                <div>
-                  <p className="text-gray-400 text-xs">BEDS</p>
-                  <p className="font-medium">{currentProperty.title}</p>
-                </div>
-                <div>
-                  <p className="text-gray-400 text-xs">BATHS</p>
-                  <p className="font-medium">{currentProperty.title}</p>
-                </div>
-                <div>
-                  <p className="text-gray-400 text-xs">AREA</p>
-                  <p className="font-medium">{currentProperty.title}</p>
-                </div>
-              </div> */}
               
               <p className="text-lg md:text-2xl font-light">
                 <span className="font-bold">{currentProperty.developer}</span>
@@ -119,7 +110,10 @@ const LuxuryPropertySlider = () => {
             
             {/* Navigation Arrows */}
             <button 
-              onClick={prevSlide} 
+              onClick={(e) => {
+                e.stopPropagation(); // Prevent triggering the parent onClick
+                handleManualNavigation(prevSlide);
+              }} 
               className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/60 p-2 rounded-full transition-colors duration-300 focus:outline-none z-20"
               aria-label="Previous property"
             >
@@ -127,7 +121,10 @@ const LuxuryPropertySlider = () => {
             </button>
             
             <button 
-              onClick={nextSlide} 
+              onClick={(e) => {
+                e.stopPropagation(); // Prevent triggering the parent onClick
+                handleManualNavigation(nextSlide);
+              }} 
               className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/60 p-2 rounded-full transition-colors duration-300 focus:outline-none z-20"
               aria-label="Next property"
             >
@@ -137,10 +134,12 @@ const LuxuryPropertySlider = () => {
           
           {/* Progress Indicator */}
           <div className="flex justify-center items-center mt-6 gap-2">
-            {currentProperties.map((_, index:any) => (
+            {currentProperties.map((_, index) => (
               <button
                 key={index}
-                onClick={() => setCurrentIndex(index)}
+                onClick={() => {
+                  handleManualNavigation(() => setCurrentIndex(index));
+                }}
                 className={`w-2 h-2 rounded-full transition-all ${
                   index === currentIndex ? "bg-amber-400 w-4" : "bg-gray-600"
                 }`}
