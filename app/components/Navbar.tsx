@@ -47,6 +47,7 @@ const Navbar = () => {
               <NavItem href="" text="Our Team" />
              
               <NavItem href="/ebroker" text="Our Membership program" />
+              <NavItem href= "/careers" text="careers" />
               <NavItem href="/contactus" text="Contact Us" />
             </ul>
           </div>
@@ -116,6 +117,7 @@ const Navbar = () => {
               <NavItem href="" text="Our Team" />
              
               <NavItem href="/ebroker" text="Our Membership program" />
+              <NavItem href= "/careers" text="careers" />
               <NavItem href="/contactus" text="Contact Us" />
             </ul>
           </div>
