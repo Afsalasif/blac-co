@@ -2,12 +2,14 @@
 import React, { useState } from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
+import "react-phone-number-input/style.css";
 
 const CareerPage = () => {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
-    contact: '',
+    phoneNumber: '',
     email: '',
     gender: '',
     maritalStatus: '',
@@ -27,12 +29,28 @@ const CareerPage = () => {
     cv: null
   });
 
+  const [phoneError, setPhoneError] = useState(false);
+
   const handleChange = (e:any) => {
     const { name, value } = e.target;
     setFormData(prevState => ({
       ...prevState,
       [name]: value
     }));
+  };
+
+  const handlePhoneChange = (value: string | undefined) => {
+    setFormData(prevState => ({
+      ...prevState,
+      phoneNumber: value || ''
+    }));
+    
+    // Validate phone number when it changes
+    // if (value) {
+    //   setPhoneError(!isValidPhoneNumber(value));
+    // } else {
+    //   setPhoneError(false);
+    // }
   };
 
   const handleFileChange = (e:any) => {
@@ -45,6 +63,13 @@ const CareerPage = () => {
 
   const handleSubmit = (e:any) => {
     e.preventDefault();
+    
+    // Final validation before submission
+    if (formData.phoneNumber && !isValidPhoneNumber(formData.phoneNumber)) {
+      setPhoneError(true);
+      return;
+    }
+    
     console.log("Form submitted:", formData);
     // Add your form submission logic here
   };
@@ -55,7 +80,7 @@ const CareerPage = () => {
     <div className="bg-black text-white min-h-screen">
       {/* Hero Section */}
       <div className="container mx-auto py-16 px-4" >
-        <h1 className="text-4xl lg:text-6xl font-extralight font-raleway  mt-20 text-center mb-16">WORK WITH US</h1>
+        <h1 className="text-4xl lg:text-6xl font-extralight font-raleway uppercase  mt-20 text-center mb-16">Be a part of our team</h1>
         
         <div className="max-w-4xl mx-auto mb-16">
           <p className="mb-6">
@@ -79,7 +104,7 @@ const CareerPage = () => {
               "linear-gradient(to right, rgba(192, 140, 90, 1), rgba(192, 140, 90, 0) 50%, rgba(192, 140, 90, 1))",
             borderImageSlice: 1,
           }}>
-          <h2 className="text-3xl font-bold text-center mb-2">SEND RESUME</h2>
+          <h2 className="text-3xl font-bold uppercase text-center mb-2">submit your application</h2>
           <p className="text-center mb-8">Let Us Know About Your Experience With Us</p>
           
           <form onSubmit={handleSubmit}>
@@ -95,14 +120,22 @@ const CareerPage = () => {
                   required
                 />
                 
-                <input
-                  type="text"
-                  name="contact"
-                  placeholder="Contact"
-                  className="w-full bg-transparent border-b border-[#c08c5a]  py-2 px-3 focus:outline-none focus:border-white"
-                  onChange={handleChange}
-                  required
-                />
+                {/* Phone Input with custom styling */}
+                
+
+                <div className="border-b border-[#c08c5a] flex items-center">
+                <PhoneInput
+            international
+            defaultCountry="US"
+            value={formData.phoneNumber}
+            onChange={handlePhoneChange}
+            className="phone-input-custom"
+            required
+          />
+   
+</div>
+
+
                 
                 <select
                   name="gender"

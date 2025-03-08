@@ -1,106 +1,204 @@
 const offplanProjects = [
-  // {
-  //   id: 1000011,
-  //   type: "Apartments",
-  //   title: "Safa Gate",
-  //   slug: "timez",
-  //   price_range: "785,000 AED",
-  //   location: "Zabeel, Dubai",
-  //   latitude: "25.225940896975104",
-  //   longitude: "55.294278940758495",
-  //   bedrooms: "1-3",
-  //   bathrooms: "1-3",
-  //   size_range: "800 - 2,000 sq. ft.",
-  //   handover_date: "Quarter 2 - 2028",
-  //   developer: "Danube Properties",
-  //   developer_slug: "danube-properties",
-  //   cover_image: "https://i.imgur.com/9h4WffW.png",
-  //   other_images: [
-  //     "https://i.imgur.com/rWAB4Ml.jpeg",
-  //     "https://i.imgur.com/yzCeT8B.png",
-  //     "https://i.imgur.com/8gnjm8T.png",
-  //     "https://i.imgur.com/d3WoLRH.png",
-  //     "https://i.imgur.com/0ymATw6.jpeg",
-  //     "https://i.imgur.com/9h4WffW.png",
-  //   ],
-  //   description:
-  //     "Timez by Danube is an upcoming residential development located in Dubai Silicon Oasis (DSO), a dynamic technology and innovation hub in Dubai. Developed by Danube Properties, the project offers a range of studio, 1-bedroom, 2-bedroom, and 3-bedroom apartments, including unique convertible layouts that allow studios to transform into 1-bedroom units and 1-bedroom units into 2-bedroom homes, providing flexibility to accommodate evolving lifestyle needs.The development boasts over 40 world-class amenities, such as an infinity swimming pool, state-of-the-art gymnasium, kids' play areas, landscaped gardens, retail outlets, fine dining options, and 24/7 security and concierge services. Strategically situated, Timez by Danube ensures residents enjoy seamless access to major highways, business districts, and entertainment hubs. Proximity to landmarks like Downtown Dubai, Business Bay, Dubai International Airport, and Academic City enhances its appeal. Units start at AED 800,000, with a flexible 1% per month payment plan making homeownership more accessible. The project is slated for completion in Q2 2028.DSO offers 100% foreign ownership and tax-free benefits, making it an attractive location for entrepreneurs, professionals, and investors. The area is also well-equipped with parks, retail centers, cafes, and schools, promoting an eco-friendly, family-oriented lifestyle. ",
-  //   features: [
-  //     "Infinity Anticurrent Pool",
-  //     "Aquatic Gym",
-  //     "Rain Shower",
-  //     "Karate/Zumba Area",
-  //     "Snooker",
-  //   ],
-  //   building_highlights: [
-  //     "Community lawn",
-  //     "Shaded kids pool and play area",
-  //     "Fully equipped gym",
-  //     "Event pavilion",
-  //     "Split-level terrace with seating areas",
-  //     "Yoga deck",
-  //     "Community BBQ areas",
-  //     "Multi-purpose kids pavilion",
-  //     "Floating deck",
-  //     "Pool cabanas and step-up deck",
-  //     "24/7 security",
-  //     "Parking spaces",
-  //     "Concierge service",
-  //     "Many other exquisite amenities",
-  //   ],
-
-  //   payment_plan: {
-  //     on_booking: { percentage: 10, description: "On Booking" },
-  //     during_construction: {
-  //       percentage: 60,
-  //       description: "During Construction",
-  //     },
-  //     on_handover: { percentage: 30, description: "On Handover" },
-  //   },
-  //   attractions_nearby: [
-  //     "Central Park",
-  //     "Silicon Central Mall",
-  //     "Global Village",
-  //     "Burj Khalifa",
-  //     "Dubai Mall",
-  //   ],
-  //   schools_nearby: [
-  //     "GEMS Wellington Primary School",
-  //     "Jumeirah International Nursery",
-  //   ],
-  //   unit_types: [
-  //     {
-  //       type: "1-Bedroom Apartment",
-  //       size: "800 sq. ft.",
-  //       price: "AED 1,800,000",
-  //     },
-  //     {
-  //       type: "2-Bedroom Apartment",
-  //       size: "1,400 sq. ft.",
-  //       price: "AED 3,200,000",
-  //     },
-  //     {
-  //       type: "3-Bedroom Apartment",
-  //       size: "2,000 sq. ft.",
-  //       price: "AED 5,400,000",
-  //     },
-  //   ],
-  //   floor_plans: [
-  //     {
-  //       name: "1-Bedroom Floor Plan",
-  //       image: "/floorplans/address-residences-zabeel-1br.jpg",
-  //     },
-  //     {
-  //       name: "2-Bedroom Floor Plan",
-  //       image: "/floorplans/address-residences-zabeel-2br.jpg",
-  //     },
-  //     {
-  //       name: "3-Bedroom Floor Plan",
-  //       image: "/floorplans/address-residences-zabeel-3br.jpg",
-  //     },
-  //   ],
-  //   brochure_link: "/brochures/address-residences-zabeel.pdf",
-  // },
+  {
+    id: 1000011,
+    type: "Apartments",
+    title: "Safa Gate",
+    slug: "safa-gate",
+    price_range: "Starting from AED 1,990,000",
+    location: "Sheikh Zayed Road, Dubai",
+    latitude: "25.1920",
+    longitude: "55.2603",
+    bedrooms: "1-2",
+    bathrooms: "1-3",
+    size_range: "770 - 1,150 sq. ft.",
+    handover_date: "October 2029.",
+    developer: "DAMAC Properties",
+    developer_slug: "damac-properties",
+    cover_image: "https://i.imgur.com/9h4WffW.png",
+    other_images: [
+      "https://i.imgur.com/rWAB4Ml.jpeg",
+      "https://i.imgur.com/yzCeT8B.png",
+      "https://i.imgur.com/8gnjm8T.png",
+      "https://i.imgur.com/d3WoLRH.png",
+      "https://i.imgur.com/0ymATw6.jpeg",
+      "https://i.imgur.com/9h4WffW.png",
+    ],
+    description:
+      "Safa Gate by DAMAC Properties is an iconic new residential development located along Sheikh Zayed Road, adjacent to the lush Safa Park in Dubai. This prestigious project offers elegantly designed 1 and 2-bedroom apartments featuring high-end finishes, spacious layouts, and floor-to-ceiling windows that provide breathtaking city views. Residents will enjoy world-class amenities, including sky gardens, an infinity pool with light displays, modern fitness facilities, and exclusive lounges. The development also emphasizes sustainable living with eco-friendly designs and green spaces. Strategically positioned near major business hubs, shopping centers, and entertainment destinations, Safa Gate ensures seamless connectivity and a vibrant lifestyle. With an attractive 20% booking fee and an expected completion in the fourth quarter of 2027, this project presents a promising investment opportunity and an unparalleled urban living experience in the heart of Dubai.",
+    features: [
+      "AURORA POOL",
+      "Luxury Spa Retreat",
+      "24/7 Gym",
+      "RUNNING TRACK",
+      "GRAVITY GYM",
+    ],
+    building_highlights: [
+      "Community Lawn",
+      "Shaded Kids Pool and Play Area",
+      "Fully Equipped Gym",
+      "Event Pavilion",
+      "Split-level Terrace with Seating Areas",
+      "Yoga Deck",
+      "Community BBQ Areas",
+      "Multi-purpose Kids Pavilion",
+      "Floating Deck",
+      "Pool Cabanas and Step-up Deck",
+      "24/7 Security",
+      "Parking Spaces",
+      "Concierge Service",
+      "Many Other Exquisite Amenities",
+    ],
+    payment_plan: {
+      on_booking: {
+        percentage: 20,
+        description: "On Booking",
+      },
+      during_construction: {
+        percentage: 60,
+        description: "During Construction",
+      },
+      on_handover: {
+        percentage: 20,
+        description: "On Handover",
+      },
+    },
+    attractions_nearby: [
+      "Safa Park - A lush green oasis in the heart of Dubai, perfect for picnics, jogging, and outdoor activities.",
+      "City Walk - A trendy urban district featuring high-end retail stores, fine dining, and entertainment options.",
+      "Box Park - A vibrant shopping and dining destination with a unique container-style design.",
+      "Jumeirah Beach - A scenic coastline offering pristine sandy shores, water sports, and stunning views of the Arabian Gulf.",
+      "The Dubai Mall - One of the world’s largest shopping malls, home to luxury brands, an indoor aquarium, an ice rink, and endless entertainment.",
+      "Burj Khalifa - The tallest building in the world, offering breathtaking views from its observation decks and a world-class dining experience.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "1-Bedroom Apartment",
+        size: "770 sq. ft.",
+        price: "AED 1,990,000",
+      },
+      {
+        type: "2-Bedroom Apartment",
+        size: "1,150 sq. ft.",
+        price: "AED 2,750,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "1-Bedroom Floor Plan",
+        image: "/floorplans/safa-gate-1br.jpg",
+      },
+      {
+        name: "2-Bedroom Floor Plan",
+        image: "/floorplans/safa-gate-2br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/safa-gate.pdf",
+  },
+  {
+    id: 1000012,
+    type: "Villas and Townhouses",
+    title: "Riverside Views",
+    slug: "riverside-views",
+    price_range: "Starting from AED 1,000,000",
+    location: "Dubai South, Dubai",
+    latitude: "25.0198",
+    longitude: "55.2650",
+    bedrooms: "4-5",
+    bathrooms: "4-5",
+    size_range: "2,000 - 3,200 sq. ft.",
+    handover_date: "March 2029",
+    developer: "DAMAC Properties",
+    developer_slug: "damac-properties",
+    cover_image: "https://i.imgur.com/nJmq0y2.jpeg",
+    other_images: [
+      "https://i.imgur.com/Gz0euBZ.png",
+      "https://i.imgur.com/7wkJ6Lj.jpeg",
+      "https://i.imgur.com/nJmq0y2.jpeg",
+      "https://i.imgur.com/fAi303d.png",
+      "https://i.imgur.com/fAi303d.png",
+      "https://i.imgur.com/zAAyuN6.png",
+      "https://i.imgur.com/lxSa2V7.png",
+      "https://i.imgur.com/4efvDa0.png",
+    ],
+    description:
+      "Riverside Views by DAMAC Properties is a premier residential community located in Dubai South, offering a selection of 4- and 5-bedroom villas and townhouses. The development comprises 1,900 homes across four clusters, providing a tranquil riverside setting that blends luxury, convenience, and nature. Residents can enjoy amenities such as landscaped parks, walking trails, play areas, and green spaces, promoting a serene and active lifestyle. The community also offers clubhouses, swimming pools, modern fitness centers, and meditation zones for wellness enthusiasts. Strategically positioned, Riverside Views ensures easy access to key destinations, including EXPO 2020, metro stations, major highways, and shopping hubs. The project is scheduled for completion in the first quarter of 2029.",
+    features: [
+      "AURORA POOL",
+      "Luxury Spa Retreat",
+      "24/7 Gym",
+      "RUNNING TRACK",
+      "GRAVITY GYM",
+    ],
+    building_highlights: [
+      "Community Lawn",
+      "Shaded Kids Pool and Play Area",
+      "Fully Equipped Gym",
+      "Event Pavilion",
+      "Split-level Terrace with Seating Areas",
+      "Yoga Deck",
+      "Community BBQ Areas",
+      "Multi-purpose Kids Pavilion",
+      "Floating Deck",
+      "Pool Cabanas and Step-up Deck",
+      "24/7 Security",
+      "Parking Spaces",
+      "Concierge Service",
+      "Many Other Exquisite Amenities",
+    ],
+    payment_plan: {
+      on_booking: {
+        percentage: 20,
+        description: "On Booking",
+      },
+      during_construction: {
+        percentage: 50,
+        description: "During Construction",
+      },
+      on_handover: {
+        percentage: 30,
+        description: "On Handover",
+      },
+    },
+    attractions_nearby: [
+      "Safa Park - A lush green oasis in the heart of Dubai, perfect for picnics, jogging, and outdoor activities.",
+      "City Walk - A trendy urban district featuring high-end retail stores, fine dining, and entertainment options.",
+      "Box Park - A vibrant shopping and dining destination with a unique container-style design.",
+      "Jumeirah Beach - A scenic coastline offering pristine sandy shores, water sports, and stunning views of the Arabian Gulf.",
+      "The Dubai Mall - One of the world’s largest shopping malls, home to luxury brands, an indoor aquarium, an ice rink, and endless entertainment.",
+      "Burj Khalifa - The tallest building in the world, offering breathtaking views from its observation decks and a world-class dining experience.",
+    ],
+    schools_nearby: [
+      "GEMS Wellington Primary School",
+      "Jumeirah International Nursery",
+    ],
+    unit_types: [
+      {
+        type: "4-Bedroom Villa",
+        size: "2,000 sq. ft.",
+        price: "AED 1,500,000",
+      },
+      {
+        type: "5-Bedroom Villa",
+        size: "3,200 sq. ft.",
+        price: "AED 2,800,000",
+      },
+    ],
+    floor_plans: [
+      {
+        name: "4-Bedroom Villa Floor Plan",
+        image: "/floorplans/riverside-views-4br.jpg",
+      },
+      {
+        name: "5-Bedroom Villa Floor Plan",
+        image: "/floorplans/riverside-views-5br.jpg",
+      },
+    ],
+    brochure_link: "/brochures/riverside-views.pdf",
+  },
   {
     id: 100001,
     type: "Apartments",
@@ -771,7 +869,7 @@ const offplanProjects = [
       "Energy-efficient and eco-friendly design elements.",
       "Private lagoons and water features enhancing the tranquil environment.",
     ],
-    special_details:[
+    special_details: [
       {
         type: "p",
         title:
@@ -784,8 +882,7 @@ const offplanProjects = [
       },
       {
         type: "p",
-        title:
-          "Unit Models, Details & Starting Prices:",
+        title: "Unit Models, Details & Starting Prices:",
       },
       {
         type: "ul",
@@ -795,7 +892,6 @@ const offplanProjects = [
           "Avg GSA: 276 sqm (2,972 sqft)",
           "Avg Plot Area: 345 sqm (3,711 sqft)",
           "Starting Price: 5.1M AED",
-         
         ],
       },
       {
@@ -806,7 +902,6 @@ const offplanProjects = [
           "Avg GSA: 313 sqm (3,373 sqft)",
           "Avg Plot Area: 397 sqm (4,278 sqft)",
           "Starting Price: 6.0M AED",
-         
         ],
       },
       {
@@ -817,7 +912,6 @@ const offplanProjects = [
           "Avg GSA: 413 sqm (4,448 sqft)",
           "Avg Plot Area: 477 sqm (5,138 sqft)",
           "Starting Price: 7.1M AED",
-         
         ],
       },
       {
@@ -828,7 +922,6 @@ const offplanProjects = [
           "Avg GSA: 505 sqm (5,434 sqft)",
           "Avg Plot Area: 819 sqm (8,819 sqft)",
           "Starting Price: 9.5M AED",
-         
         ],
       },
       {
@@ -839,10 +932,8 @@ const offplanProjects = [
           "Avg GSA: 620 sqm (6,678 sqft)",
           "Avg Plot Area: 912 sqm (9,818 sqft)",
           "Starting Price: 11.4M AED",
-         
         ],
       },
-     
     ],
     payment_plan: {
       on_booking: { percentage: 10, description: "On Booking" },
