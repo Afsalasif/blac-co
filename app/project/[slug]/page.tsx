@@ -30,14 +30,14 @@ const Page = () => {
   const renderContent = (detail:any) => {
     switch (detail.type) {
       case "p":
-        return <p className="text-xl font-raleway text-white leading-7 font-extralight mb-10"> {detail.title}</p>;
+        return <p className=" text-white mb-10"> {detail.title}</p>;
       case "ul":
         return (
           <>
             <h3>{detail.title}</h3>
             <ul className="list-disc pl-5" >
               {detail.content.map((item:any, index:any) => (
-                <li className="text-lg text-gray-400 font-raleway" key={index}>{item}</li>
+                <li className=" text-gray-400 font-raleway" key={index}>{item}</li>
               ))}
             </ul>
           </>
@@ -178,19 +178,19 @@ const Page = () => {
               <h1 className="text-2xl mb-10 text-white uppercase font-raleway font-extralight">
                 Lifestyle at {project.title}
               </h1>
-              <p className="text-lg font-raleway mb-20 text-gray-400">
+              <p className=" mb-20 text-gray-400">
                 {project.description}
               </p>
               <h1 className="text-2xl mb-10 text-white uppercase font-raleway font-extralight">
                 Building highlights
               </h1>
-              <p className="text-lg font-raleway mb-10 text-gray-400">
+              <p className=" mb-10 text-gray-400">
                 {project.title} sets the benchmark for luxurious living with its
                 array of world-class amenities and services. They include:
               </p>
               <ul className="list-disc pl-5">
                 {project.building_highlights.map((amenity, index) => (
-                  <li key={index} className="text-lg text-gray-400">
+                  <li key={index} className=" text-gray-400">
                     {amenity}
                   </li>
                 ))}
@@ -208,12 +208,12 @@ const Page = () => {
               </h1>
               <ul className="list-disc pl-5">
                 {project.attractions_nearby.map((amenity, index) => (
-                  <li key={index} className="text-lg text-gray-400">
+                  <li key={index} className=" text-gray-400">
                     {amenity}
                   </li>
                 ))}
               </ul>
-              <p className="text-lg font-raleway mt-10 text-gray-400">
+              <p className=" mt-10 text-gray-400">
                 Contact our real estate specialists for more information about
                 buying a property in {project.title}. Invest in {project.title}{" "}
                 today and indulge in a world of elegant refinement!

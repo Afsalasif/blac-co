@@ -62,14 +62,14 @@ const DeveloperDetails = () => {
   const renderContent = (detail:any) => {
     switch (detail.type) {
       case "p":
-        return <p className="text-xl font-raleway text-white leading-7 font-extralight mb-10"> {detail.title}</p>;
+        return <p className=" text-white  mb-10"> {detail.title}</p>;
       case "ul":
         return (
           <>
             <h3>{detail.title}</h3>
             <ul className="list-disc pl-5" >
               {detail.content.map((item:any, index:any) => (
-                <li className="text-lg text-gray-400 font-raleway" key={index}>{item}</li>
+                <li className=" text-gray-400 font-raleway" key={index}>{item}</li>
               ))}
             </ul>
           </>
@@ -93,7 +93,7 @@ const DeveloperDetails = () => {
 
         {/* Wrapper for Alignment */}
         <div className="relative max-w-7xl mx-auto w-full  pb-10 z-10">
-          <h1 className="text-4xl md:text-7xl uppercase text-metallic-bronze font-extralight font-raleway">
+          <h1 className="text-4xl md:text-7xl uppercase text-white hover:text-[#c08c5a] font-extralight font-raleway">
             {developer.name}
           </h1>
           <nav className="py-4 text-sm text-gray-500">
@@ -140,7 +140,7 @@ const DeveloperDetails = () => {
           <h2 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
             {developer.name}
           </h2>
-          <p className="text-xl font-raleway leading-7 font-extralight mb-10">
+          <p className=" mb-10">
             {breakTextIntoSentences(developer.description)}
           </p>
           <div className="mt-5">

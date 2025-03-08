@@ -92,16 +92,16 @@ const OffPlanPage = () => {
       </section>
       <section className="bg-black text-white py-16 px-6 md:px-12 lg:px-20">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-6xl text-center font-extralight mt-20 font-raleway text-metallic-bronze uppercase mb-6">
+          <h1 className="text-6xl text-center font-extralight mt-20 font-raleway text-white hover:text-[#c08c5a] uppercase mb-6">
             Off-Plan Properties
           </h1>
-          <p className="text-xl font-raleway font-extralight mb-6">
+          <p className="mb-6">
             Off-plan properties are those that are sold before construction is
             completed. These properties are often sold at lower prices compared
             to completed properties, offering buyers the opportunity to benefit
             from price appreciation once the development is finished. 
           </p>
-          <p className="text-xl font-raleway font-extralight mb-6">
+          <p className="mb-6">
             At <span className="text-metallic-bronze">Blac & Co</span>, we
             offer exclusive access to off-plan properties from some of the most
             reputable developers in Dubai. Our expert team guides clients

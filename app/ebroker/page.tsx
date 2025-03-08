@@ -43,11 +43,11 @@ const page = () => {
       </section>
       <section className="bg-black min-h-screen w-full">
         <div className="container  flex flex-col gap-y-6 mx-auto">
-          <h1 className="text-5xl font-raleway font-extralight text-white mb-10 uppercase text-metallic-bronze   text-left">
+          <h1 className="text-5xl font-raleway font-extralight text-white hover:text-[#c08c5a] mb-10 uppercase   text-left">
             Blac & co Real Estate Membership program
           </h1>
 
-          <p className="text-white font-extralight text-lg font-raleway">
+          <p className="text-white ">
             Blac & Co Real Estate has launched an exclusive membership program
             designed to enable individuals around the globe to earn from Dubai's
             lucrative real estate market. With this unique opportunity, you can
@@ -59,11 +59,11 @@ const page = () => {
             and take advantage of a global opportunity in one of the most
             exciting real estate markets in the world.
           </p>
-          <h1 className="text-5xl font-extralight font-raleway text-white mb-10 mt-10 uppercase text-metallic-bronze   text-left">
+          <h1 className="text-5xl font-extralight font-raleway text-white hover:text-[#c08c5a] mb-10 mt-10 uppercase    text-left">
             About E-Broker
           </h1>
 
-          <p className="text-white font-light text-lg font-raleway">
+          <p className="text-white ">
             E Broker is an innovative real estate e-commerce platform that
             empowers individuals worldwide to sell Dubai real estate properties
             remotely and earn commissions. Unlike traditional listing portals, E
@@ -76,11 +76,11 @@ const page = () => {
             provides qualified buyer and seller leads, communication tools, and
             comprehensive support for closing deals remotely.
           </p>
-          <h1 className="text-5xl font-extralight font-raleway text-white mb-10 mt-10 uppercase text-metallic-bronze   text-left">
+          <h1 className="text-5xl font-extralight font-raleway text-white hover:text-[#c08c5a] mb-10 mt-10 uppercase    text-left">
             key features of e-broker
           </h1>
 
-          <p className="text-white font-light text-lg font-raleway">
+          <p className="text-white ">
             Qualified buyer and seller leads are provided based on the agent's
             subscription level, along with integrated communication tools such
             as calls, WhatsApp, and email for seamless client engagement.

@@ -73,11 +73,11 @@ const Agents = () => {
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           {/* Left Content */}
           <div className="w-full md:w-[40%] mx-auto pr-10 text-center md:text-left">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-extralight uppercase font-raleway tracking-widest text-metallic-bronze">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-extralight uppercase font-raleway tracking-widest text-white hover:text-[#c08c5a]">
               Meet Our Expert Team
             </h1>
 
-            <p className="text-lg font-extralight font-raleway tracking-wide text-white mt-4">
+            <p className=" text-white mt-4">
               At Blac & Co Real Estate, our team of professionals is the
               backbone of our success. With a strong commitment to excellence
               and a passion for real estate, each member of our team brings
@@ -181,28 +181,28 @@ const Agents = () => {
         }}
       >
         <div className="md:max-w-6xl flex flex-col gap-y-6  mx-auto">
-          <h1 className="text-3xl md:text-6xl text-center  font-extralight font-raleway text-metallic-bronze uppercase mb-6">
+          <h1 className="text-3xl md:text-6xl text-center  font-extralight font-raleway text-white hover:text-[#c08c5a] uppercase mb-6">
           Visa & Residency in Dubai 
           </h1>
           <h2 className="text-2xl font-extralight font-raleway text-metallic-bronze mb-4">
           Understanding Dubai Residency & Benefits Through Real Estate
           </h2>
-          <p className="text-lg md:text-xl font-raleway text-white font-extralight mb-6">
+          <p className=" text-white  mb-6">
           Dubai, one of the world&apos;s most attractive destinations, offers a range of residency options for
 investors, entrepreneurs, and individuals who seek to live, work, and invest in the UAE. At
 Blac & Co Real Estate, we want to educate our clients about the various residency options
 available, especially for those who wish to invest in Dubai&apos;s thriving real estate market.
           </p>
-          <p className="text-lg md:text-xl text-white font-raleway font-extralight mb-6">
+          <p className=" text-white font-raleway  mb-6">
           Dubai offers several residency programs for those looking to take advantage of its growing
 real estate market. Whether you&apos;re a property investor, entrepreneur, or professional, Dubai
 has become an ideal location for individuals seeking long-term residency.
           </p>
 
-          <h2 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
+          <h2 className="text-2xl font-extralight font-raleway text-metallic-bronze mb-4">
           Golden Visa  An Exclusive Opportunity
           </h2>
-          <p className="text-lg md:text-xl text-white font-raleway font-extralight mb-6">
+          <p className=" text-white font-raleway  mb-6">
           The Dubai Golden Visa is a long-term residency visa introduced by the UAE government to
 attract global investors, entrepreneurs, skilled professionals, and their families to reside in the
 UAE for up to 10 years. The Golden Visa is particularly attractive to real estate investors

@@ -10,11 +10,11 @@ const AboutUs = () => {
           <div className="flex flex-col lg:flex-row gap-12 lg:gap-24">
             {/* Left Content */}
             <div className="flex-1">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl uppercase font-raleway font-extralight text-transparent bg-clip-text  text-metallic-bronze tracking-widest mb-8">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl uppercase font-raleway font-extralight text-white text-transparent bg-clip-text  hover:text-[#c08c5a] tracking-widest mb-8">
                 about us
               </h2>
 
-              <p className="text-xl md:text-xl mb-8 font-raleway tracking-wider text-left font-extralight leading-relaxed">
+              <p className=" mb-8 font-raleway  text-left ">
                 Welcome to Blac & Co Real Estate, a premier real estate
                 consultancy firm in Dubai. Founded in 2023 by Muhammad Qasim
                 Zulfiqar, a renowned real estate developer in Pakistan, Blac & Co brings unparalleled
@@ -59,26 +59,26 @@ const AboutUs = () => {
       <section className="bg-black text-white min-h-screen py-16 px-6 md:px-12 lg:px-20">
         <div className="max-w-6xl mx-auto">
           {/* <h1 className="text-6xl text-center  font-extralight font-raleway text-metallic-bronze uppercase mb-6">About Us</h1> */}
-          <h2 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
+          <h2 className="text-4xl font-extralight font-raleway text-white hover:text-[#c08c5a] mb-4">
             Who We Are
           </h2>
-          <p className="text-xl font-raleway font-extralight mb-6">
+          <p className=" mb-6">
             Blac & Co Real Estate was established in 2023 with a singular goal:
             to become the leading real estate consultancy in Dubai by offering
             expert advice, innovative solutions, and a client-focused approach
             to real estate.
           </p>
-          <p className="text-xl font-raleway font-extralight mb-6">
+          <p className=" mb-6">
             Founded by Muhammad Qasim Zulfiqar, a distinguished real estate
             developer in Pakistan , Blac & Co
             brings over two decades of international experience to Dubai&apos;s
             thriving real estate market.
           </p>
 
-          <h2 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
+          <h2 className="text-4xl font-extralight font-raleway text-white hover:text-[#c08c5a] mb-4">
             Our Achievements
           </h2>
-          <ul className="list-disc list-inside text-xl font-raleway font-extralight mb-6">
+          <ul className="list-disc list-inside  mb-6">
             <li>Sold properties worth 200 million AED in our first year.</li>
             <li>
               Achieved 450 million AED in property sales in the second year.
@@ -86,7 +86,7 @@ const AboutUs = () => {
             <li>Targeting 1 billion AED in sales for 2025.</li>
           </ul>
 
-          <p className="text-xl font-raleway font-extralight mb-10">
+          <p className=" mb-10">
             Our team consists of 50 highly skilled real estate experts, each
             with a minimum of 5 years of experience in Dubai&apos;s real estate
             market. With over 100 years of combined experience, we are among the
@@ -112,7 +112,7 @@ const AboutUs = () => {
               <h2 className="text-5xl uppercase text-metallic-bronze font-extralight font-raleway text-white mb-4 text-center">
                 Our Vision
               </h2>
-              <p className="text-white/90 text-xl font-extralight font-raleway text-center flex-grow">
+              <p className="text-white/90  font-extralight font-raleway text-center flex-grow">
                 At Blac & Co, our vision is to become the market leader in the
                 Dubai real estate industry within the first three years of
                 operations. We focus on building long-lasting relationships,
@@ -124,7 +124,7 @@ const AboutUs = () => {
               <h2 className="text-5xl uppercase text-metallic-bronze  mt-10 font-extralight font-raleway text-white mb-4 text-center">
                 Our Mission
               </h2>
-              <p className="text-white/90 text-xl font-extralight font-raleway text-center flex-grow">
+              <p className="text-white/90  font-extralight font-raleway text-center flex-grow">
                 Provide expert real estate consultancy to guide clients through
                 their property journey. Specialize in buying, selling, leasing,
                 mortgages, and holiday homes. Build a trusted reputation as a
@@ -150,7 +150,7 @@ const AboutUs = () => {
           }}
         >
           <div className="max-w-6xl mt-28 mx-auto text-center">
-            <h1 className="text-6xl text-center  font-extralight font-raleway text-metallic-bronze uppercase mb-12">
+            <h1 className="text-6xl text-center  font-extralight font-raleway text-white hover:text-[#c08c5a] uppercase mb-12">
               Our Services
             </h1>
           </div>
@@ -174,7 +174,7 @@ const AboutUs = () => {
                 <h3 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
                   Buying & Selling
                 </h3>
-                <ul className="list-disc list-inside text-xl font-raleway font-extralight mb-6">
+                <ul className="list-disc list-inside  mb-6">
                   Whether you're purchasing your dream home or selling a
                   property, our expert team will ensure a smooth and successful
                   transaction. We offer strategic advice and personalized
@@ -193,7 +193,7 @@ const AboutUs = () => {
                 <h3 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
                   Leasing
                 </h3>
-                <ul className="list-disc list-inside text-xl font-raleway font-extralight mb-6">
+                <ul className="list-disc list-inside  mb-6">
                   If you&apos;re looking for the perfect rental property, Blac &
                   Co offers comprehensive leasing services for both residential
                   and commercial properties. Our team works with you to find
@@ -228,7 +228,7 @@ const AboutUs = () => {
                 <h3 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
                   Mortgages
                 </h3>
-                <ul className="list-disc list-inside text-xl font-raleway font-extralight mb-6">
+                <ul className="list-disc list-inside  mb-6">
                   Blac & Co partners with leading financial institutions in
                   Dubai to offer clients the best mortgage solutions available
                   in the market. We assist buyers in navigating the mortgage
@@ -247,7 +247,7 @@ const AboutUs = () => {
                 <h3 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
                   Holiday Homes
                 </h3>
-                <ul className="list-disc list-inside text-xl font-raleway font-extralight mb-6">
+                <ul className="list-disc list-inside  mb-6">
                   Dubai is a global travel destination, and Blac & Co offers
                   exclusive holiday homes for shortterm stays. Whether you&apos;re
                   visiting for leisure or business, our fully furnished,
@@ -285,10 +285,10 @@ const AboutUs = () => {
 
           {/* Bottom-right border */}
           <div className="absolute hidden md:block bottom-0 right-0 w-24 h-24 border-b-4 border-r-4 border-gradient"></div>
-          <h1 className=" text-3xl md:text-6xl text-center  font-extralight  font-raleway text-metallic-bronze uppercase mb-6">
+          <h1 className=" text-3xl md:text-6xl text-center  font-extralight  font-raleway text-white hover:text-[#c08c5a] uppercase mb-6">
             off plan properties
           </h1>
-          <p className="text-lg md:text-xl font-raleway font-extralight mb-6">
+          <p className="  mb-6">
             Off-plan properties are those that are sold before construction is
             completed. These properties are often sold at lower prices compared
             to completed properties, offering buyers the opportunity to benefit
@@ -296,7 +296,7 @@ const AboutUs = () => {
             investments can provide substantial returns, especially if the
             property is located in a highdemand area.
           </p>
-          <p className="text-lg md:text-xl font-raleway font-extralight mb-6">
+          <p className="  mb-6">
             At <span className="text-metallic-bronze"> Blac & Co</span>, we
             offer exclusive access to off-plan properties from some of the most
             reputable developers in Dubai. Our expert team guides clients
@@ -304,10 +304,10 @@ const AboutUs = () => {
             potential return on investment, and helping them secure the best
             deals on new developments.
           </p>
-          <h1 className="text-3xl md:text-6xl  text-center  font-extralight mt-20 font-raleway text-metallic-bronze uppercase mb-6">
+          <h1 className="text-3xl md:text-6xl  text-center  font-extralight mt-20 font-raleway text-white hover:text-[#c08c5a] uppercase mb-6">
             Secondary market properties
           </h1>
-          <p className="text-lg md:text-xl font-raleway font-extralight mb-6">
+          <p className=" mb-6">
             Secondary market properties are pre-owned properties that are ready
             for immediate occupancy or rental. These properties are typically
             sold at market value, offering buyers a chance to acquire completed
@@ -315,8 +315,8 @@ const AboutUs = () => {
             investors, secondary market properties can provide more immediate
             returns and are often viewed as a more stable investment.
           </p>
-          <p className="text-lg md:text-xl font-raleway font-extralight mb-6">
-            <span className="text-metallic-bronze"> Blac & Co</span>specializes
+          <p className=" mb-6">
+            <span className="text-metallic-bronze"> Blac & Co </span>specializes
             in both off-plan and secondary market properties, ensuring that our
             clients have access to a wide range of options based on their needs
             and investment goals

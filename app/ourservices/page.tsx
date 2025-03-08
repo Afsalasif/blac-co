@@ -10,7 +10,7 @@ const page = () => {
         <Navbar />
       <section className="bg-black text-white py-16">
         <div className="max-w-6xl mt-28 mx-auto text-center">
-          <h1 className="text-6xl text-center  font-extralight font-raleway text-metallic-bronze uppercase mb-12">
+          <h1 className="text-6xl text-center  font-extralight font-raleway text-white hover:text-[#c08c5a] uppercase mb-12">
             Our Services
           </h1>
         </div>
@@ -34,7 +34,7 @@ const page = () => {
               <h3 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
                 Buying & Selling
               </h3>
-              <ul className="list-disc list-inside text-xl font-raleway font-extralight mb-6">
+              <ul className="list-disc list-inside  mb-6">
                 Whether you're purchasing your dream home or selling a property,
                 our expert team will ensure a smooth and successful transaction.
                 We offer strategic advice and personalized services to help you
@@ -53,7 +53,7 @@ const page = () => {
               <h3 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
                 Leasing
               </h3>
-              <ul className="list-disc list-inside text-xl font-raleway font-extralight mb-6">
+              <ul className="list-disc list-inside  mb-6">
                 If you&apos;re looking for the perfect rental property, Blac &
                 Co offers comprehensive leasing services for both residential
                 and commercial properties. Our team works with you to find
@@ -88,7 +88,7 @@ const page = () => {
               <h3 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
                 Mortgages
               </h3>
-              <ul className="list-disc list-inside text-xl font-raleway font-extralight mb-6">
+              <ul className="list-disc list-inside  mb-6">
                 Blac & Co partners with leading financial institutions in Dubai
                 to offer clients the best mortgage solutions available in the
                 market. We assist buyers in navigating the mortgage process and
@@ -107,7 +107,7 @@ const page = () => {
               <h3 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
                 Holiday Homes
               </h3>
-              <ul className="list-disc list-inside text-xl font-raleway font-extralight mb-6">
+              <ul className="list-disc list-inside  mb-6">
                 Dubai is a global travel destination, and Blac & Co offers
                 exclusive holiday homes for shortterm stays. Whether you’re
                 visiting for leisure or business, our fully furnished,
@@ -144,7 +144,7 @@ const page = () => {
                     <h2 className="text-xl md:text-2xl font-semibold">
                       Access our Sevices
                     </h2>
-                    <p className="text-sm md:text-base text-gray-300 mt-2">
+                    <p className=" text-gray-300 mt-2">
                       Fill in the form and our agent will contact you shortly.
                     </p>
                     <button className="mt-4 px-4 py-2 border border-[#b08d57] text-metallic-bronze rounded-md hover:bg-orange-500 hover:text-black transition">

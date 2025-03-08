@@ -32,19 +32,19 @@ const page = () => {
 
       <section className="bg-black text-white min-h-screen py-16 px-6 md:px-12 lg:px-20">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-6xl text-center mt-28  font-extralight font-raleway text-metallic-bronze uppercase mb-6">
+          <h1 className="text-6xl text-center mt-28  font-extralight font-raleway text-white hover:text-[#c08c5a] uppercase mb-6">
             About Us
           </h1>
           <h2 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
             Who We Are
           </h2>
-          <p className="text-xl font-raleway font-extralight mb-6">
+          <p className=" mb-6">
             Blac & Co Real Estate was established in 2023 with a singular goal:
             to become the leading real estate consultancy in Dubai by offering
             expert advice, innovative solutions, and a client-focused approach
             to real estate.
           </p>
-          <p className="text-xl font-raleway font-extralight mb-6">
+          <p className=" mb-6">
             Founded by Muhammad Qasim Zulfiqar, a distinguished real estate
             developer in Pakistan, Blac & Co
             brings over two decades of international experience to Dubai&apos;s
@@ -54,7 +54,7 @@ const page = () => {
           <h2 className="text-4xl font-extralight font-raleway text-metallic-bronze mb-4">
             Our Achievements
           </h2>
-          <ul className="list-disc list-inside text-xl font-raleway font-extralight mb-6">
+          <ul className="list-disc list-inside  mb-6">
             <li>Sold properties worth 200 million AED in our first year.</li>
             <li>
               Achieved 450 million AED in property sales in the second year.
@@ -62,7 +62,7 @@ const page = () => {
             <li>Targeting 1 billion AED in sales for 2025.</li>
           </ul>
 
-          <p className="text-xl font-raleway font-extralight mb-10">
+          <p className=" mb-10">
             Our team consists of 50 highly skilled real estate experts, each
             with a minimum of 5 years of experience in Dubai&apos;s real estate
             market. With over 100 years of combined experience, we are among the
@@ -85,10 +85,10 @@ const page = () => {
               }}
             >
               {/* Vision Section */}
-              <h2 className="text-5xl uppercase text-metallic-bronze font-extralight font-raleway text-white mb-4 text-center">
+              <h2 className="text-5xl uppercase text-white hover:text-[#c08c5a] font-extralight font-raleway  mb-4 text-center">
                 Our Vision
               </h2>
-              <p className="text-white/90 text-xl font-extralight font-raleway text-center flex-grow">
+              <p className="text-white/90  text-center flex-grow">
                 At Blac & Co, our vision is to become the market leader in the
                 Dubai real estate industry within the first three years of
                 operations. We focus on building long-lasting relationships,
@@ -97,10 +97,10 @@ const page = () => {
               </p>
 
               {/* Mission Section */}
-              <h2 className="text-5xl uppercase text-metallic-bronze  mt-10 font-extralight font-raleway text-white mb-4 text-center">
+              <h2 className="text-5xl uppercase text-white hover:text-[#c08c5a]  mt-10 font-extralight font-raleway  mb-4 text-center">
                 Our Mission
               </h2>
-              <p className="text-white/90 text-xl font-extralight font-raleway text-center flex-grow">
+              <p className="text-white/90  text-center flex-grow">
                 Provide expert real estate consultancy to guide clients through
                 their property journey. Specialize in buying, selling, leasing,
                 mortgages, and holiday homes. Build a trusted reputation as a
