@@ -81,7 +81,7 @@ const LuxuryPropertySlider = () => {
         </div>
 
         {/* Property Slider */}
-        <div className="relative max-w-6xl mx-auto">
+        <div className="relative border-l-2 border-r-2 border-[#c08c5a] max-w-6xl mx-auto">
           <div
             className="relative h-64 sm:h-80 md:h-96 lg:h-screen lg:max-h-[800px] w-full overflow-hidden rounded-lg cursor-pointer"
             onClick={handleClick}
