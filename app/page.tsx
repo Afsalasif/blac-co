@@ -37,7 +37,7 @@ export default function Home() {
       </section>
       {/* agents */}
       <section id="agents">
-        <Agents />
+        {/* <Agents /> */}
       </section>
       {/* listing */}
      
