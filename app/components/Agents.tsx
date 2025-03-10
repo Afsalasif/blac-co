@@ -16,11 +16,11 @@ const carouselData = [
     role: "Founder & CEO",
     image: "/img/qasim.jpeg",
   },
-  {
-    name: "Alyaa Aziz",
-    role: "Executive Assistant to CEO",
-    image: "/img/alya.jpeg",
-  },
+  // {
+  //   name: "Alyaa Aziz",
+  //   role: "Executive Assistant to CEO",
+  //   image: "/img/alya.jpeg",
+  // },
   {
     name: "Beeya Malik",
     role: "Business development manager",
